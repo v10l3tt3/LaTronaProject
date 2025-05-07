@@ -5,8 +5,11 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public AudioClip bandaSonora;
+
+    public AudioClip creditsBandaSonora;
     public AudioClip fxButtonIn;
     public AudioClip fxButtonOut;
+
     public AudioClip fxPlayButton;
     public AudioClip fxExitGame;
 
