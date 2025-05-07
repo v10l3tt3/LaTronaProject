@@ -21,7 +21,7 @@ public class MenuUI : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("____");
+        SceneManager.LoadScene("TilemapCasa");
     }
 
     public void ShowSettings()
