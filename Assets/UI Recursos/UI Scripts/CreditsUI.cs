@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CreditsUI : MonoBehaviour
 {
-    
+    GameObject textTMP;
     void Start()
     {
-
+        textTMP = GameObject.Find("textTMP");
       
     }
 
