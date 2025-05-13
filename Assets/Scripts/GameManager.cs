@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour
 
     public static int trozoFoto = 0;
 
+    public GameObject PipesHolder;
+    public GameObject[] Pipes;
+
+    [SerializeField]
+    int totalPipes = 0;
+
     public static GameManager Instance { get; private set; }
     void Awake(){
        if(Instance == null ){
@@ -19,7 +25,12 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        
+        totalPipes = PipesHolder.transform.childCount;
+        Pipes = new GameObject[totalPipes];
+        for (int i = 0; i < Pipes.Length; i++)
+        {
+            Pipes[i] = PipesHolder.transform.GetChild(i).gameObject;
+        }
     }
 
     
