@@ -19,7 +19,7 @@ public class MiniTuberias : MonoBehaviour
         PossibleRots = rotations.Length;
 
         //para 1 sola solucion
-        if(transform.eulerAngles.z == correctRotation){
+        /*if(transform.eulerAngles.z == correctRotation){
             isPlaced = true;
         }
 
@@ -28,7 +28,7 @@ public class MiniTuberias : MonoBehaviour
                 isPlaced = true;
         }else{
             isPlaced = false;
-        }
+        }*/
 
     }
 
@@ -42,32 +42,28 @@ public class MiniTuberias : MonoBehaviour
             Debug.Log("Click");
         }*/
     }
-    private void OnMouseDown(){
+    void OnMouseDown(){
     
         transform.Rotate(new Vector3(0,0, 90));
         //Debug.Log("Click");
 
         //para 1 sola solucion
-        if(transform.eulerAngles.z == correctRotation && isPlaced == false){
+        /*if(transform.eulerAngles.z == correctRotation && isPlaced == false){
             isPlaced = true;
         }else if(isPlaced == true){
             isPlaced = false;
-        }
+        }*/
 
         //para +1 solucion
         if(PossibleRots > 1){
             if(transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1] && isPlaced == false){
                 isPlaced = true;
-            }else if{
-                isPlaced = false;
-            }
-        }else{
-            if(transform.eulerAngles.z == correctRotation[0] && isPlaced == false){
-                isPlaced = true;
-            }else if{
+            }else if(isPlaced == true){
                 isPlaced = false;
             }
         }
+
+        //PREFERENCIA POR SOLO 1 SOLUCION
     }
-    
+
 }
