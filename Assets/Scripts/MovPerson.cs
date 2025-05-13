@@ -19,14 +19,14 @@ public class MovPerson : MonoBehaviour
     void Start()
     {
         this.GetComponent<Transform>().position = posInicial;
-        rb = this.GetComponent<Rigidbody2D>();
+        //rb = this.GetComponent<Rigidbody2D>();
 
         animatorController = this.GetComponent<Animator>();
     }
     void FixedUpdate()
     {
         //v.mov del perso
-        rb.velocity = new Vector2(movTeclas*multiplicador, rb.velocity.y);
+        //rb.velocity = new Vector2(movTeclas*multiplicador, rb.velocity.y);
         
         
     }
@@ -35,20 +35,17 @@ public class MovPerson : MonoBehaviour
     {
         float miDeltaTime = Time.deltaTime; 
 
-        //hay k comprobar si la Y funciona
+        //WASD, ya si funciona en cruz
         float movTeclas = Input.GetAxis("Horizontal");
         float movTeclasY = Input.GetAxis("Vertical");
+       
 
         transform.Translate(
              movTeclas*(Time.deltaTime*multiplicador),
-             0, 
+             movTeclasY*(Time.deltaTime*multiplicador), 
              0
         );
-        transform.Translate(
-             movTeclasY*(Time.deltaTime*multiplicador),
-             0, 
-             0
-        );
+      
 
         //FLIP en eje X
         if(movTeclas < 0){
