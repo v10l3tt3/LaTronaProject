@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public static int trozoFoto = 0;
 
+
     public GameObject PipesHolder;
     public GameObject[] Pipes;
 
@@ -21,7 +22,7 @@ public class GameManager : MonoBehaviour
        if(Instance == null ){
             Instance = this;
        }
-        
+
     }
     void Start()
     {

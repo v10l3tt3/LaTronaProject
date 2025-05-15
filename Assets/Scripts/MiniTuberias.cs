@@ -4,35 +4,37 @@ using UnityEngine;
 
 public class MiniTuberias : MonoBehaviour
 {
-    float [] rotations = {0, 90, 180, 270};
-    public float []correctRotation;
+    float[] rotations = {0, 90, 180, 270 };
+    public float correctRotation;
     [SerializeField]
     bool isPlaced = false;
 
-    int PossibleRots = 1;
+    //int PossibleRots = 1;
     private void Start()
     {
-        int random = Random.Range(0, rotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rotations[random]);
+        int rand = Random.Range(0, rotations.Length);
+        transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
 
         //para +1 solucion
-        PossibleRots = rotations.Length;
+        //PossibleRots = rotations.Length;
 
         //para 1 sola solucion
-        /*if(transform.eulerAngles.z == correctRotation){
+        if(transform.eulerAngles.z == correctRotation){
             isPlaced = true;
         }
 
-        if(PossibleRots > 1){
+        //para +1 solucion 
+        /*if(PossibleRots > 1){
             if(transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1]){
                 isPlaced = true;
-        }else{
+            }else{
             isPlaced = false;
+            }
         }*/
 
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         //aprox 1
@@ -42,28 +44,29 @@ public class MiniTuberias : MonoBehaviour
             Debug.Log("Click");
         }*/
     }
-    void OnMouseDown(){
+    private void OnMouseDown(){
     
         transform.Rotate(new Vector3(0,0, 90));
-        //Debug.Log("Click");
+        Debug.Log("Click");
 
         //para 1 sola solucion
-        /*if(transform.eulerAngles.z == correctRotation && isPlaced == false){
+        if(transform.eulerAngles.z == correctRotation && isPlaced == false){
             isPlaced = true;
         }else if(isPlaced == true){
             isPlaced = false;
-        }*/
+        }
 
         //para +1 solucion
-        if(PossibleRots > 1){
+        /*if(PossibleRots > 1){
             if(transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1] && isPlaced == false){
                 isPlaced = true;
             }else if(isPlaced == true){
                 isPlaced = false;
             }
-        }
+        }*/
 
         //PREFERENCIA POR SOLO 1 SOLUCION
     }
 
 }
+
