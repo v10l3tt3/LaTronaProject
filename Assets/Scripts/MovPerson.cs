@@ -16,8 +16,8 @@ public class MovPerson : MonoBehaviour
     public bool miraDerecha = true;
     
 
-    float movTeclas;
-    float movTeclasY;
+    public float movTeclas;
+    public float movTeclasY;
     
     //animaciones APROX2
     private Animator playerAnimator;
