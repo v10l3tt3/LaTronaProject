@@ -14,7 +14,7 @@ public class BarroScript : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        bolaBarro = player.GetComponent<MovPerson>().;
+        bolaBarro = player.GetComponent<MovPerson>().movTe;
 
         timeIs = Time.time; //8s
     }
