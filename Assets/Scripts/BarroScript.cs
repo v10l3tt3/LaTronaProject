@@ -4,32 +4,41 @@ using UnityEngine;
 
 public class BarroScript : MonoBehaviour
 {
-    GameObject player;
-    bool bolaBarro = true;
-
+    private Vector3 posicionInicial;
+    private float velocidad;
+    private float distanciaMaxima = 7f;
+    float timeIs;
     float destructionTime = 5.0f;
 
-    float timeIs;
+    public void Inicializar(Vector3 origen, float velocidadDisparo)
+    {
+        posicionInicial = origen;
+        velocidad = velocidadDisparo;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
-        bolaBarro = player.GetComponent<MovPerson>().movTe;
-
-        timeIs = Time.time; //8s
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-       if(bolaBarro){
-            transform.Translate(0, 0.01f, 0, Space.World);
-        }else{
-           transform.Translate(0, -0.01f, 0, Space.World); 
-        }
-        
+        transform.Translate(0, 0.01f, 0, Space.World);
+
         if(Time.time >= timeIs+destructionTime){
             Destroy(this.gameObject);
         } 
+        
+
+        // Mover la bola SOLO hacia arriba (eje Y)
+        transform.Translate(Vector3.up * velocidad * Time.deltaTime);
+
+        // Verificar distancia
+        float distanciaRecorrida = Vector3.Distance(posicionInicial, transform.position);
+        if (distanciaRecorrida >= distanciaMaxima)
+        {
+            Destroy(gameObject);
+        }
     }
 }
