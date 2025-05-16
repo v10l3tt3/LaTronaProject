@@ -5,7 +5,7 @@ using UnityEngine;
 public class LanzarBarro : MonoBehaviour
 {
     public GameObject bolaBarroPrefab;
-    public Transform puntoDisparo;
+    
     public float velocidadDisparo = 10f;
 
     // Start is called before the first frame update
@@ -19,15 +19,7 @@ public class LanzarBarro : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) // Cambia la tecla si quieres
         {
-            DispararBolaBarro();
+            Instantiate(bolaBarroPrefab, transform.position, Quaternion.identity);
         }
-
-    }
-    
-    void DispararBolaBarro()
-    {
-        GameObject bola = Instantiate(bolaBarroPrefab, puntoDisparo.position, Quaternion.identity);
-        BarroScript scriptBola = bola.AddComponent<BarroScript>();
-        scriptBola.Inicializar(transform.position, velocidadDisparo);
     }
 }
