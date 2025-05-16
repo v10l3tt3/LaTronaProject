@@ -1,32 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+//using System.Numerics;
 using UnityEngine;
 
 public class MovPerson : MonoBehaviour
 {
-    public Vector3 posInicial;
+    //OLD RB - public Vector3 posInicial;
+    //public float multiplicador = 5f;
+    [SerializeField] public float velocidad = 5f;
+    private Rigidbody2D playerRb;
+    private Vector2 moveInput;
 
-    public float velocidad = 5f;
-    public float multiplicador = 5f;
+    
 
     public bool miraDerecha = true;
     
 
     float movTeclas;
     float movTeclasY;
-    private Rigidbody2D rb;
-    private Animator animatorController;
+    
+    //animaciones APROX2
+    private Animator playerAnimator;
+
     void Start()
     {
-        this.GetComponent<Transform>().position = posInicial;
-        //rb = this.GetComponent<Rigidbody2D>();
+        //OLD RB
+        //this.GetComponent<Transform>().position = posInicial;
+        playerRb = this.GetComponent<Rigidbody2D>();
 
-        animatorController = this.GetComponent<Animator>();
+        //animaciones APROX2
+        //playerAnimator = this.GetComponent<Animator>();
     }
     void FixedUpdate()
     {
         //v.mov del perso
         //rb.velocity = new Vector2(movTeclas*multiplicador, rb.velocity.y);
+        
+        playerRb.MovePosition(playerRb.position + moveInput * velocidad * Time.fixedDeltaTime);
         
         
     }
@@ -36,32 +46,26 @@ public class MovPerson : MonoBehaviour
         float miDeltaTime = Time.deltaTime; 
 
         //WASD, ya si funciona en cruz
-        float movTeclas = Input.GetAxis("Horizontal");
+        /*float movTeclas = Input.GetAxis("Horizontal");
         float movTeclasY = Input.GetAxis("Vertical");
-       
-
+        
         transform.Translate(
              movTeclas*(Time.deltaTime*multiplicador),
              movTeclasY*(Time.deltaTime*multiplicador), 
              0
-        );
+        );*/
+
+        //Aprox2
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        moveInput = new Vector2(moveX, moveY).normalized;
       
 
-        //FLIP en eje X
-        if(movTeclas < 0){
-            this.GetComponent<SpriteRenderer>().flipX = true;
-            miraDerecha = false;
-        }else if(movTeclas > 0){
-            this.GetComponent<SpriteRenderer>().flipX = false;
-            miraDerecha = true;
-        }
-
-        //Animacion IDLE TO WALKING
-        /*if(movTeclas != 0){
-            animatorController.SetBool ("activateWalk",true);
-        }else{
-            animatorController.SetBool ("activateWalk",false);
-        }*/
+        //PARA HACER animaciones APROX2
+        //playerAnimator.SetFloat("Horizontal", moveX);
+        //playerAnimator.SetFloat("Vertical", moveY);
+        //playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
        
     }
 
