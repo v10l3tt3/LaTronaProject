@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Proyectil
   - NPC
+  - Mazon
+  - Policia
   layers:
   - Default
   - TransparentFX

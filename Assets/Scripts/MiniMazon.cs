@@ -1,25 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MiniMazon : MonoBehaviour
 {
 
-    public Sprite spriteLimpio;
-    public Sprite spriteSucio;
-    public Sprite spriteMuySucio;
+    Vector3 posicionInicial;
 
-    private int impactos = 0;
+    GameObject player;
+    AudioSource _audioSource;
+
+    public float mazonSpeed = 5f;   
+
+
+    //public Sprite spriteLimpio;
+    //public Sprite spriteSucio;
+    //public Sprite spriteMuySucio;
+
+    //private int impactos = 0;
     private SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
-       spriteRenderer = GetComponent<SpriteRenderer>();
-       spriteRenderer.sprite = spriteLimpio; 
+        posicionInicial = transform.position;
+
+        player = GameObject.FindGameObjectWithTag("Player");
+        //spriteRenderer = GetComponent<SpriteRenderer>();
+        //spriteRenderer.sprite = spriteLimpio; 
+
+        _audioSource = this.GetComponent<AudioSource>();
     }
 
-    public void RecibirImpacto()
+    /*public void RecibirImpacto()
     {
         impactos++;
 
@@ -33,17 +47,17 @@ public class MiniMazon : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.CompareTag("Proyectil"))
+        if (col.CompareTag("Proyectil"))
         {
             RecibirImpacto();
-            Destroy(collision.gameObject); //Destruye el proyectil
+            Destroy(col.gameObject); //Destruye el proyectil
         }
     }
     // Update is called once per frame
     void Update()
     {
         
-    }
+    }*/
 }
