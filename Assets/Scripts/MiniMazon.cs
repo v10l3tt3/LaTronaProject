@@ -9,9 +9,9 @@ public class MiniMazon : MonoBehaviour
     Vector3 posicionInicial;
 
     GameObject player;
-    AudioSource _audioSource;
+    //AudioSource _audioSource;
 
-    public float mazonSpeed = 5f;   
+    //public float mazonSpeed = 5f;   
 
 
     //public Sprite spriteLimpio;
@@ -30,7 +30,7 @@ public class MiniMazon : MonoBehaviour
         //spriteRenderer = GetComponent<SpriteRenderer>();
         //spriteRenderer.sprite = spriteLimpio; 
 
-        _audioSource = this.GetComponent<AudioSource>();
+        //_audioSource = this.GetComponent<AudioSource>();
     }
 
     /*public void RecibirImpacto()

@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class LanzarBarro : MonoBehaviour
 {
-    public GameObject Barro_0Prefab; // Prefab de la bola de barro
+    public GameObject barroUnidadPrefab; // Prefab de la bola de barro
+    //[SerializeField] private Transform shootPosition; // Punto de origen del disparo
     
-    public float velocidadDisparo = 10f;
+    //public float velocidadDisparo = 10f;
 
     // Start is called before the first frame update
     void Start()
     {
-        Barro_0Prefab = Resources.Load<GameObject>("Barro_0");
+        //barroUnidadPrefab = Resources.Load<GameObject>("barroUnidad");
     }
 
     // Update is called once per frame
@@ -21,7 +22,12 @@ public class LanzarBarro : MonoBehaviour
         {
             //para el FXaudio
             //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMudshot);
-            Instantiate(Barro_0Prefab, transform.position, Quaternion.identity);
+            //old
+            Instantiate(barroUnidadPrefab, transform.position, Quaternion.identity);
+
+           //tuto
+            //Instantiate(barroUnidadPrefab, shootPosition.position, Quaternion.identity);
+           
         }
     }
 }

@@ -7,17 +7,26 @@ using UnityEngine.Rendering;
 public class BarroScript : MonoBehaviour
 {
     GameObject player;
-    private Vector3 posicionInicial;
-    private float velocidadBola;
-    private float distanciaMaxima = 7f;
+    //private Vector3 posicionInicial;
+
+    public float velocidadBola = 5.0f;
+    //private Rigidbody2D proyectilRb;
+    
+    //public float distanciaMaxima = 23f;
     float timeIs;
     float destructionTime = 5.0f;
 
-    public void Inicializar(Vector3 origen, float velocidadDisparo)
+    /*public void Inicializar(Vector3 origen, float velocidadDisparo)
     {
         posicionInicial = origen;
         velocidadBola = velocidadDisparo;
-    }
+    }*/
+
+    /*void Awake()
+    {
+        proyectilRb = GetComponent<Rigidbody2D>();
+        posicionInicial = transform.position;
+    }*/
 
 
     void Start()
@@ -28,10 +37,12 @@ public class BarroScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    
+    
     void Update()
     {
-        transform.Translate(0, 0.01f, 0, Space.World);
+        //para el eje Y:
+        transform.Translate(0, velocidadBola*Time.deltaTime, 0, Space.World);
 
         if (Time.time >= timeIs + destructionTime)
         {
@@ -40,14 +51,16 @@ public class BarroScript : MonoBehaviour
 
 
         // Mover la bola SOLO hacia arriba (eje Y)
-        transform.Translate(Vector3.up * velocidadBola * Time.deltaTime);
+        //transform.Translate(Vector3.up * velocidadBola * Time.deltaTime);
 
         // Verificar distancia
-        float distanciaRecorrida = Vector3.Distance(posicionInicial, transform.position);
-        if (distanciaRecorrida >= distanciaMaxima)
+        //float distanciaRecorrida = Vector3.Distance(posicionInicial, transform.position);
+
+        //float distanciaRecorrida = transform.position.y - player.transform.position.y;
+        /*if (distanciaRecorrida >= distanciaMaxima)
         {
             Destroy(this.gameObject, 0.1f);
-        }
+        }*/
     }
 
     void OnTriggerEnter2D(Collider2D colBS)
@@ -56,28 +69,10 @@ public class BarroScript : MonoBehaviour
 
         if (colBS.gameObject.tag == "Mazon")
         {
-            // Aquí puedes agregar el código para aplicar daño al jugador
-            // Por ejemplo: other.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
+    
 
-            //poner FX audio daño Mazon
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolorFX);
-
-            Destroy(colBS.gameObject, 1.1f);
+            Destroy(colBS.gameObject, 0.1f);
             GameManager.vidasMazon -= 1;
-
-            colBS.gameObject.GetComponent<Animator>().SetBool("HIT1", true);
-
-            if (GameManager.vidasMazon == 2)
-            {
-                Destroy(colBS.gameObject, 1.1f);
-                colBS.gameObject.GetComponent<Animator>().SetBool("HIT2", true);
-            
-            }
-            else if (GameManager.vidasMazon == 1)
-            {
-                Destroy(colBS.gameObject, 1.1f);
-                colBS.gameObject.GetComponent<Animator>().SetBool("HIT3", true);
-            }
         
         }
 
@@ -104,4 +99,4 @@ public class BarroScript : MonoBehaviour
 
     }
 }
-//     void OnTriggerEnter2D(Collider2D other) 
+//     void OnTriggerEnter2D(Collider2D other)
