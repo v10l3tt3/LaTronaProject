@@ -1328,6 +1328,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   miraDerecha: 1
+  movTeclas: 0
+  movTeclasY: 0
 --- !u!212 &1232452300
 SpriteRenderer:
   m_ObjectHideFlags: 0
