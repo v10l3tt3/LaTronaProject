@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class BotonesInventarioScript : MonoBehaviour
 {
-    GameObject mainPanel;
+    //test
+        GameObject mainPanel;
     GameObject cablesPanel;
     GameObject tuberiasPanel;
     GameObject cochePanel;
