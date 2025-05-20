@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 469d060d8f66e0446a39b15092b7bf86
+guid: b0bbca2b054a786458eb24b4f48d254d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cry_20
+      name: Idle_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 592
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd941ac7046114a9b6f66624d28b50
+      internalID: 1941426586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_18
       rect:
         serializedVersion: 2
         x: 32
-        y: 560
+        y: 592
         width: 16
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,18 +132,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b87e97e5bf2b2d2409d6b127431b05db
-      internalID: 1138288848
+      spriteID: 07563256be1ac2343bf0173662f2b175
+      internalID: 878678682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_21
+      name: Idle_19
       rect:
         serializedVersion: 2
         x: 48
-        y: 560
+        y: 592
         width: 16
         height: 23
       alignment: 0
@@ -132,18 +153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c39ed59fb036bf34a8b33a7e3b67a9cc
-      internalID: 110599982
+      spriteID: 4644b55e8f5c38b4f808f78c0be3d861
+      internalID: 1161669607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_22
+      name: Idle_20
       rect:
         serializedVersion: 2
         x: 64
-        y: 560
+        y: 592
         width: 16
         height: 23
       alignment: 0
@@ -153,62 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac27b405b0745f149bc8b766a4074057
-      internalID: -135930282
+      spriteID: ebe12097901ccd34e9c092880d061a94
+      internalID: 1630268553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_23
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 560
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f31bfb8f96fff2b4396f57f49d37cc01
-      internalID: -1525657900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cry_24
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 560
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28f9a44fc49dafb4bacd3284178ac043
-      internalID: 1736535296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cry_25
+      name: Idle_21
       rect:
         serializedVersion: 2
         x: 112
-        y: 560
+        y: 592
         width: 16
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,18 +195,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0352debc2f5671e4d9d9383fec7d8bba
-      internalID: 794661653
+      spriteID: faf0d29eb71b9ae468f33808731a27cd
+      internalID: 1423916177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_26
+      name: Idle_22
       rect:
         serializedVersion: 2
         x: 128
-        y: 560
+        y: 592
         width: 16
         height: 24
       alignment: 0
@@ -237,18 +216,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37eb8f5c61c3733408c7142de2c2d007
-      internalID: -2031253689
+      spriteID: 0c43d34942fc90940becf09afcbbec96
+      internalID: -1669180645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_27
+      name: Idle_23
       rect:
         serializedVersion: 2
         x: 144
-        y: 560
+        y: 592
         width: 16
         height: 24
       alignment: 0
@@ -258,39 +237,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850106ab5a342f04b984fec44a9995b5
-      internalID: -649423842
+      spriteID: 66568b0cb1a48514f8959f2c128e4056
+      internalID: -1731325817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_28
+      name: Idle_24
       rect:
         serializedVersion: 2
         x: 160
-        y: 560
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64e247870d27bca4cad756f50dd41598
-      internalID: 416955826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cry_29
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 560
+        y: 592
         width: 16
         height: 24
       alignment: 0
@@ -300,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bd61b6d0d8451f4995f07c6aab6ba32
-      internalID: 1397603535
+      spriteID: a3c378f4e885e384b9f1f8df6dfe5542
+      internalID: 1827812541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_30
+      name: Idle_25
       rect:
         serializedVersion: 2
         x: 192
-        y: 560
+        y: 592
         width: 16
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f6b351346662248a99582103576010
-      internalID: 1488688355
+      spriteID: 0abe2f4c03f59fb4aa44ac4c11a9513e
+      internalID: -1544520925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_31
+      name: Idle_26
       rect:
         serializedVersion: 2
         x: 208
-        y: 560
+        y: 592
         width: 16
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4acf1a6d962517419a4b7622a238398
-      internalID: -1421324092
+      spriteID: 1085a0571d998fc429f4f796b7f19d08
+      internalID: 1003819613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_32
+      name: Idle_27
       rect:
         serializedVersion: 2
         x: 224
-        y: 560
+        y: 592
         width: 16
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,18 +321,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 572eeb3c54607af4484d0d51fe039870
-      internalID: -605544881
+      spriteID: 3378f0acc1f0ee34091ffc16b55e6cab
+      internalID: 1907194056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_33
+      name: Idle_28
       rect:
         serializedVersion: 2
         x: 240
-        y: 560
+        y: 592
         width: 16
         height: 24
       alignment: 0
@@ -384,41 +342,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff5b10b63d9b81c4c9e4dbd3c442d367
-      internalID: 1842449088
+      spriteID: 7cadb535e377d2c4aabd7900a6353091
+      internalID: -307774427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_34
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 560
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a70f41322e5b9248ae72b8f5435c5ca
-      internalID: 1120757013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cry_35
+      name: Idle_29
       rect:
         serializedVersion: 2
         x: 272
-        y: 560
+        y: 592
         width: 16
-        height: 24
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,18 +363,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a9cbf67814565848a068a088ef26b20
-      internalID: 139445643
+      spriteID: 2899965484d3a744ab05907a3dd5fc43
+      internalID: 1641146627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_36
+      name: Idle_30
       rect:
         serializedVersion: 2
         x: 288
-        y: 560
+        y: 592
         width: 16
         height: 23
       alignment: 0
@@ -447,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 974f8401a96ffbd4d95ea013a82add22
-      internalID: 453926108
+      spriteID: a396e7d400793304dac58165d193ae1d
+      internalID: 1214865190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_37
+      name: Idle_31
       rect:
         serializedVersion: 2
         x: 304
-        y: 560
+        y: 592
         width: 16
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30ef893b1f16f2f408c3e6449d907eae
-      internalID: -858232417
+      spriteID: 0472dce61e6501949841ef65f177179b
+      internalID: -295739445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cry_38
+      name: Idle_32
       rect:
         serializedVersion: 2
         x: 320
-        y: 560
+        y: 592
         width: 16
-        height: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,29 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c1969bfcab82dc4eaefc92ab9864b01
-      internalID: -2005213408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cry_39
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 560
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c037826254f6c248a82e29c402d6242
-      internalID: 1326203358
+      spriteID: a6399efd177dcd54b942e88b5953e5a5
+      internalID: -674360471
       vertices: []
       indices: 
       edges: []
@@ -527,46 +443,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cry_0: 1586506865
-      Cry_1: 1971692595
-      Cry_10: -441769992
-      Cry_11: -1109416001
-      Cry_12: -1742506357
-      Cry_13: -632421731
-      Cry_14: -364868361
-      Cry_15: 1397240122
-      Cry_16: 468680633
-      Cry_17: 1187703004
-      Cry_18: 1148144675
-      Cry_19: 50349194
-      Cry_2: -1113869707
-      Cry_20: 1138288848
-      Cry_21: 110599982
-      Cry_22: -135930282
-      Cry_23: -1525657900
-      Cry_24: 1736535296
-      Cry_25: 794661653
-      Cry_26: -2031253689
-      Cry_27: -649423842
-      Cry_28: 416955826
-      Cry_29: 1397603535
-      Cry_3: -2063325483
-      Cry_30: 1488688355
-      Cry_31: -1421324092
-      Cry_32: -605544881
-      Cry_33: 1842449088
-      Cry_34: 1120757013
-      Cry_35: 139445643
-      Cry_36: 453926108
-      Cry_37: -858232417
-      Cry_38: -2005213408
-      Cry_39: 1326203358
-      Cry_4: 1299602098
-      Cry_5: 287831400
-      Cry_6: -1514820213
-      Cry_7: -1110443547
-      Cry_8: -15570534
-      Cry_9: -289283421
+      Idle_0: 457566241
+      Idle_1: -1254093572
+      Idle_10: -993557312
+      Idle_11: 1765025290
+      Idle_12: 1589826021
+      Idle_13: 896340712
+      Idle_14: -1834748926
+      Idle_15: -1029383667
+      Idle_16: -1718571464
+      Idle_17: 1941426586
+      Idle_18: 878678682
+      Idle_19: 1161669607
+      Idle_2: -1590472632
+      Idle_20: 1630268553
+      Idle_21: 1423916177
+      Idle_22: -1669180645
+      Idle_23: -1731325817
+      Idle_24: 1827812541
+      Idle_25: -1544520925
+      Idle_26: 1003819613
+      Idle_27: 1907194056
+      Idle_28: -307774427
+      Idle_29: 1641146627
+      Idle_3: 1544011864
+      Idle_30: 1214865190
+      Idle_31: -295739445
+      Idle_32: -674360471
+      Idle_33: -718201227
+      Idle_34: 1751581892
+      Idle_35: 901544360
+      Idle_36: -2075087961
+      Idle_4: 138816126
+      Idle_5: -1197348446
+      Idle_6: -229768379
+      Idle_7: -1941902289
+      Idle_8: -994096736
+      Idle_9: 1010628735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
