@@ -4,30 +4,30 @@ using UnityEngine;
 
 public class LanzarBarro : MonoBehaviour
 {
-    public GameObject bolaBarroPrefab;
-    public Transform puntoDisparo;
-    public float velocidadDisparo = 10f;
+    public GameObject barroUnidadPrefab; // Prefab de la bola de barro
+    //[SerializeField] private Transform shootPosition; // Punto de origen del disparo
+    
+    //public float velocidadDisparo = 10f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        //barroUnidadPrefab = Resources.Load<GameObject>("barroUnidad");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) // Cambia la tecla si quieres
+        if (Input.GetKeyDown(KeyCode.X)) // Cambia la tecla si quieres
         {
-            DispararBolaBarro();
-        }
+            //para el FXaudio
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMudshot);
+            //old
+            Instantiate(barroUnidadPrefab, transform.position, Quaternion.identity);
 
-    }
-    
-    void DispararBolaBarro()
-    {
-        GameObject bola = Instantiate(bolaBarroPrefab, puntoDisparo.position, Quaternion.identity);
-        BarroScript scriptBola = bola.AddComponent<BarroScript>();
-        scriptBola.Inicializar(transform.position, velocidadDisparo);
+           //tuto
+            //Instantiate(barroUnidadPrefab, shootPosition.position, Quaternion.identity);
+           
+        }
     }
 }

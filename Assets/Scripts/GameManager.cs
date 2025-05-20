@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
     public GameObject PipesHolder;
     public GameObject[] Pipes;
 
+    public static int vidasMazon = 4;
+    public static int vidasPolis = 2;
+
     [SerializeField]
     int totalPipes = 0;
 
