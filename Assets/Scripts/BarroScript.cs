@@ -1,44 +1,102 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class BarroScript : MonoBehaviour
 {
-    private Vector3 posicionInicial;
-    private float velocidad;
-    private float distanciaMaxima = 7f;
+    GameObject player;
+    //private Vector3 posicionInicial;
+
+    public float velocidadBola = 5.0f;
+    //private Rigidbody2D proyectilRb;
+    
+    //public float distanciaMaxima = 23f;
     float timeIs;
     float destructionTime = 5.0f;
 
-    public void Inicializar(Vector3 origen, float velocidadDisparo)
+    /*public void Inicializar(Vector3 origen, float velocidadDisparo)
     {
         posicionInicial = origen;
-        velocidad = velocidadDisparo;
-    }
-    // Start is called before the first frame update
+        velocidadBola = velocidadDisparo;
+    }*/
+
+    /*void Awake()
+    {
+        proyectilRb = GetComponent<Rigidbody2D>();
+        posicionInicial = transform.position;
+    }*/
+
+
     void Start()
     {
-       
+        player = GameObject.FindGameObjectWithTag("Player");
+
+        timeIs = Time.time;
+
     }
 
-    // Update is called once per frame
+    
+    
     void Update()
     {
-        transform.Translate(0, 0.01f, 0, Space.World);
+        //para el eje Y:
+        transform.Translate(0, velocidadBola*Time.deltaTime, 0, Space.World);
 
-        if(Time.time >= timeIs+destructionTime){
-            Destroy(this.gameObject);
-        } 
-        
+        if (Time.time >= timeIs + destructionTime)
+        {
+            Destroy(this.gameObject, 0.1f);
+        }
+
 
         // Mover la bola SOLO hacia arriba (eje Y)
-        transform.Translate(Vector3.up * velocidad * Time.deltaTime);
+        //transform.Translate(Vector3.up * velocidadBola * Time.deltaTime);
 
         // Verificar distancia
-        float distanciaRecorrida = Vector3.Distance(posicionInicial, transform.position);
-        if (distanciaRecorrida >= distanciaMaxima)
+        //float distanciaRecorrida = Vector3.Distance(posicionInicial, transform.position);
+
+        //float distanciaRecorrida = transform.position.y - player.transform.position.y;
+        /*if (distanciaRecorrida >= distanciaMaxima)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject, 0.1f);
+        }*/
+    }
+
+    void OnTriggerEnter2D(Collider2D colBS)
+    {
+        Debug.Log(colBS.gameObject.tag == "Mazon");
+
+        if (colBS.gameObject.tag == "Mazon")
+        {
+    
+
+            Destroy(colBS.gameObject, 0.1f);
+            GameManager.vidasMazon -= 1;
+        
         }
+
+
+        Debug.Log(colBS.gameObject.tag == "Policia");
+
+        if (colBS.gameObject.tag == "Policia")
+        {
+        //poner FX audio daño policia
+        //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolorFX);
+
+        //animacion de muerte
+        //colBS.gameObject.GetComponent<Animator>().SetBool("GetDown", true);
+
+        //para que se queden quietos al morir
+        Rigidbody2D rb = colBS.gameObject.GetComponent<Rigidbody2D>();
+        rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+        rb.constraints = RigidbodyConstraints2D.FreezePositionY;
+
+        Destroy(colBS.gameObject, 1.1f);
+        //GameManager.poliKills += 1;
+        Destroy(this.gameObject, 3.1f);
+        }
+
     }
 }
+//     void OnTriggerEnter2D(Collider2D other)
