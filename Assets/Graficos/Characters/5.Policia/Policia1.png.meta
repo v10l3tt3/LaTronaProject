@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac3527ee0642d8c4a8b4c74aac4e866c
+guid: 875c7fb28e7870c4eadf3abfa8a01939
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,85 +97,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_4
+      name: Policia1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7d63a986a531946aadfb4f4c03cfdb
+      internalID: 1300952395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Policia1_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 593
+        y: 144
         width: 16
-        height: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b7f9f0a3ff6d7949bb16e3aed1a3262
-      internalID: 1971859316
+      spriteID: b33712a42d1533d40b28cd8a448e85fc
+      internalID: 616019809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: Policia1_2
       rect:
         serializedVersion: 2
         x: 48
-        y: 593
+        y: 144
         width: 16
-        height: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48dec9fff0b5a734eb31e97251f2d6ff
-      internalID: 275740632
+      spriteID: 3d82af90102a62a448b7375565ce4539
+      internalID: 592230564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_6
+      name: Policia1_3
       rect:
         serializedVersion: 2
         x: 64
-        y: 593
+        y: 144
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 543b20b3fd361854681e310877486799
-      internalID: 560298423
+      spriteID: ee18014774f5496449e0dc69d1b81366
+      internalID: 1156246248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_7
+      name: Policia1_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 593
+        x: 16
+        y: 112
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36866432a58c9ba49897ae5d57e8330b
-      internalID: -2135606779
+      spriteID: 724a67b732e9be544bdcc1541896adf9
+      internalID: -722896163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Policia1_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6ad916b6a6ed141a563c4538c3bb82
+      internalID: -1193713606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Policia1_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392bff9493090c94ea3614135c642af9
+      internalID: 770788157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Policia1_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d7b7153c7ef894a84210121029d325
+      internalID: -120096787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Policia1_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfa4806fd8d9fa4682fec493017dc04
+      internalID: 1187397355
       vertices: []
       indices: 
       edges: []
@@ -191,14 +296,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_0: -389591088
-      Idle_1: -263985896
-      Idle_2: 1272206045
-      Idle_3: -305094839
-      Idle_4: 1971859316
-      Idle_5: 275740632
-      Idle_6: 560298423
-      Idle_7: -2135606779
+      Policia1_0: 1300952395
+      Policia1_1: 616019809
+      Policia1_10: -1213221002
+      Policia1_11: -340913721
+      Policia1_12: 1870956806
+      Policia1_13: 82881148
+      Policia1_14: 1232445512
+      Policia1_15: 1417106353
+      Policia1_16: 303287067
+      Policia1_17: -120096787
+      Policia1_18: 1187397355
+      Policia1_19: -1791227405
+      Policia1_2: 592230564
+      Policia1_20: 984743565
+      Policia1_21: 225986195
+      Policia1_22: -496723863
+      Policia1_23: -440647210
+      Policia1_24: 442615079
+      Policia1_3: 1156246248
+      Policia1_4: -722896163
+      Policia1_5: -1193713606
+      Policia1_6: 770788157
+      Policia1_7: 1244389162
+      Policia1_8: 2094992677
+      Policia1_9: 1359933222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
