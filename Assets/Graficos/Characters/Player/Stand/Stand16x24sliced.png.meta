@@ -48,7 +48,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Graficos/Characters/Player/Stand/Stand.png.meta
+  spritePixelsToUnits: 16
+=======
   spritePixelsToUnits: 32
+>>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/Graficos/Characters/Player/Stand/Stand16x24sliced.png.meta
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +107,11 @@ TextureImporter:
         x: 32
         y: 624
         width: 16
+<<<<<<< HEAD:Assets/Graficos/Characters/Player/Stand/Stand.png.meta
+        height: 23
+=======
         height: 24
+>>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/Graficos/Characters/Player/Stand/Stand16x24sliced.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +119,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD:Assets/Graficos/Characters/Player/Stand/Stand.png.meta
+      spriteID: e9656cad78b66904d9549dbec95c291c
+      internalID: 696174028
+=======
       spriteID: 8115d0b96ffadf448a55ce85b6816101
       internalID: -1449572051
+>>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/Graficos/Characters/Player/Stand/Stand16x24sliced.png.meta
       vertices: []
       indices: 
       edges: []
@@ -124,7 +137,11 @@ TextureImporter:
         x: 48
         y: 624
         width: 16
+<<<<<<< HEAD:Assets/Graficos/Characters/Player/Stand/Stand.png.meta
+        height: 23
+=======
         height: 24
+>>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/Graficos/Characters/Player/Stand/Stand16x24sliced.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +149,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD:Assets/Graficos/Characters/Player/Stand/Stand.png.meta
+      spriteID: 276eadd385fd64348b75de7a88135689
+      internalID: 1061399586
+=======
       spriteID: bd5355e39b4a6b34b8006fa3ecb0f065
       internalID: -2058050193
+>>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/Graficos/Characters/Player/Stand/Stand16x24sliced.png.meta
       vertices: []
       indices: 
       edges: []
@@ -149,10 +171,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD:Assets/Graficos/Characters/Player/Stand/Stand.png.meta
+      Stand_0: 1394479268
+      Stand_1: 1055060058
+      Stand_2: 696174028
+      Stand_3: 1061399586
+=======
       Stand_0: -1554091152
       Stand_1: -1328645736
       Stand_2: -1449572051
       Stand_3: -2058050193
+>>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/Graficos/Characters/Player/Stand/Stand16x24sliced.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
