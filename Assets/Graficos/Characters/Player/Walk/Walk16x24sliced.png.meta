@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eeeafb64f24c3ce429dcfe0290c8363e
+guid: 1ab45a11574edf34cafac1a0760ea2ff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,631 +97,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Maz\xF3n_4"
+      name: Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3629122b9611294a93bb703ab776ae5
+      internalID: -1837668912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 144
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f3a28691acee24dba17f65080d0c82
-      internalID: 1092201150
+      spriteID: d144131fd81f0374daff945bd80114fb
+      internalID: -513686344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_5"
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 144
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7180621d8d3162b41b1a77b4a1847e20
-      internalID: 548961204
+      spriteID: 61ddc91a0ff7fcc4ea6858868cb0a9ca
+      internalID: -710406256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_6"
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 144
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ee17819f7d4c54794ba8e554c2242a
-      internalID: -1302547639
+      spriteID: 267e6f619a4c0a84d8624b6bdc8edc4e
+      internalID: 1880774975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_7"
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 144
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e2e19910d5346409eea39e4d2f8391
-      internalID: 1830907615
+      spriteID: 1b05a95a01f2b944b8baa715b0ad5acc
+      internalID: -1202473839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_9"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d01e69310f9e054bbe4c8155b6d860f
-      internalID: 789829168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_10"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba2bf5790e94a9e418eceeb8463b1df7
-      internalID: -170626562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_15"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1ef3ac4f2776684cbbd9e78323775ad
-      internalID: 1054088915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_16"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 391a32f295ea5954a9bee4148e7f4a3d
-      internalID: -1281713612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_17"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df70b0419a9fb26408fbaa6a228ce4b8
-      internalID: 93060562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_18"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34de519e63e81344e820c2b4c8542ecb
-      internalID: -999543173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_20"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdc5d2ccd5b242342a94e7c856d36efd
-      internalID: 1021744118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_21"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c59cc7f1263d014abf13155ff1a3b03
-      internalID: -1791598572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_34"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e49a0e3196c14fb4c9ed83ca2200b77d
-      internalID: 705708129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_35"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a55e3f7e4b436b54c9e32e82a4c31cdf
-      internalID: -476106624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_36"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e01919425dfaf594f89d33841c8051c1
-      internalID: -1016917079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_37"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47ced993487b7d54e99ffa2aa557a79c
-      internalID: -1757511364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_39"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee7ba995572ab6d4b945ad7b1af63cb6
-      internalID: 525505997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_40"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22ef1d2a5d176b949a82d468c281a5bf
-      internalID: 911635758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_54"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7243553cac588044d8a3b8cd2ff457ad
-      internalID: -925915454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_55"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eac52a5c9d535374b883b24bad41490c
-      internalID: 651973106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_56"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2eb2e93275bfc54f97dbe86dc8d243e
-      internalID: 1280564269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_57"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bfeef51e2428904badb15717035f337
-      internalID: 1833308401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_58"
+      name: Walk_5
       rect:
         serializedVersion: 2
         x: 80
-        y: 48
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2ac014b6b52e0a4f86b9c2466eb1c8d
-      internalID: 1234215365
+      spriteID: 504f20da12d85b54580aadaa356c3d78
+      internalID: -1209024910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_60"
+      name: Walk_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4099b017d2b9604c8fade0afc1da098
+      internalID: -1532047818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_7
       rect:
         serializedVersion: 2
         x: 112
-        y: 48
+        y: 560
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d33944cb25a93443a06244a983938d4
-      internalID: -1308908507
+      spriteID: d97f984761e5a724cac81a67c79082a0
+      internalID: 1242502335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_61"
+      name: Walk_8
       rect:
         serializedVersion: 2
         x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 416480dd94d975f4ca7dc5b23f9a5c51
-      internalID: -506394510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_65"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3b2aa771829d94284abe3e9a74f53a
-      internalID: 864241027
+      spriteID: 63da1ca1161b0ae4b965afd9c0b23377
+      internalID: 2069985444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_66"
+      name: Walk_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
+        x: 144
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e5c27f37c619ec4faada075f71daaa8
-      internalID: 516082497
+      spriteID: 5e1303583c5e6e4499387ee702819e1a
+      internalID: -2050436057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_67"
+      name: Walk_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
+        x: 160
+        y: 560
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c10e1afc7fe0a54ea8b9e40762e0eae
-      internalID: -1630762007
+      spriteID: 1d401b44b83f95243a2b014229c89110
+      internalID: -316189941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_69"
+      name: Walk_11
       rect:
         serializedVersion: 2
-        x: 112
-        y: 16
+        x: 176
+        y: 560
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 015ada6f1d190624d9e930446e676805
-      internalID: -2090207946
+      spriteID: 409d55751f478d840a05f17d25170e14
+      internalID: 1789978239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_70"
+      name: Walk_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 16
+        x: 192
+        y: 560
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b70db850dd9ed4545b024521c47bc0d5
-      internalID: 2011313103
+      spriteID: 74a824115a39de04b916cbe1b6213ef6
+      internalID: -2079905550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c343d05d5e18c5439c80a49c057e64a
+      internalID: 961461998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023ba5c402dc29c4e99168f0fecce042
+      internalID: -1708722071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf333e70fa29744a1018319492bd8c
+      internalID: -1975311191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80b165ab938a4446b1353e3ca6311c1
+      internalID: -27492997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806f795df5391a428d2665cd98fb24d
+      internalID: 2138080147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0651bc19c5a2b1f4985ce68b8495ce49
+      internalID: -2101504119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb2ba01ff2e1a4bb9bf7287bc073b3
+      internalID: 207228316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc12af0a1de024f8b4928b95e559f1
+      internalID: -1185468059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebeb41dad0fa854e92ad605357fc848
+      internalID: -753877246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ba350742e29e4dbac89ab3a07bf88
+      internalID: 434385023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 560
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29a784448a1b5e40a65f111d7490ccc
+      internalID: 832680354
       vertices: []
       indices: 
       edges: []
@@ -737,77 +611,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Maz\xF3n_0": 516368599
-      "Maz\xF3n_1": 200300544
-      "Maz\xF3n_10": -170626562
-      "Maz\xF3n_11": 1961748636
-      "Maz\xF3n_12": 549498557
-      "Maz\xF3n_13": 694160432
-      "Maz\xF3n_14": 1339724349
-      "Maz\xF3n_15": 1054088915
-      "Maz\xF3n_16": -1281713612
-      "Maz\xF3n_17": 93060562
-      "Maz\xF3n_18": -999543173
-      "Maz\xF3n_19": -2129682004
-      "Maz\xF3n_2": 923313079
-      "Maz\xF3n_20": 1021744118
-      "Maz\xF3n_21": -1791598572
-      "Maz\xF3n_22": 1868599179
-      "Maz\xF3n_23": 1528699918
-      "Maz\xF3n_24": 1367858958
-      "Maz\xF3n_25": -1450367672
-      "Maz\xF3n_26": -1756902490
-      "Maz\xF3n_27": 1675181827
-      "Maz\xF3n_28": -1469564775
-      "Maz\xF3n_29": -430184557
-      "Maz\xF3n_3": -1872218399
-      "Maz\xF3n_30": 1380290646
-      "Maz\xF3n_31": -786795993
-      "Maz\xF3n_32": 205665457
-      "Maz\xF3n_33": -1389388460
-      "Maz\xF3n_34": 705708129
-      "Maz\xF3n_35": -476106624
-      "Maz\xF3n_36": -1016917079
-      "Maz\xF3n_37": -1757511364
-      "Maz\xF3n_38": 899456665
-      "Maz\xF3n_39": 525505997
-      "Maz\xF3n_4": 1092201150
-      "Maz\xF3n_40": 911635758
-      "Maz\xF3n_41": 455007884
-      "Maz\xF3n_42": -1006040140
-      "Maz\xF3n_43": 732297828
-      "Maz\xF3n_44": -36050747
-      "Maz\xF3n_45": 1395303332
-      "Maz\xF3n_46": 148954032
-      "Maz\xF3n_47": 437852591
-      "Maz\xF3n_48": -183129319
-      "Maz\xF3n_49": -2109063801
-      "Maz\xF3n_5": 548961204
-      "Maz\xF3n_50": 1702757219
-      "Maz\xF3n_51": -764473661
-      "Maz\xF3n_52": -524163835
-      "Maz\xF3n_53": 763451131
-      "Maz\xF3n_54": -925915454
-      "Maz\xF3n_55": 651973106
-      "Maz\xF3n_56": 1280564269
-      "Maz\xF3n_57": 1833308401
-      "Maz\xF3n_58": 1234215365
-      "Maz\xF3n_59": -1799068588
-      "Maz\xF3n_6": -1302547639
-      "Maz\xF3n_60": -1308908507
-      "Maz\xF3n_61": -506394510
-      "Maz\xF3n_62": -1698331230
-      "Maz\xF3n_63": 1399663663
-      "Maz\xF3n_64": -1667656787
-      "Maz\xF3n_65": 864241027
-      "Maz\xF3n_66": 516082497
-      "Maz\xF3n_67": -1630762007
-      "Maz\xF3n_68": -1220234002
-      "Maz\xF3n_69": -2090207946
-      "Maz\xF3n_7": 1830907615
-      "Maz\xF3n_70": 2011313103
-      "Maz\xF3n_8": -2014606052
-      "Maz\xF3n_9": 789829168
+      Walk_0: -1837668912
+      Walk_1: -513686344
+      Walk_10: -316189941
+      Walk_11: 1789978239
+      Walk_12: -2079905550
+      Walk_13: 961461998
+      Walk_14: -1708722071
+      Walk_15: -1975311191
+      Walk_16: -27492997
+      Walk_17: 2138080147
+      Walk_18: -2101504119
+      Walk_19: 207228316
+      Walk_2: -710406256
+      Walk_20: -1185468059
+      Walk_21: -753877246
+      Walk_22: 434385023
+      Walk_23: 832680354
+      Walk_3: 1880774975
+      Walk_4: -1202473839
+      Walk_5: -1209024910
+      Walk_6: -1532047818
+      Walk_7: 1242502335
+      Walk_8: 2069985444
+      Walk_9: -2050436057
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

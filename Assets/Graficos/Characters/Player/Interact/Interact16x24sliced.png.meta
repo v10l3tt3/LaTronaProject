@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eeeafb64f24c3ce429dcfe0290c8363e
+guid: 44cdd2d796f7a4546b43ee4dc9c87d1c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,631 +97,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Maz\xF3n_4"
+      name: Interact_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d17762f04c6cf47862e274d7afeba5
+      internalID: 1883040141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_25
       rect:
         serializedVersion: 2
         x: 16
-        y: 144
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f3a28691acee24dba17f65080d0c82
-      internalID: 1092201150
+      spriteID: f8ea9fcb480186d4d83d1fdd31482f62
+      internalID: -2028203379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_5"
+      name: Interact_26
       rect:
         serializedVersion: 2
         x: 32
-        y: 144
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7180621d8d3162b41b1a77b4a1847e20
-      internalID: 548961204
+      spriteID: 6d7f28fa7db8bdc4dac3c65c386a8ed0
+      internalID: 1148165371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_6"
+      name: Interact_27
       rect:
         serializedVersion: 2
         x: 48
-        y: 144
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ee17819f7d4c54794ba8e554c2242a
-      internalID: -1302547639
+      spriteID: 49a09ed84f3bfc54391b8d12a6d3878f
+      internalID: 37276461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_7"
+      name: Interact_28
       rect:
         serializedVersion: 2
         x: 64
-        y: 144
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e2e19910d5346409eea39e4d2f8391
-      internalID: 1830907615
+      spriteID: efe1bb0eb18db784399b752fcd21b50e
+      internalID: -1666192994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_9"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d01e69310f9e054bbe4c8155b6d860f
-      internalID: 789829168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_10"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba2bf5790e94a9e418eceeb8463b1df7
-      internalID: -170626562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_15"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1ef3ac4f2776684cbbd9e78323775ad
-      internalID: 1054088915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_16"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 391a32f295ea5954a9bee4148e7f4a3d
-      internalID: -1281713612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_17"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df70b0419a9fb26408fbaa6a228ce4b8
-      internalID: 93060562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_18"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34de519e63e81344e820c2b4c8542ecb
-      internalID: -999543173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_20"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdc5d2ccd5b242342a94e7c856d36efd
-      internalID: 1021744118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_21"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c59cc7f1263d014abf13155ff1a3b03
-      internalID: -1791598572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_34"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e49a0e3196c14fb4c9ed83ca2200b77d
-      internalID: 705708129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_35"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a55e3f7e4b436b54c9e32e82a4c31cdf
-      internalID: -476106624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_36"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e01919425dfaf594f89d33841c8051c1
-      internalID: -1016917079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_37"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47ced993487b7d54e99ffa2aa557a79c
-      internalID: -1757511364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_39"
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee7ba995572ab6d4b945ad7b1af63cb6
-      internalID: 525505997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_40"
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22ef1d2a5d176b949a82d468c281a5bf
-      internalID: 911635758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_54"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7243553cac588044d8a3b8cd2ff457ad
-      internalID: -925915454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_55"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eac52a5c9d535374b883b24bad41490c
-      internalID: 651973106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_56"
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2eb2e93275bfc54f97dbe86dc8d243e
-      internalID: 1280564269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_57"
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bfeef51e2428904badb15717035f337
-      internalID: 1833308401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_58"
+      name: Interact_29
       rect:
         serializedVersion: 2
         x: 80
-        y: 48
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2ac014b6b52e0a4f86b9c2466eb1c8d
-      internalID: 1234215365
+      spriteID: bdcdf19e389c06b4f9bbe224ee2e7905
+      internalID: -152846279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_60"
+      name: Interact_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81025311cf98f8148ae383302c3ce9e2
+      internalID: -1229685650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_31
       rect:
         serializedVersion: 2
         x: 112
-        y: 48
+        y: 525
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d33944cb25a93443a06244a983938d4
-      internalID: -1308908507
+      spriteID: 232cf864486cda04bab114257153a8ca
+      internalID: 1276888302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_61"
+      name: Interact_32
       rect:
         serializedVersion: 2
         x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 416480dd94d975f4ca7dc5b23f9a5c51
-      internalID: -506394510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Maz\xF3n_65"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3b2aa771829d94284abe3e9a74f53a
-      internalID: 864241027
+      spriteID: 336576d6159735e41b44cd3af8e79476
+      internalID: -1184285892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_66"
+      name: Interact_33
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
+        x: 144
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e5c27f37c619ec4faada075f71daaa8
-      internalID: 516082497
+      spriteID: 27c629c0a378b994c8f81b2704c79505
+      internalID: 2095195084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_67"
+      name: Interact_34
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
+        x: 160
+        y: 525
         width: 16
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c10e1afc7fe0a54ea8b9e40762e0eae
-      internalID: -1630762007
+      spriteID: a4618a856ea062c47a433dddad766b0d
+      internalID: -1428083571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_69"
+      name: Interact_35
       rect:
         serializedVersion: 2
-        x: 112
-        y: 16
+        x: 176
+        y: 525
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 015ada6f1d190624d9e930446e676805
-      internalID: -2090207946
+      spriteID: 564568b869faaa74da5c63147e9017f0
+      internalID: -1896786871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Maz\xF3n_70"
+      name: Interact_36
       rect:
         serializedVersion: 2
-        x: 128
-        y: 16
+        x: 192
+        y: 525
         width: 16
-        height: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b70db850dd9ed4545b024521c47bc0d5
-      internalID: 2011313103
+      spriteID: 7915e25c92ec76f4bb9dfda157f6c14f
+      internalID: -908817960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0693e3b56e9b9e942aac8062ed2dee7f
+      internalID: -244038110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19946497871c6d4c97411650dd4a64b
+      internalID: 1414590777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05df1fa798c04247904f2867f90e839
+      internalID: -901258673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e7846fd739f7d4aa93e80955257ae3
+      internalID: -818591320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dddbb6a4e95b84295db4a517145130
+      internalID: -406852774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349d93238f32e547a8231e5be680601
+      internalID: 625412289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4bd6d40a4d58e41a7c5102035e60ae
+      internalID: 1484953678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a8c2a702a00764681a3027b589ebef
+      internalID: 1946337154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427a60954db46284a917e90b1c4c22c0
+      internalID: 1751348755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3bb00d0a9501045bdbd067bf69c218
+      internalID: 550930335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interact_47
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1493fcfdff2c93547b76edd5a8337138
+      internalID: 297528851
       vertices: []
       indices: 
       edges: []
@@ -737,77 +611,78 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Maz\xF3n_0": 516368599
-      "Maz\xF3n_1": 200300544
-      "Maz\xF3n_10": -170626562
-      "Maz\xF3n_11": 1961748636
-      "Maz\xF3n_12": 549498557
-      "Maz\xF3n_13": 694160432
-      "Maz\xF3n_14": 1339724349
-      "Maz\xF3n_15": 1054088915
-      "Maz\xF3n_16": -1281713612
-      "Maz\xF3n_17": 93060562
-      "Maz\xF3n_18": -999543173
-      "Maz\xF3n_19": -2129682004
-      "Maz\xF3n_2": 923313079
-      "Maz\xF3n_20": 1021744118
-      "Maz\xF3n_21": -1791598572
-      "Maz\xF3n_22": 1868599179
-      "Maz\xF3n_23": 1528699918
-      "Maz\xF3n_24": 1367858958
-      "Maz\xF3n_25": -1450367672
-      "Maz\xF3n_26": -1756902490
-      "Maz\xF3n_27": 1675181827
-      "Maz\xF3n_28": -1469564775
-      "Maz\xF3n_29": -430184557
-      "Maz\xF3n_3": -1872218399
-      "Maz\xF3n_30": 1380290646
-      "Maz\xF3n_31": -786795993
-      "Maz\xF3n_32": 205665457
-      "Maz\xF3n_33": -1389388460
-      "Maz\xF3n_34": 705708129
-      "Maz\xF3n_35": -476106624
-      "Maz\xF3n_36": -1016917079
-      "Maz\xF3n_37": -1757511364
-      "Maz\xF3n_38": 899456665
-      "Maz\xF3n_39": 525505997
-      "Maz\xF3n_4": 1092201150
-      "Maz\xF3n_40": 911635758
-      "Maz\xF3n_41": 455007884
-      "Maz\xF3n_42": -1006040140
-      "Maz\xF3n_43": 732297828
-      "Maz\xF3n_44": -36050747
-      "Maz\xF3n_45": 1395303332
-      "Maz\xF3n_46": 148954032
-      "Maz\xF3n_47": 437852591
-      "Maz\xF3n_48": -183129319
-      "Maz\xF3n_49": -2109063801
-      "Maz\xF3n_5": 548961204
-      "Maz\xF3n_50": 1702757219
-      "Maz\xF3n_51": -764473661
-      "Maz\xF3n_52": -524163835
-      "Maz\xF3n_53": 763451131
-      "Maz\xF3n_54": -925915454
-      "Maz\xF3n_55": 651973106
-      "Maz\xF3n_56": 1280564269
-      "Maz\xF3n_57": 1833308401
-      "Maz\xF3n_58": 1234215365
-      "Maz\xF3n_59": -1799068588
-      "Maz\xF3n_6": -1302547639
-      "Maz\xF3n_60": -1308908507
-      "Maz\xF3n_61": -506394510
-      "Maz\xF3n_62": -1698331230
-      "Maz\xF3n_63": 1399663663
-      "Maz\xF3n_64": -1667656787
-      "Maz\xF3n_65": 864241027
-      "Maz\xF3n_66": 516082497
-      "Maz\xF3n_67": -1630762007
-      "Maz\xF3n_68": -1220234002
-      "Maz\xF3n_69": -2090207946
-      "Maz\xF3n_7": 1830907615
-      "Maz\xF3n_70": 2011313103
-      "Maz\xF3n_8": -2014606052
-      "Maz\xF3n_9": 789829168
+      Interact_0: -411207372
+      Interact_1: -1279259291
+      Interact_10: -966787357
+      Interact_11: 103949564
+      Interact_12: -1110240259
+      Interact_13: 1433177174
+      Interact_14: 126147926
+      Interact_15: -1861754245
+      Interact_16: -1121736101
+      Interact_17: 923926806
+      Interact_18: -814146941
+      Interact_19: 798925927
+      Interact_2: -779928597
+      Interact_20: -548468087
+      Interact_21: -981912760
+      Interact_22: 1913541486
+      Interact_23: 1380495558
+      Interact_24: 1883040141
+      Interact_25: -2028203379
+      Interact_26: 1148165371
+      Interact_27: 37276461
+      Interact_28: -1666192994
+      Interact_29: -152846279
+      Interact_3: -1227784583
+      Interact_30: -1229685650
+      Interact_31: 1276888302
+      Interact_32: -1184285892
+      Interact_33: 2095195084
+      Interact_34: -1428083571
+      Interact_35: -1896786871
+      Interact_36: -908817960
+      Interact_37: -244038110
+      Interact_38: 1414590777
+      Interact_39: -901258673
+      Interact_4: 25198773
+      Interact_40: -818591320
+      Interact_41: -406852774
+      Interact_42: 625412289
+      Interact_43: 1484953678
+      Interact_44: 1946337154
+      Interact_45: 1751348755
+      Interact_46: 550930335
+      Interact_47: 297528851
+      Interact_48: -1555908929
+      Interact_49: 1945283066
+      Interact_5: -108304684
+      Interact_50: -666610825
+      Interact_51: 2122145046
+      Interact_52: -2048404110
+      Interact_53: -825848393
+      Interact_54: -725547456
+      Interact_55: -1876024301
+      Interact_56: 514582091
+      Interact_57: -264068995
+      Interact_58: -1233741539
+      Interact_59: 517969837
+      Interact_6: 824764013
+      Interact_60: 1719626282
+      Interact_61: -1558217974
+      Interact_62: 1896438654
+      Interact_63: 679242693
+      Interact_64: 1256494260
+      Interact_65: -1098363644
+      Interact_66: 1399755545
+      Interact_67: 8878992
+      Interact_68: -1543696845
+      Interact_69: -1400095692
+      Interact_7: -375984636
+      Interact_70: -2102307337
+      Interact_71: -522924313
+      Interact_8: 696960030
+      Interact_9: 857347234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

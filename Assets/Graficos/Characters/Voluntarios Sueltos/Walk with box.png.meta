@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3198c51280ebb9745a21ab0978190d3a
+guid: db2e204e88121584b80209860b634d1e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -21,7 +21,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -54,7 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 7
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -71,13 +71,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-<<<<<<< HEAD:Assets/Graficos/Characters/Player/Interact/Interact.png.meta
     textureFormat: -1
     textureCompression: 0
-=======
-    textureFormat: 4
-    textureCompression: 1
->>>>>>> d6d546cfd2cd9cc6e7e9499b99c8e804de1324f0:Assets/UI Recursos/1 cursor.png.meta
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,475 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interact_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 798f280830700bb4cb7dbf78c67cff71
-      internalID: 1470912584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_25
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8565995ecb77f3f48984622d2ff219cd
-      internalID: 130692238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_26
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 525
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d2f5fefa8ebcca4a867b8b2b3b73fe3
-      internalID: -1749856618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_27
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad827e21c490f5d4d843095f74743b41
-      internalID: 1480165128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_28
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fba8ce4bfbcac194b9de1ac3cdfefb75
-      internalID: -1971159929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_29
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4631eac41ffa954428e617bc6b03bc0a
-      internalID: 124376689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_30
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b2d82f56fb95d2479edafce5f0489d9
-      internalID: -2094442384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_31
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf6adb6470e84ed459b8fc52cd7272da
-      internalID: -1569988274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_32
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 525
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c46701af935c77943a25ff30db9c04f2
-      internalID: -1679988441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_33
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5f3de21a1cac934a9b9ba94a4771c39
-      internalID: 2024882217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_34
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87a82e6502cf047418c019874444f6b7
-      internalID: -398059455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_35
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8069c509178a78746b052d4372ac43db
-      internalID: 1284851824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_36
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e55d5d98f25fdb8449a1a166ecf37342
-      internalID: 725409411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_37
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3901656722dfc4d4ca2b3af6532c06b8
-      internalID: -1201008532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_38
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 525
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 568644aa65416454ea2d410c936d4bd7
-      internalID: -1624371496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_39
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3d0d4d9219d95540897c43d8bf67254
-      internalID: 1929957110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_40
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f016c80707c08c498437e819603990f
-      internalID: -437115937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_41
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f31b220c41e0cff4095f746ee9dfa3c9
-      internalID: 104766833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_42
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 951582950c23c4f4f9174011a032df5c
-      internalID: 1361962636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_43
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc1399f97c643d14bb7619d1053978dd
-      internalID: -1242396988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_44
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 525
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89964b28d971b9d468d3e2bc06662025
-      internalID: -866398885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_45
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 525
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af9046bdfcab1d9438c1e30096c56ecd
-      internalID: -1444889861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interact_46
+      name: Walk with box_18
       rect:
         serializedVersion: 2
         x: 352
-        y: 525
+        y: 336
         width: 16
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 109757351a91bd94389475c53885f4fd
-      internalID: -600172880
+      spriteID: f38f397dcba42d74f8a59d94890898ed
+      internalID: 450306244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interact_47
+      name: Walk with box_19
       rect:
         serializedVersion: 2
         x: 368
-        y: 525
+        y: 336
         width: 16
-        height: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,8 +132,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a43f080170c494b45ba8fa2cd0ab4b10
-      internalID: 1813107369
+      spriteID: 558543cc95add724eacf0e8edd257577
+      internalID: 86131027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5daebc71a29fa34d8295a37c26ab1c3
+      internalID: 2114256760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76142ef4d734e54191f778f55fa8fd1
+      internalID: 1570837440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9020c19cb7c212441b8f40c32b9820f2
+      internalID: -288898583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_23
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e270dc100eb8a4e97432f691d55281
+      internalID: 411967729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42984245deb6dde4caeb95153be329d2
+      internalID: -908681722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b872f80b2d0c8ab40a3d731eed45858a
+      internalID: 589420187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b03e611ed23164f8e62fd7068efaf9
+      internalID: 263961096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_27
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1a19ac86f8458408e7ecc0150cee99
+      internalID: 1620568200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ead0aae4213c44e93c062f48965219
+      internalID: -1810919413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefbddbe5f405c241b2d17cbfef64f56
+      internalID: -183372355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d201e8fcdeca44e977e69513a6d5e4
+      internalID: 1044756936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9667d1e29ebc147852c04dd64b7202
+      internalID: -1555681083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_32
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b82e294baae84f8a69b664fdceb37
+      internalID: 665611850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_33
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0d1dd854363134cad8095b2ecacc40
+      internalID: -1108678981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e75cfc8f538f7249a8cc18316945fd8
+      internalID: 1644426662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with box_35
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 336
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d88069be8e9c447804f79e656688d0
+      internalID: 989212763
       vertices: []
       indices: 
       edges: []
@@ -616,78 +485,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Interact_0: 521841214
-      Interact_1: -1986553726
-      Interact_10: 618784273
-      Interact_11: 1829153721
-      Interact_12: 254884942
-      Interact_13: 1077639342
-      Interact_14: -496340336
-      Interact_15: 402360338
-      Interact_16: 1935223302
-      Interact_17: 1679693843
-      Interact_18: -1506308781
-      Interact_19: 74165559
-      Interact_2: 857973518
-      Interact_20: 1189333835
-      Interact_21: 1883818286
-      Interact_22: -1009880148
-      Interact_23: 219997640
-      Interact_24: 1470912584
-      Interact_25: 130692238
-      Interact_26: -1749856618
-      Interact_27: 1480165128
-      Interact_28: -1971159929
-      Interact_29: 124376689
-      Interact_3: 2027758049
-      Interact_30: -2094442384
-      Interact_31: -1569988274
-      Interact_32: -1679988441
-      Interact_33: 2024882217
-      Interact_34: -398059455
-      Interact_35: 1284851824
-      Interact_36: 725409411
-      Interact_37: -1201008532
-      Interact_38: -1624371496
-      Interact_39: 1929957110
-      Interact_4: -2090195414
-      Interact_40: -437115937
-      Interact_41: 104766833
-      Interact_42: 1361962636
-      Interact_43: -1242396988
-      Interact_44: -866398885
-      Interact_45: -1444889861
-      Interact_46: -600172880
-      Interact_47: 1813107369
-      Interact_48: 1044997284
-      Interact_49: -586409604
-      Interact_5: -1281132993
-      Interact_50: -1341015921
-      Interact_51: -1834469656
-      Interact_52: 966915299
-      Interact_53: 1555660231
-      Interact_54: -381734136
-      Interact_55: 60018156
-      Interact_56: 185753792
-      Interact_57: 752296862
-      Interact_58: -708216545
-      Interact_59: 798014626
-      Interact_6: -1587251150
-      Interact_60: -1529093985
-      Interact_61: -1451023555
-      Interact_62: -1016877969
-      Interact_63: -847308923
-      Interact_64: -1791526427
-      Interact_65: 1585372788
-      Interact_66: -1283367208
-      Interact_67: -1459818322
-      Interact_68: -1443015214
-      Interact_69: 567432456
-      Interact_7: 1499703856
-      Interact_70: -1664751528
-      Interact_71: 2078968321
-      Interact_8: 1814586657
-      Interact_9: 1956699117
+      Walk with box_0: -201841117
+      Walk with box_1: -1331933735
+      Walk with box_10: -1789855948
+      Walk with box_11: -569842500
+      Walk with box_12: 1217407343
+      Walk with box_13: -997639844
+      Walk with box_14: 541326446
+      Walk with box_15: 311937057
+      Walk with box_16: 1893921763
+      Walk with box_17: -202431566
+      Walk with box_18: 450306244
+      Walk with box_19: 86131027
+      Walk with box_2: -281177999
+      Walk with box_20: 2114256760
+      Walk with box_21: 1570837440
+      Walk with box_22: -288898583
+      Walk with box_23: 411967729
+      Walk with box_24: -908681722
+      Walk with box_25: 589420187
+      Walk with box_26: 263961096
+      Walk with box_27: 1620568200
+      Walk with box_28: -1810919413
+      Walk with box_29: -183372355
+      Walk with box_3: -2125156394
+      Walk with box_30: 1044756936
+      Walk with box_31: -1555681083
+      Walk with box_32: 665611850
+      Walk with box_33: -1108678981
+      Walk with box_34: 1644426662
+      Walk with box_35: 989212763
+      Walk with box_4: 1321077733
+      Walk with box_5: -563141969
+      Walk with box_6: 1165896879
+      Walk with box_7: -1640416917
+      Walk with box_8: -581656339
+      Walk with box_9: 749282089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
