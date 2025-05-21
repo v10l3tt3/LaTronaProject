@@ -7,10 +7,15 @@ public class MenuUI : MonoBehaviour
 {
     GameObject mainPanel;
     GameObject settingsPanel;
+
+    GameObject controlsPanel;
     void Start()
     {
         settingsPanel = GameObject.Find("SettingsPanel");
         settingsPanel.SetActive(false);
+
+        controlsPanel = GameObject.Find("ControlsPanel");
+        controlsPanel.SetActive(false);
     }
 
     
@@ -34,6 +39,18 @@ public class MenuUI : MonoBehaviour
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
         settingsPanel.SetActive(false);
+    }
+
+    public void ShowControls()
+    {
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonIn);
+        controlsPanel.SetActive(true);
+    }
+
+    public void HideControls()
+    {
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
+        controlsPanel.SetActive(false);
     }
 
     public void ExitGame()
