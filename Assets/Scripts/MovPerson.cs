@@ -29,7 +29,7 @@ public class MovPerson : MonoBehaviour
         playerRb = this.GetComponent<Rigidbody2D>();
 
         //animaciones APROX2
-        //playerAnimator = this.GetComponent<Animator>();
+        playerAnimator = this.GetComponent<Animator>();
     }
     void FixedUpdate()
     {
@@ -63,9 +63,9 @@ public class MovPerson : MonoBehaviour
       
 
         //PARA HACER animaciones APROX2
-        //playerAnimator.SetFloat("Horizontal", moveX);
-        //playerAnimator.SetFloat("Vertical", moveY);
-        //playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
+        playerAnimator.SetFloat("Horizontal", moveX);
+        playerAnimator.SetFloat("Vertical", moveY);
+        playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
        
     }
 
