@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 5277413d4c00c7045b4da20aac5a1f87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Voluntarios mapa_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 436
+        width: 107
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc1d903d43021c479e7be4230958af0
+      internalID: -312484482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios mapa_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 435
+        width: 107
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19baae1b6395844393d6339912aa6f2
+      internalID: -387148213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios mapa_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 433
+        width: 107
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6fc6a9160bd24cb52e3ebd845b878
+      internalID: 48306779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios mapa_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 438
+        width: 107
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba79f8a8e6003c4c833f4f19b394de7
+      internalID: -184199737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios mapa_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 441
+        width: 107
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504dc177d75d4c14cb6a0ed5c7d81400
+      internalID: 1602945036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Voluntarios mapa_0: -184199737
+      Voluntarios mapa_1: -1796951766
+      Voluntarios mapa_10: -473487123
+      Voluntarios mapa_100: -724560992
+      Voluntarios mapa_101: 131213334
+      Voluntarios mapa_102: -1848098398
+      Voluntarios mapa_103: 1432876847
+      Voluntarios mapa_104: 1216948054
+      Voluntarios mapa_105: -2132530204
+      Voluntarios mapa_106: 2110263271
+      Voluntarios mapa_107: 1949164425
+      Voluntarios mapa_108: 1126689054
+      Voluntarios mapa_109: -1436445508
+      Voluntarios mapa_11: -100701923
+      Voluntarios mapa_110: -1728050835
+      Voluntarios mapa_111: -1646952867
+      Voluntarios mapa_112: -727799065
+      Voluntarios mapa_113: -85982548
+      Voluntarios mapa_114: -1220950989
+      Voluntarios mapa_115: -639015835
+      Voluntarios mapa_116: -667522896
+      Voluntarios mapa_117: 1043441145
+      Voluntarios mapa_118: -1529978190
+      Voluntarios mapa_119: -965412045
+      Voluntarios mapa_12: -1146631440
+      Voluntarios mapa_120: -727712872
+      Voluntarios mapa_121: -2062701061
+      Voluntarios mapa_122: -1794548965
+      Voluntarios mapa_123: 1661235820
+      Voluntarios mapa_124: -801841861
+      Voluntarios mapa_125: -1034771443
+      Voluntarios mapa_126: 1675062303
+      Voluntarios mapa_127: 1910529866
+      Voluntarios mapa_128: 1513581383
+      Voluntarios mapa_129: -333867984
+      Voluntarios mapa_13: 1514885005
+      Voluntarios mapa_130: 272002197
+      Voluntarios mapa_131: -1817427390
+      Voluntarios mapa_132: -2063263477
+      Voluntarios mapa_133: 66269387
+      Voluntarios mapa_134: 806092947
+      Voluntarios mapa_135: 387488086
+      Voluntarios mapa_136: 1722975701
+      Voluntarios mapa_137: 881213715
+      Voluntarios mapa_138: -1766079198
+      Voluntarios mapa_139: -1090725090
+      Voluntarios mapa_14: -260719156
+      Voluntarios mapa_140: 271880673
+      Voluntarios mapa_141: 654001184
+      Voluntarios mapa_142: -221742512
+      Voluntarios mapa_143: 513359674
+      Voluntarios mapa_144: -609061735
+      Voluntarios mapa_145: -1227410334
+      Voluntarios mapa_146: 459962842
+      Voluntarios mapa_147: -2018841675
+      Voluntarios mapa_148: 1736550325
+      Voluntarios mapa_149: 1066647073
+      Voluntarios mapa_15: 1293428123
+      Voluntarios mapa_150: 1817263139
+      Voluntarios mapa_151: -976935762
+      Voluntarios mapa_152: 1713602163
+      Voluntarios mapa_153: -1765494223
+      Voluntarios mapa_154: 1003986985
+      Voluntarios mapa_155: -1605583813
+      Voluntarios mapa_156: -948239199
+      Voluntarios mapa_157: 789584123
+      Voluntarios mapa_158: 1015259891
+      Voluntarios mapa_159: 766190462
+      Voluntarios mapa_16: -1128247592
+      Voluntarios mapa_160: -1275948325
+      Voluntarios mapa_161: -1442932652
+      Voluntarios mapa_162: -1492948412
+      Voluntarios mapa_163: -2102625541
+      Voluntarios mapa_164: 1329718682
+      Voluntarios mapa_165: 445463307
+      Voluntarios mapa_166: -1232580827
+      Voluntarios mapa_167: -1984628858
+      Voluntarios mapa_168: 1178710998
+      Voluntarios mapa_169: 300695136
+      Voluntarios mapa_17: 877469121
+      Voluntarios mapa_170: -407643470
+      Voluntarios mapa_171: -838827233
+      Voluntarios mapa_172: 1023802720
+      Voluntarios mapa_173: 420017664
+      Voluntarios mapa_174: -125124920
+      Voluntarios mapa_175: 2142221939
+      Voluntarios mapa_18: -328088421
+      Voluntarios mapa_19: 525081343
+      Voluntarios mapa_2: 1602945036
+      Voluntarios mapa_20: -447386007
+      Voluntarios mapa_21: -358708698
+      Voluntarios mapa_22: -60052283
+      Voluntarios mapa_23: 859346370
+      Voluntarios mapa_24: 1782611639
+      Voluntarios mapa_25: -1577397166
+      Voluntarios mapa_26: -1120924840
+      Voluntarios mapa_27: 495083118
+      Voluntarios mapa_28: -1014931589
+      Voluntarios mapa_29: -1281545039
+      Voluntarios mapa_3: -387148213
+      Voluntarios mapa_30: -806340336
+      Voluntarios mapa_31: -1053902383
+      Voluntarios mapa_32: -202731424
+      Voluntarios mapa_33: -172472061
+      Voluntarios mapa_34: 318418033
+      Voluntarios mapa_35: 1689259279
+      Voluntarios mapa_36: 1396667378
+      Voluntarios mapa_37: 1000186480
+      Voluntarios mapa_38: 931164413
+      Voluntarios mapa_39: -1022717876
+      Voluntarios mapa_4: 48306779
+      Voluntarios mapa_40: 2076757917
+      Voluntarios mapa_41: -303869747
+      Voluntarios mapa_42: -431448307
+      Voluntarios mapa_43: 891224772
+      Voluntarios mapa_44: 289787811
+      Voluntarios mapa_45: 860336683
+      Voluntarios mapa_46: -1437555735
+      Voluntarios mapa_47: -1113742817
+      Voluntarios mapa_48: 1390816819
+      Voluntarios mapa_49: 1317173305
+      Voluntarios mapa_5: -993990701
+      Voluntarios mapa_50: -1681277488
+      Voluntarios mapa_51: 964750109
+      Voluntarios mapa_52: 2107319961
+      Voluntarios mapa_53: -51375787
+      Voluntarios mapa_54: -1481581303
+      Voluntarios mapa_55: -1628958803
+      Voluntarios mapa_56: -1149457525
+      Voluntarios mapa_57: 593487190
+      Voluntarios mapa_58: 1356065365
+      Voluntarios mapa_59: -87460470
+      Voluntarios mapa_6: -312484482
+      Voluntarios mapa_60: -108152228
+      Voluntarios mapa_61: -995809806
+      Voluntarios mapa_62: 91694986
+      Voluntarios mapa_63: 1555151518
+      Voluntarios mapa_64: -838236049
+      Voluntarios mapa_65: -705955147
+      Voluntarios mapa_66: -680355981
+      Voluntarios mapa_67: -1226765914
+      Voluntarios mapa_68: 1436401076
+      Voluntarios mapa_69: -1372509859
+      Voluntarios mapa_7: -979272463
+      Voluntarios mapa_70: -1801623582
+      Voluntarios mapa_71: -863833491
+      Voluntarios mapa_72: 1121969965
+      Voluntarios mapa_73: 1669756172
+      Voluntarios mapa_74: -1887278898
+      Voluntarios mapa_75: -798344787
+      Voluntarios mapa_76: -380169164
+      Voluntarios mapa_77: -1182275549
+      Voluntarios mapa_78: 898787440
+      Voluntarios mapa_79: -652928222
+      Voluntarios mapa_8: 156696271
+      Voluntarios mapa_80: -972299436
+      Voluntarios mapa_81: 57598783
+      Voluntarios mapa_82: 353765206
+      Voluntarios mapa_83: 1427473064
+      Voluntarios mapa_84: -1201679649
+      Voluntarios mapa_85: -1035263165
+      Voluntarios mapa_86: -1620309754
+      Voluntarios mapa_87: 571131866
+      Voluntarios mapa_88: 276766303
+      Voluntarios mapa_89: -1175464895
+      Voluntarios mapa_9: -2136942142
+      Voluntarios mapa_90: -72841217
+      Voluntarios mapa_91: 1914463094
+      Voluntarios mapa_92: -1984854380
+      Voluntarios mapa_93: -780521931
+      Voluntarios mapa_94: -2063322458
+      Voluntarios mapa_95: 1334906042
+      Voluntarios mapa_96: -1474175059
+      Voluntarios mapa_97: 228126777
+      Voluntarios mapa_98: 819464357
+      Voluntarios mapa_99: -926934477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
