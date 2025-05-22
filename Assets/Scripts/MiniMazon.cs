@@ -21,15 +21,28 @@ public class MiniMazon : MonoBehaviour
     //private int impactos = 0;
     private SpriteRenderer spriteRenderer;
 
-    float movTeclas;
+    //CONTRA MOVPERSO
+    //float movTeclas;
 
-    public float velocidadM = 5f;
-    public float multiplicadorM = 5f;
+    //CONTRA MOVPERSO
+    public float velocidadM = 1f;
+    //CONTRA MOVPERSO
+    //public float multiplicadorM = 5f;
 
-    private Animator animatorController;
+    //CONTRA MOVPERSO
+    //private Vector2 moveInput;
+
+    //PATROL AUTO
+    public GameObject PuntoA;
+    public GameObject PuntoB;
+
+    private Transform currentPoint;
+
     private Rigidbody2D mRb;
-    private Vector2 moveInput;
-    
+    private Animator animatorController;
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,18 +57,21 @@ public class MiniMazon : MonoBehaviour
 
         mRb = this.GetComponent<Rigidbody2D>();
         animatorController = this.GetComponent<Animator>();
+
+        currentPoint = PuntoA.transform;
+        animatorController.SetBool("WalkM", true);
     }
 
     void FixedUpdate()
     {
-        mRb.MovePosition(mRb.position + moveInput * velocidadM * Time.fixedDeltaTime);  
+        //contramovperso mRb.MovePosition(mRb.position + moveInput * velocidadM * Time.fixedDeltaTime);  
     }
 
     void Update()
     {
         float miDeltaTime = Time.deltaTime;
 
-        transform.Translate(
+        /*transform.Translate(
              movTeclas *  (Time.deltaTime * -multiplicadorM),
              0,
              0
@@ -70,7 +86,29 @@ public class MiniMazon : MonoBehaviour
         else
         {
             animatorController.SetBool("WalkM", false);
+        }*/
+
+        //PATROL AUTO
+        Vector2 point = currentPoint.position - transform.position;
+        if (currentPoint == PuntoB.transform)
+        {
+            mRb.velocity = new Vector2(velocidadM, 0f);
         }
+        else
+        {
+            mRb.velocity = new Vector2(-velocidadM, 0f);
+        }
+
+        if (Vector2.Distance(transform.position, currentPoint.position) < 1.5f == PuntoB.transform)
+        {
+            currentPoint = PuntoA.transform;
+        }
+
+        if (Vector2.Distance(transform.position, currentPoint.position) < 1.5f == PuntoA.transform)
+        {
+            currentPoint = PuntoB.transform;
+        }
+       
     } 
 
     /*public void RecibirImpacto()
