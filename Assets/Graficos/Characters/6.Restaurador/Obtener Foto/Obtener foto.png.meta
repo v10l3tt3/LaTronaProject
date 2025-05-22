@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 755a0fe09862ee747919bc6638a36365
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Obtener foto_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4d3ee64cc70574991d6db86e514a86
+      internalID: -88542005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_38
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8de35af64efb264eb349a806ea7fa61
+      internalID: -1127821793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb53c8e735916642a28a5630677cfad
+      internalID: 1942266507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec833e9e106930541b5609b92e608d57
+      internalID: 1129611024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_41
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f17a8c07038e145a1e5818f3af4ef6
+      internalID: -1997636126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_42
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1c41d5d93596e43a01829bd8828267
+      internalID: 565281910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93181ce413ca98745b4aa26c818ae1f0
+      internalID: 1334166693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896393c85987f1a45b3c42ec29c9b345
+      internalID: -1012665890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80ba49bfc61264cb05536b81118d26
+      internalID: -1754759976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_46
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7717582f2161f74093efbeeee3f44f9
+      internalID: 1525762117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1327b571840342ba87e78ece5a7aa
+      internalID: -759780418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_48
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284704901b421de49adb154b7289832a
+      internalID: 890966889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea08701307f2da04a81816f1592babd2
+      internalID: 1214079233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_50
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea6bee10cf1b624ea6047f1dcba2423
+      internalID: 606925181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910803bc87f22ed479331987b5a15652
+      internalID: -871634067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_52
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c01810bff419049a4163967c20457b
+      internalID: -257929174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d00b80fb663e4f4c9417456bf0e2a3e
+      internalID: -1706899603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_54
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a4dc385160494487326c2202d8d78
+      internalID: -948975148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69e8b39081e0224d86f3f9462bf103a
+      internalID: 1563436734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_56
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a7b988b0a40524b9cfb6a02c7656c9
+      internalID: -652995696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_57
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6e46b31cc35c740bc440f5fef9dadc
+      internalID: -1735595793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_58
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0c3d97cc7086f42b370861a6c65727
+      internalID: -703112821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_59
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd34a2b2c65a574e91462f1f6a28d46
+      internalID: 892941732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_60
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ed0863bc3cd984dac7150e11c353d7
+      internalID: -1130645998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_61
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 525
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f638324eb4eb91d448900baa2c1a318c
+      internalID: -1233804642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_63
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d84658678c02c44ca2e611ecf328a6c
+      internalID: 1574810291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_64
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9c371f3c0c2b548bf78b8b2342811c
+      internalID: -1802215347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_65
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51a2fe954b41d4bacfea9dfe9d909e
+      internalID: -1409810493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_66
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a039f8436a850846b40586be13a1c40
+      internalID: -761417145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_67
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63047f80de06724b9ea1ed913540193
+      internalID: -1163344969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obtener foto_68
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 525
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec96dce9e3f2ee4baa9557043aea90b
+      internalID: 487828576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Obtener foto_0: -1924424648
+      Obtener foto_1: 1695847077
+      Obtener foto_10: -940821787
+      Obtener foto_100: -514472043
+      Obtener foto_11: -812518696
+      Obtener foto_12: -243452152
+      Obtener foto_13: -1529909302
+      Obtener foto_14: -1151576704
+      Obtener foto_15: -777043313
+      Obtener foto_16: 1770924939
+      Obtener foto_17: 606876484
+      Obtener foto_18: -1063071305
+      Obtener foto_19: 605807518
+      Obtener foto_2: 415529122
+      Obtener foto_20: 1512059384
+      Obtener foto_21: 1183336910
+      Obtener foto_22: 1582992505
+      Obtener foto_23: 556504786
+      Obtener foto_24: 1506060772
+      Obtener foto_25: -1179905124
+      Obtener foto_26: -622412238
+      Obtener foto_27: -20169850
+      Obtener foto_28: -925838709
+      Obtener foto_29: -313248586
+      Obtener foto_3: -278442328
+      Obtener foto_30: -1379506908
+      Obtener foto_31: -16904846
+      Obtener foto_32: -1641411166
+      Obtener foto_33: -656238030
+      Obtener foto_34: -1880797667
+      Obtener foto_35: 1643241994
+      Obtener foto_36: 1787385291
+      Obtener foto_37: -88542005
+      Obtener foto_38: -1127821793
+      Obtener foto_39: 1942266507
+      Obtener foto_4: -748751650
+      Obtener foto_40: 1129611024
+      Obtener foto_41: -1997636126
+      Obtener foto_42: 565281910
+      Obtener foto_43: 1334166693
+      Obtener foto_44: -1012665890
+      Obtener foto_45: -1754759976
+      Obtener foto_46: 1525762117
+      Obtener foto_47: -759780418
+      Obtener foto_48: 890966889
+      Obtener foto_49: 1214079233
+      Obtener foto_5: 2045662964
+      Obtener foto_50: 606925181
+      Obtener foto_51: -871634067
+      Obtener foto_52: -257929174
+      Obtener foto_53: -1706899603
+      Obtener foto_54: -948975148
+      Obtener foto_55: 1563436734
+      Obtener foto_56: -652995696
+      Obtener foto_57: -1735595793
+      Obtener foto_58: -703112821
+      Obtener foto_59: 892941732
+      Obtener foto_6: -1528452486
+      Obtener foto_60: -1130645998
+      Obtener foto_61: -1233804642
+      Obtener foto_62: -1980911875
+      Obtener foto_63: 1574810291
+      Obtener foto_64: -1802215347
+      Obtener foto_65: -1409810493
+      Obtener foto_66: -761417145
+      Obtener foto_67: -1163344969
+      Obtener foto_68: 487828576
+      Obtener foto_69: -1619174429
+      Obtener foto_7: -1719827514
+      Obtener foto_70: 1956040227
+      Obtener foto_71: -57436458
+      Obtener foto_72: 1778099145
+      Obtener foto_73: 1136381603
+      Obtener foto_74: -171409459
+      Obtener foto_75: 1908642941
+      Obtener foto_76: -768040162
+      Obtener foto_77: 31159787
+      Obtener foto_78: 1379096068
+      Obtener foto_79: -1051958121
+      Obtener foto_8: -582816690
+      Obtener foto_80: -331690017
+      Obtener foto_81: -1346466245
+      Obtener foto_82: -2014245891
+      Obtener foto_83: 959410782
+      Obtener foto_84: -1542061136
+      Obtener foto_85: 1530248235
+      Obtener foto_86: -876491091
+      Obtener foto_87: 1626487187
+      Obtener foto_88: -718030400
+      Obtener foto_89: 689293148
+      Obtener foto_9: 1972688249
+      Obtener foto_90: 837335858
+      Obtener foto_91: -395809982
+      Obtener foto_92: -855540232
+      Obtener foto_93: 1563668992
+      Obtener foto_94: 1930026568
+      Obtener foto_95: -1275032478
+      Obtener foto_96: 2044213001
+      Obtener foto_97: -753870626
+      Obtener foto_98: -975228278
+      Obtener foto_99: 247579736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
