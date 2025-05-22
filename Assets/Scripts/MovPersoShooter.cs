@@ -11,6 +11,8 @@ public class MovPersoShooter : MonoBehaviour
     private Animator animatorController;
     private Rigidbody2D playerRb;
     private Vector2 moveInput;
+
+    public bool miraDerecha = true;
     void Start()
     {
         playerRb = this.GetComponent<Rigidbody2D>();
@@ -30,7 +32,7 @@ public class MovPersoShooter : MonoBehaviour
         //MOVIMIENTO
         float movTeclas = Input.GetAxis("Horizontal");
 
-        float moveX = Input.GetAxisRaw("Horizontal");
+        //float moveX = Input.GetAxisRaw("Horizontal");
 
         transform.Translate(
              movTeclas * (Time.deltaTime * multiplicador),
@@ -38,9 +40,24 @@ public class MovPersoShooter : MonoBehaviour
              0
         );
 
-        //ANIMACIONES
-        animatorController.SetFloat("Horizontal", moveX);
-        animatorController.SetFloat("Speed", moveInput.sqrMagnitude);
+        //Animacion IDLE TO WALKING
+        if (movTeclas != 0)
+        {
+            animatorController.SetBool("WalkH", true);
+        }
+        else
+        {
+            animatorController.SetBool("WalkH", false);
+        }
+        
+        //Aprox2 de FLIP(ambas direcciones)
+        if(movTeclas < 0){
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            miraDerecha = false;
+        }else if(movTeclas > 0){
+            this.GetComponent<SpriteRenderer>().flipX = false;
+            miraDerecha = true;
+        }
 
     }
 }
