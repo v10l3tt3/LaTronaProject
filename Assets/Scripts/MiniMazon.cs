@@ -21,6 +21,16 @@ public class MiniMazon : MonoBehaviour
     //private int impactos = 0;
     private SpriteRenderer spriteRenderer;
 
+    float movTeclas;
+
+    public float velocidadM = 5f;
+    public float multiplicadorM = 5f;
+
+    private Animator animatorController;
+    private Rigidbody2D mRb;
+    private Vector2 moveInput;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +41,37 @@ public class MiniMazon : MonoBehaviour
         //spriteRenderer.sprite = spriteLimpio; 
 
         //_audioSource = this.GetComponent<AudioSource>();
+
+        mRb = this.GetComponent<Rigidbody2D>();
+        animatorController = this.GetComponent<Animator>();
     }
+
+    void FixedUpdate()
+    {
+        mRb.MovePosition(mRb.position + moveInput * velocidadM * Time.fixedDeltaTime);  
+    }
+
+    void Update()
+    {
+        float miDeltaTime = Time.deltaTime;
+
+        transform.Translate(
+             movTeclas *  (Time.deltaTime * -multiplicadorM),
+             0,
+             0
+        );
+
+        //Animacion IDLE TO WALKING 
+        movTeclas = Input.GetAxis("Horizontal");
+        if (movTeclas != 0)
+        {
+            animatorController.SetBool("WalkM", true);
+        }
+        else
+        {
+            animatorController.SetBool("WalkM", false);
+        }
+    } 
 
     /*public void RecibirImpacto()
     {
