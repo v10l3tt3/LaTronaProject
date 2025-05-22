@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class PoliciaScript : MonoBehaviour
 {
-    public float poliSpeed = 1f;
+    /// <summary>
+    //public float poliSpeed = 1f;
+    /// </summary>
 
-    float timeIsP;
-    float changeTime = 0.2f;
+    //float timeIsP;
+    //float changeTime = 0.2f;
 
     
     
@@ -16,7 +18,7 @@ public class PoliciaScript : MonoBehaviour
     AudioSource _audioSourcePoli;
     void Start()
     {
-        timeIsP = Time.time;
+        //timeIsP = Time.time;
         _audioSourcePoli = GetComponent<AudioSource>();
 
     }
