@@ -69,10 +69,11 @@ public class BarroScript : MonoBehaviour
 
         if (colBS.gameObject.tag == "Mazon")
         {
-    
 
-            Destroy(colBS.gameObject, 0.1f);
+
+            //Destroy(colBS.gameObject, 0.1f);
             GameManager.vidasMazon -= 1;
+            Destroy(this.gameObject, 0.5f);
         
         }
 
@@ -81,21 +82,21 @@ public class BarroScript : MonoBehaviour
 
         if (colBS.gameObject.tag == "Policia")
         {
-        //poner FX audio daño policia
-        //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.poliDolorFX);
+            //poner FX audio daño policia
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.poliDolorFX);
 
-        //animacion de muerte PROVISIONAL
-        colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatal", true);
-        colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatalOther", true);
-
-        //para que se queden quietos al morir
+            //para que se queden quietos al morir
             Rigidbody2D rb = colBS.gameObject.GetComponent<Rigidbody2D>();
             rb.constraints = RigidbodyConstraints2D.FreezePositionX;
             rb.constraints = RigidbodyConstraints2D.FreezePositionY;
+        
+            //animacion de muerte PROVISIONAL
+            colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatal", true);
+            colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatalOther", true);
 
-        Destroy(colBS.gameObject, 1.1f);
-        //GameManager.poliKills += 1;
-        Destroy(this.gameObject, 3.1f);
+            Destroy(colBS.gameObject, 3.1f);
+            //GameManager.poliKills += 1;
+            Destroy(this.gameObject, 0.5f);
         }
 
     }
