@@ -83,7 +83,7 @@ public class BarroScript : MonoBehaviour
         if (colBS.gameObject.tag == "Policia")
         {
             //poner FX audio daño policia
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.poliDolorFX);
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.poliDolorOinkFX);
 
             //para que se queden quietos al morir
             Rigidbody2D rb = colBS.gameObject.GetComponent<Rigidbody2D>();
@@ -94,7 +94,7 @@ public class BarroScript : MonoBehaviour
             colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatal", true);
             colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatalOther", true);
 
-            Destroy(colBS.gameObject, 3.1f);
+            Destroy(colBS.gameObject, 2.6f);
             //GameManager.poliKills += 1;
             Destroy(this.gameObject, 0.5f);
         }
