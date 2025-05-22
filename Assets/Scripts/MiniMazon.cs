@@ -41,7 +41,7 @@ public class MiniMazon : MonoBehaviour
     private Rigidbody2D mRb;
     private Animator animatorController;
 
-
+    [SerializeField] public float health, maxHealth = 3f;
 
 
     // Start is called before the first frame update
@@ -60,6 +60,8 @@ public class MiniMazon : MonoBehaviour
 
         currentPoint = PuntoA.transform;
         animatorController.SetBool("WalkM", true);
+
+        health = maxHealth;
     }
 
     void FixedUpdate()
@@ -72,21 +74,12 @@ public class MiniMazon : MonoBehaviour
         float miDeltaTime = Time.deltaTime;
 
         /*transform.Translate(
-             movTeclas *  (Time.deltaTime * -multiplicadorM),
-             0,
-             0
-        );
+            movTeclas *  (Time.deltaTime * -multiplicadorM),0,0);
 
         //Animacion IDLE TO WALKING 
         movTeclas = Input.GetAxis("Horizontal");
         if (movTeclas != 0)
-        {
-            animatorController.SetBool("WalkM", true);
-        }
-        else
-        {
-            animatorController.SetBool("WalkM", false);
-        }*/
+        {animatorController.SetBool("WalkM", true)} else {animatorController.SetBool("WalkM", false);}*/
 
         //PATROL AUTO
         Vector2 point = currentPoint.position - transform.position;
@@ -108,34 +101,62 @@ public class MiniMazon : MonoBehaviour
         {
             currentPoint = PuntoB.transform;
         }
-       
-    } 
 
-    /*public void RecibirImpacto()
-    {
-        impactos++;
-
-        if (impactos == 1)
-        {
-            spriteRenderer.sprite = spriteSucio;
-        }
-        else if (impactos >= 2)
-        {
-            spriteRenderer.sprite = spriteMuySucio;
-        }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    public void TakeDamage(float damageAmount)
     {
-        if (col.CompareTag("Proyectil"))
+        health -= damageAmount; //3 -> 2 -> 1 
+
+        if (health <= 2)
         {
-            RecibirImpacto();
-            Destroy(col.gameObject); //Destruye el proyectil
+            //fx audio
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolor1FX);
+            gameObject.GetComponent<Animator>().SetBool("HIT1", true);
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
+        else if (health <= 1)
+        {
+            //fx audio
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolor2FX);
+            gameObject.GetComponent<Animator>().SetBool("HIT2", true);
+        }
+        else if (health <= 0)
+        {
+            //fx audio
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolor3FX);
+
+            Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+            rb.constraints = RigidbodyConstraints2D.FreezePositionY;
         
-    }*/
-}
+            gameObject.GetComponent<Animator>().SetBool("HIT3", true);
+        }
+    }
+        /*public void RecibirImpacto()
+                {
+                    impactos++;
+
+                    if (impactos == 1)
+                    {
+                        spriteRenderer.sprite = spriteSucio;
+                    }
+                    else if (impactos >= 2)
+                    {
+                        spriteRenderer.sprite = spriteMuySucio;
+                    }
+                }
+
+                void OnTriggerEnter2D(Collider2D col)
+                {
+                    if (col.CompareTag("Proyectil"))
+                    {
+                        RecibirImpacto();
+                        Destroy(col.gameObject); //Destruye el proyectil
+                    }
+                }
+                // Update is called once per frame
+                void Update()
+                {
+
+                }*/
+    }

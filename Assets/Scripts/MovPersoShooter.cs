@@ -58,8 +58,6 @@ public class MovPersoShooter : MonoBehaviour
     void Update()
     {
         float miDeltaTime = Time.deltaTime;
-
-
-
+        
     }
 }
