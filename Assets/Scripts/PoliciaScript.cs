@@ -24,7 +24,7 @@ public class PoliciaScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float PvelocidadFinal = poliSpeed * Time.deltaTime;
+        //float PvelocidadFinal = poliSpeed * Time.deltaTime;
 
         //mov fallido, revisar mas tarde
         //transform.position = new Vector3(transform.position.x - velocidadFinal, transform.position.y, transform.position.z);
@@ -49,9 +49,9 @@ public class PoliciaScript : MonoBehaviour
             transform.Translate(Vector3.left * PvelocidadFinal, Space.World);
         }*/
 
-        StartCoroutine(MovePolicia());     
+        //StartCoroutine(MovePolicia());     
            
-        IEnumerator MovePolicia(){
+        /*IEnumerator MovePolicia(){
            while (true){
             // Move to the left
             //transform.Translate(Vector3.left * PvelocidadFinal);
@@ -63,7 +63,7 @@ public class PoliciaScript : MonoBehaviour
             transform.Translate(-1*PvelocidadFinal, 0, 0, Space.World);
             yield return new WaitForSeconds(changeTime);
             } 
-        }
+        }*/
          
          
         
