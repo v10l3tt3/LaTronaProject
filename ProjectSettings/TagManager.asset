@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - Mazon
   - Policia
+  - Limite
   layers:
   - Default
   - TransparentFX

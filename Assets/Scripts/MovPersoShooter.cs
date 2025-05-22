@@ -22,12 +22,7 @@ public class MovPersoShooter : MonoBehaviour
 
     void FixedUpdate()
     {
-        playerRb.MovePosition(playerRb.position + moveInput * velocidad * Time.fixedDeltaTime);  
-    }
-
-    void Update()
-    {
-        float miDeltaTime = Time.deltaTime;
+        playerRb.MovePosition(playerRb.position + moveInput * velocidad * Time.fixedDeltaTime);
 
         //MOVIMIENTO
         float movTeclas = Input.GetAxis("Horizontal");
@@ -39,7 +34,7 @@ public class MovPersoShooter : MonoBehaviour
              0,
              0
         );
-
+        
         //Animacion IDLE TO WALKING
         if (movTeclas != 0)
         {
@@ -58,6 +53,13 @@ public class MovPersoShooter : MonoBehaviour
             this.GetComponent<SpriteRenderer>().flipX = false;
             miraDerecha = true;
         }
+    }
+
+    void Update()
+    {
+        float miDeltaTime = Time.deltaTime;
+
+
 
     }
 }
