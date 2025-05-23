@@ -349,10 +349,11 @@ GameObject:
   - component: {fileID: 779752485}
   - component: {fileID: 779752484}
   - component: {fileID: 779752490}
+  - component: {fileID: 779752491}
   m_Layer: 0
   m_Name: Mazon
   m_TagString: Mazon
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -614,6 +615,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &779752491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779752483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4862748d68307bb458d28455c021df11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MazonSpeed: 3
 --- !u!1 &811131808
 GameObject:
   m_ObjectHideFlags: 0
