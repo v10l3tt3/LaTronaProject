@@ -14,8 +14,10 @@ public class GameManager : MonoBehaviour
     public GameObject PipesHolder;
     public GameObject[] Pipes;
 
-    public static int vidasMazon = 4;
-    public static int vidasPolis = 2;
+    //public static int vidasMazon = 4;
+    float health, maxHealth;
+    GameObject vidasMazonText;
+    
 
     [SerializeField]
     int totalPipes = 0;
@@ -35,11 +37,39 @@ public class GameManager : MonoBehaviour
         {
             Pipes[i] = PipesHolder.transform.GetChild(i).gameObject;
         }
+
+        health = gameObject.GetComponent<MiniMazon>().health;
+        maxHealth = gameObject.GetComponent<MiniMazon>().maxHealth;
+
+        vidasMazonText = GameObject.Find("vidasMazonText");
     }
 
-    
+
     void Update()
     {
-        
+        Debug.Log("Vidas Mazon: " + health + " / " + maxHealth);
+
+        vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
+
+
+        /*if (GameManager.vidasMazon == 3)
+        {
+            //fx audio 
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.1DolorMazonFX);
+            gameObject.GetComponent<Animator>().SetBool("HIT1", true);
+        }
+        else if (GameManager.vidasMazon == 2)
+        {
+            //fx audio 
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.2DolorMazonFX);
+            gameObject.GetComponent<Animator>().SetBool("HIT2", true);
+        }
+        else if (GameManager.vidasMazon == 1)
+        {
+            //fx audio 
+            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.3DolorMazonFX);
+            gameObject.GetComponent<Animator>().SetBool("HIT3", true);
+        }*/
     }
 }
+

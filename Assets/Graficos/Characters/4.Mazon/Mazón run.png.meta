@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Maz\xF3n run_0"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1213bf084dcb7043be95b2cccfceb2b
+      internalID: -828757939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_1"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f523ad611404048be44e9f371928b8
+      internalID: 384902401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_2"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493659df1b4a18f4cb914357c3aeefd9
+      internalID: 1172867989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_3"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d1fd52d569c44cb387ceeea89e1cb
+      internalID: -1319355135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_7"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70ce849a684e843ae4d4b1c8e432fe
+      internalID: 427831408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_8"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d560e95e370e0a459e405b9f96ac378
+      internalID: -126571400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_9"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 161
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0247277e9667b024d846da57249262e9
+      internalID: -1176092262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_10"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 161
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf99978028c81bd43811f5dc6cb38ee3
+      internalID: 1761350420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_11"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98435a4f4e858ec4cba97e10bf8b0340
+      internalID: 534728854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_12"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 161
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759d7c681b0ad0b4d8f92d0f514412e1
+      internalID: 925684998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_32"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e523b3a80a15fcb43b57684bb88e738d
+      internalID: -100176654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_33"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568182de57dc2144386122b6c326d3f0
+      internalID: -2039337177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_34"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0089c9e6022e4e44ea0fbf1ed2dbae37
+      internalID: 1069453723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_35"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892f8e3c31bd3b342b8bf1f226a856ba
+      internalID: -419142629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_39"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9e1cd0de91334498904783abc651ff
+      internalID: -221688912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_40"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04390318acc85e4dade7dff0f4b14ce
+      internalID: -1999212080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_41"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 129
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dff451d1f9ffb4a87ae10451048d5a
+      internalID: -49839269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_42"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 129
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dd953c1e3231b4e85a3b826de46fbe
+      internalID: 742640681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_43"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bc71dda8d98b844878e080188e7898
+      internalID: -953822487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_44"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 129
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfe817e0c4e90c499771ec0bf818bf9
+      internalID: -1331119217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_48"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64c7fea249aa6b48884dcc1607d9d15
+      internalID: -1834761254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_49"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264cd33c389e000468aa73df491fae39
+      internalID: 1871231187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_50"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82007cd347d2aad4385a550fb507cd27
+      internalID: -150611112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_51"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a040105a522ce1f4bba9650bb0700d2e
+      internalID: 1584100171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_55"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 97
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f47e11531c498489f0b8358a459917
+      internalID: 1271482621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_56"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b39503821bd44cbfc869502557ece
+      internalID: -1281721448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_57"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e11a0cf0a711b429e1810e1820fe97
+      internalID: -589852802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_58"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 97
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b408ad558c4f7449b71f1b23f709c2b
+      internalID: -1456487458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_59"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d20c30d4d64c84cae264785f622e5d
+      internalID: 1106092304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_60"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 97
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4750116f859a64faedbae472a65f92
+      internalID: -174659446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_64"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb549dcc93ed6be43b5c92710f9bfd44
+      internalID: -113922327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_65"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d103761ec69010547ba014945acf6b16
+      internalID: -625166389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_66"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28b7250457049f4488ca328e6b7f985
+      internalID: -1542600137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_67"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af35f4c29e92284bb3502d4f9060163
+      internalID: -468836406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_68"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99706495f6b0fd4394f896804d4d021
+      internalID: -1962069629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_72"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 65
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a134616523869f40ad3319eef095be2
+      internalID: -610322096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_73"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced0ee09bc101634dabf4077e47199e8
+      internalID: -1177471776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_74"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dad82e45281f524bbaeb3b69cfcd03d
+      internalID: 2110216276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_75"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 65
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650e2802d281dee4d9463237eab4007a
+      internalID: 1931941868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_76"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c12e30849c1d438454858e5a9ec93
+      internalID: 1356914674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_77"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 65
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65c9b052127ed5489f375c272fabbdc
+      internalID: -1365699695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_98"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be18a8fbf132a504b9643bbe4eeb6d48
+      internalID: 790321483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_99"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25988a478af94ec459eeb6114caa769b
+      internalID: 871489415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n run_100"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59cb0ab1b508414b83946ee825089b9
+      internalID: -1534224088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +1030,111 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Maz\xF3n run_0": -828757939
+      "Maz\xF3n run_1": 384902401
+      "Maz\xF3n run_10": 1761350420
+      "Maz\xF3n run_100": -1534224088
+      "Maz\xF3n run_101": -1542317641
+      "Maz\xF3n run_102": 360131279
+      "Maz\xF3n run_103": 586148017
+      "Maz\xF3n run_11": 534728854
+      "Maz\xF3n run_12": 925684998
+      "Maz\xF3n run_13": -1600620736
+      "Maz\xF3n run_14": 212525401
+      "Maz\xF3n run_15": -708590335
+      "Maz\xF3n run_16": -1655053916
+      "Maz\xF3n run_17": -1497931240
+      "Maz\xF3n run_18": 1319263322
+      "Maz\xF3n run_19": -1725216036
+      "Maz\xF3n run_2": 1172867989
+      "Maz\xF3n run_20": -1215891966
+      "Maz\xF3n run_21": -1494293121
+      "Maz\xF3n run_22": -1460215874
+      "Maz\xF3n run_23": 1138154388
+      "Maz\xF3n run_24": 674604150
+      "Maz\xF3n run_25": -729799053
+      "Maz\xF3n run_26": -530497781
+      "Maz\xF3n run_27": 1372392291
+      "Maz\xF3n run_28": 315982278
+      "Maz\xF3n run_29": 1679872395
+      "Maz\xF3n run_3": -1319355135
+      "Maz\xF3n run_30": 408096784
+      "Maz\xF3n run_31": -1960444349
+      "Maz\xF3n run_32": -100176654
+      "Maz\xF3n run_33": -2039337177
+      "Maz\xF3n run_34": 1069453723
+      "Maz\xF3n run_35": -419142629
+      "Maz\xF3n run_36": 1470240077
+      "Maz\xF3n run_37": -375501649
+      "Maz\xF3n run_38": 1458730325
+      "Maz\xF3n run_39": -221688912
+      "Maz\xF3n run_4": 948244773
+      "Maz\xF3n run_40": -1999212080
+      "Maz\xF3n run_41": -49839269
+      "Maz\xF3n run_42": 742640681
+      "Maz\xF3n run_43": -953822487
+      "Maz\xF3n run_44": -1331119217
+      "Maz\xF3n run_45": 950025807
+      "Maz\xF3n run_46": -1140755658
+      "Maz\xF3n run_47": 1526092021
+      "Maz\xF3n run_48": -1834761254
+      "Maz\xF3n run_49": 1871231187
+      "Maz\xF3n run_5": -45516859
+      "Maz\xF3n run_50": -150611112
+      "Maz\xF3n run_51": 1584100171
+      "Maz\xF3n run_52": 123776094
+      "Maz\xF3n run_53": 1069445945
+      "Maz\xF3n run_54": -187109903
+      "Maz\xF3n run_55": 1271482621
+      "Maz\xF3n run_56": -1281721448
+      "Maz\xF3n run_57": -589852802
+      "Maz\xF3n run_58": -1456487458
+      "Maz\xF3n run_59": 1106092304
+      "Maz\xF3n run_6": -548566216
+      "Maz\xF3n run_60": -174659446
+      "Maz\xF3n run_61": 1548935449
+      "Maz\xF3n run_62": -646951708
+      "Maz\xF3n run_63": -2138062430
+      "Maz\xF3n run_64": -113922327
+      "Maz\xF3n run_65": -625166389
+      "Maz\xF3n run_66": -1542600137
+      "Maz\xF3n run_67": -468836406
+      "Maz\xF3n run_68": -1962069629
+      "Maz\xF3n run_69": 1087654961
+      "Maz\xF3n run_7": 427831408
+      "Maz\xF3n run_70": 1183361241
+      "Maz\xF3n run_71": 92918903
+      "Maz\xF3n run_72": -610322096
+      "Maz\xF3n run_73": -1177471776
+      "Maz\xF3n run_74": 2110216276
+      "Maz\xF3n run_75": 1931941868
+      "Maz\xF3n run_76": 1356914674
+      "Maz\xF3n run_77": -1365699695
+      "Maz\xF3n run_78": -480472036
+      "Maz\xF3n run_79": -544304203
+      "Maz\xF3n run_8": -126571400
+      "Maz\xF3n run_80": 1492182117
+      "Maz\xF3n run_81": 1599796172
+      "Maz\xF3n run_82": 1036523408
+      "Maz\xF3n run_83": -284348160
+      "Maz\xF3n run_84": -776997977
+      "Maz\xF3n run_85": -119783728
+      "Maz\xF3n run_86": 1917745048
+      "Maz\xF3n run_87": -986211811
+      "Maz\xF3n run_88": 1405374142
+      "Maz\xF3n run_89": -1277514656
+      "Maz\xF3n run_9": -1176092262
+      "Maz\xF3n run_90": -1336366865
+      "Maz\xF3n run_91": -1701284889
+      "Maz\xF3n run_92": -469467885
+      "Maz\xF3n run_93": -2118524476
+      "Maz\xF3n run_94": 674528571
+      "Maz\xF3n run_95": 1588119856
+      "Maz\xF3n run_96": 1459728277
+      "Maz\xF3n run_97": 1380882983
+      "Maz\xF3n run_98": 790321483
+      "Maz\xF3n run_99": 871489415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

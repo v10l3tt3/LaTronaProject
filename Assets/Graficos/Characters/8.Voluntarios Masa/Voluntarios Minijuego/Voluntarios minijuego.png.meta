@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 8812fe1ba76a6aa4f94ef3598f309fc1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Voluntarios minijuego_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 320
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5880a0f2d4f03b642929d26004fbf256
+      internalID: -1464366602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios minijuego_68
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a7b0c3b77977d4cbf167949e3370f2
+      internalID: -1035859878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios minijuego_81
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 32
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef46ebb576eced24a95c1e31fe421a76
+      internalID: 1822193860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voluntarios minijuego_86
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 32
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c7052af89562b46954ce8e614d2655
+      internalID: 92416622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Voluntarios minijuego_0: -243029607
+      Voluntarios minijuego_1: -1095234905
+      Voluntarios minijuego_10: 311192425
+      Voluntarios minijuego_100: -47283840
+      Voluntarios minijuego_101: -359729324
+      Voluntarios minijuego_102: -1638443473
+      Voluntarios minijuego_103: -254614138
+      Voluntarios minijuego_104: 280222468
+      Voluntarios minijuego_105: -1989191582
+      Voluntarios minijuego_106: 318357560
+      Voluntarios minijuego_107: -1173266932
+      Voluntarios minijuego_108: -1406644656
+      Voluntarios minijuego_109: -1432229204
+      Voluntarios minijuego_11: 1798471722
+      Voluntarios minijuego_110: -1899389901
+      Voluntarios minijuego_111: -1869273216
+      Voluntarios minijuego_112: -2122467628
+      Voluntarios minijuego_113: 2110471969
+      Voluntarios minijuego_114: -770154644
+      Voluntarios minijuego_115: -657069669
+      Voluntarios minijuego_116: -1063389671
+      Voluntarios minijuego_117: 2124904904
+      Voluntarios minijuego_118: -413642221
+      Voluntarios minijuego_119: -1980716584
+      Voluntarios minijuego_12: 1888039552
+      Voluntarios minijuego_120: -145820682
+      Voluntarios minijuego_121: -1439455145
+      Voluntarios minijuego_122: 634140644
+      Voluntarios minijuego_123: -1315284157
+      Voluntarios minijuego_124: 844307900
+      Voluntarios minijuego_125: -2139492908
+      Voluntarios minijuego_126: 609290185
+      Voluntarios minijuego_127: 1922736206
+      Voluntarios minijuego_128: -193151131
+      Voluntarios minijuego_129: 1280362056
+      Voluntarios minijuego_13: 1186864353
+      Voluntarios minijuego_130: 1268339883
+      Voluntarios minijuego_131: -1849694134
+      Voluntarios minijuego_132: 348417391
+      Voluntarios minijuego_133: -1684528979
+      Voluntarios minijuego_134: 738656998
+      Voluntarios minijuego_135: -1285697961
+      Voluntarios minijuego_136: 1283551592
+      Voluntarios minijuego_137: 97827613
+      Voluntarios minijuego_138: -846122876
+      Voluntarios minijuego_139: -747357057
+      Voluntarios minijuego_14: 514674428
+      Voluntarios minijuego_140: 982708788
+      Voluntarios minijuego_141: 1425072022
+      Voluntarios minijuego_142: -976759831
+      Voluntarios minijuego_143: 1409433918
+      Voluntarios minijuego_144: 1341778994
+      Voluntarios minijuego_145: 1616342527
+      Voluntarios minijuego_146: 1539602549
+      Voluntarios minijuego_147: 198874850
+      Voluntarios minijuego_148: -962956516
+      Voluntarios minijuego_149: 160865687
+      Voluntarios minijuego_15: 967369085
+      Voluntarios minijuego_150: 1481059740
+      Voluntarios minijuego_151: 1729827791
+      Voluntarios minijuego_152: 572646797
+      Voluntarios minijuego_153: -793484961
+      Voluntarios minijuego_154: 102142600
+      Voluntarios minijuego_155: 506652972
+      Voluntarios minijuego_156: -1820093559
+      Voluntarios minijuego_157: 470639459
+      Voluntarios minijuego_158: 1428967619
+      Voluntarios minijuego_159: 705566833
+      Voluntarios minijuego_16: 247364556
+      Voluntarios minijuego_160: 73629272
+      Voluntarios minijuego_161: 1684786291
+      Voluntarios minijuego_162: -742315517
+      Voluntarios minijuego_163: -173547636
+      Voluntarios minijuego_164: 440554754
+      Voluntarios minijuego_165: 1883603047
+      Voluntarios minijuego_166: 920765458
+      Voluntarios minijuego_167: 1056472196
+      Voluntarios minijuego_168: 1090365861
+      Voluntarios minijuego_169: -132045293
+      Voluntarios minijuego_17: 1583687560
+      Voluntarios minijuego_170: 545724481
+      Voluntarios minijuego_171: 616918532
+      Voluntarios minijuego_172: 1478150438
+      Voluntarios minijuego_173: 270573931
+      Voluntarios minijuego_174: 52453723
+      Voluntarios minijuego_175: -1649126406
+      Voluntarios minijuego_176: -734543398
+      Voluntarios minijuego_177: -1007522818
+      Voluntarios minijuego_178: -1104720284
+      Voluntarios minijuego_179: -277527154
+      Voluntarios minijuego_18: 1346668252
+      Voluntarios minijuego_180: -1933897799
+      Voluntarios minijuego_181: -1756114552
+      Voluntarios minijuego_182: 1418100409
+      Voluntarios minijuego_183: 732660200
+      Voluntarios minijuego_184: -738827721
+      Voluntarios minijuego_185: -2038586435
+      Voluntarios minijuego_186: -1223955397
+      Voluntarios minijuego_187: 1657850938
+      Voluntarios minijuego_188: 1783458064
+      Voluntarios minijuego_189: -1946436220
+      Voluntarios minijuego_19: 778468601
+      Voluntarios minijuego_190: 1162451092
+      Voluntarios minijuego_191: 1781847638
+      Voluntarios minijuego_192: 1950333879
+      Voluntarios minijuego_193: 1239835404
+      Voluntarios minijuego_194: 4367749
+      Voluntarios minijuego_195: -991367476
+      Voluntarios minijuego_196: 1756176411
+      Voluntarios minijuego_197: -1628706122
+      Voluntarios minijuego_198: -58323402
+      Voluntarios minijuego_199: -1795761120
+      Voluntarios minijuego_2: 1576919581
+      Voluntarios minijuego_20: -1984335535
+      Voluntarios minijuego_200: 1648749621
+      Voluntarios minijuego_201: 816627143
+      Voluntarios minijuego_202: 36390058
+      Voluntarios minijuego_203: 882603207
+      Voluntarios minijuego_204: -1310285431
+      Voluntarios minijuego_205: 1592959663
+      Voluntarios minijuego_206: -2010933222
+      Voluntarios minijuego_207: 412455967
+      Voluntarios minijuego_208: 591028193
+      Voluntarios minijuego_209: 190504093
+      Voluntarios minijuego_21: 662609246
+      Voluntarios minijuego_210: 924809455
+      Voluntarios minijuego_211: 1029142053
+      Voluntarios minijuego_212: 2056305854
+      Voluntarios minijuego_213: -594406185
+      Voluntarios minijuego_214: -908555351
+      Voluntarios minijuego_215: 233946219
+      Voluntarios minijuego_216: -177153878
+      Voluntarios minijuego_217: 735032178
+      Voluntarios minijuego_218: 1755546228
+      Voluntarios minijuego_219: -1982629911
+      Voluntarios minijuego_22: 338924598
+      Voluntarios minijuego_220: -1615944538
+      Voluntarios minijuego_221: -1638171484
+      Voluntarios minijuego_222: -1147272328
+      Voluntarios minijuego_223: -1494156454
+      Voluntarios minijuego_224: -843964136
+      Voluntarios minijuego_225: 524748243
+      Voluntarios minijuego_226: 1491784969
+      Voluntarios minijuego_227: 1416440760
+      Voluntarios minijuego_228: -246592703
+      Voluntarios minijuego_229: -1905379685
+      Voluntarios minijuego_23: -839648799
+      Voluntarios minijuego_230: 1001775330
+      Voluntarios minijuego_231: 926850393
+      Voluntarios minijuego_232: 352775412
+      Voluntarios minijuego_233: 379198439
+      Voluntarios minijuego_234: 126454134
+      Voluntarios minijuego_235: -356402142
+      Voluntarios minijuego_236: 823618280
+      Voluntarios minijuego_237: -1106312218
+      Voluntarios minijuego_238: 447035780
+      Voluntarios minijuego_239: 708232961
+      Voluntarios minijuego_24: 1634729527
+      Voluntarios minijuego_240: 1977220144
+      Voluntarios minijuego_241: -900214732
+      Voluntarios minijuego_242: 1354826058
+      Voluntarios minijuego_243: -1112440312
+      Voluntarios minijuego_244: 1507546784
+      Voluntarios minijuego_245: 2013330261
+      Voluntarios minijuego_246: 211999438
+      Voluntarios minijuego_247: 1862687605
+      Voluntarios minijuego_248: 1320443996
+      Voluntarios minijuego_249: 1163900371
+      Voluntarios minijuego_25: -929255705
+      Voluntarios minijuego_250: 436362388
+      Voluntarios minijuego_251: -155461581
+      Voluntarios minijuego_252: -1230947825
+      Voluntarios minijuego_253: -1156846865
+      Voluntarios minijuego_254: -689040839
+      Voluntarios minijuego_255: -1229088829
+      Voluntarios minijuego_256: 888915806
+      Voluntarios minijuego_257: 917876787
+      Voluntarios minijuego_258: 836181788
+      Voluntarios minijuego_259: 1467571501
+      Voluntarios minijuego_26: 1304066175
+      Voluntarios minijuego_27: 1621672115
+      Voluntarios minijuego_28: -2136296603
+      Voluntarios minijuego_29: 203457953
+      Voluntarios minijuego_3: 930983531
+      Voluntarios minijuego_30: -908483841
+      Voluntarios minijuego_31: -615199290
+      Voluntarios minijuego_32: 2109632962
+      Voluntarios minijuego_33: 751083448
+      Voluntarios minijuego_34: 901687404
+      Voluntarios minijuego_35: -535984328
+      Voluntarios minijuego_36: 202505949
+      Voluntarios minijuego_37: -348655861
+      Voluntarios minijuego_38: -1052966842
+      Voluntarios minijuego_39: 16285734
+      Voluntarios minijuego_4: -1464366602
+      Voluntarios minijuego_40: 47230567
+      Voluntarios minijuego_41: -602096455
+      Voluntarios minijuego_42: 877042414
+      Voluntarios minijuego_43: 736480541
+      Voluntarios minijuego_44: -1316222186
+      Voluntarios minijuego_45: -213911041
+      Voluntarios minijuego_46: -1944605301
+      Voluntarios minijuego_47: -1674374421
+      Voluntarios minijuego_48: -1990671623
+      Voluntarios minijuego_49: -398874643
+      Voluntarios minijuego_5: 94712497
+      Voluntarios minijuego_50: 1562486539
+      Voluntarios minijuego_51: 1959261808
+      Voluntarios minijuego_52: -85268569
+      Voluntarios minijuego_53: 561226840
+      Voluntarios minijuego_54: -1020958845
+      Voluntarios minijuego_55: -176390660
+      Voluntarios minijuego_56: -1837286389
+      Voluntarios minijuego_57: -1769509611
+      Voluntarios minijuego_58: -2130618298
+      Voluntarios minijuego_59: -1138015258
+      Voluntarios minijuego_6: -933772597
+      Voluntarios minijuego_60: -632746866
+      Voluntarios minijuego_61: 1590795402
+      Voluntarios minijuego_62: -2052633460
+      Voluntarios minijuego_63: 1957086779
+      Voluntarios minijuego_64: -311716514
+      Voluntarios minijuego_65: 1261941002
+      Voluntarios minijuego_66: -1957461113
+      Voluntarios minijuego_67: -174795389
+      Voluntarios minijuego_68: -1035859878
+      Voluntarios minijuego_69: 1687970051
+      Voluntarios minijuego_7: 1106282949
+      Voluntarios minijuego_70: -2075104949
+      Voluntarios minijuego_71: -1141268967
+      Voluntarios minijuego_72: -1964521796
+      Voluntarios minijuego_73: -330534780
+      Voluntarios minijuego_74: 560918927
+      Voluntarios minijuego_75: 422552978
+      Voluntarios minijuego_76: 595555538
+      Voluntarios minijuego_77: -149258490
+      Voluntarios minijuego_78: -292056346
+      Voluntarios minijuego_79: 1576366186
+      Voluntarios minijuego_8: 1024333348
+      Voluntarios minijuego_80: -1891469967
+      Voluntarios minijuego_81: 1822193860
+      Voluntarios minijuego_82: -842945000
+      Voluntarios minijuego_83: -352468442
+      Voluntarios minijuego_84: -2067654826
+      Voluntarios minijuego_85: 903304476
+      Voluntarios minijuego_86: 92416622
+      Voluntarios minijuego_87: 2037584339
+      Voluntarios minijuego_88: -554452569
+      Voluntarios minijuego_89: 1969860175
+      Voluntarios minijuego_9: 1187257693
+      Voluntarios minijuego_90: 1171292622
+      Voluntarios minijuego_91: 474163565
+      Voluntarios minijuego_92: -487363763
+      Voluntarios minijuego_93: 1133634896
+      Voluntarios minijuego_94: -837934174
+      Voluntarios minijuego_95: 30957678
+      Voluntarios minijuego_96: 266064392
+      Voluntarios minijuego_97: 735333764
+      Voluntarios minijuego_98: -730390882
+      Voluntarios minijuego_99: 740954343
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
