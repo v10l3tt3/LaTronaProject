@@ -1233,7 +1233,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PipesHolder: {fileID: 36934636}
   Pipes: []
+  FusesHolder: {fileID: 0}
+  Fuses: []
   totalPipes: 0
+  totalFuses: 0
 --- !u!4 &433742417
 Transform:
   m_ObjectHideFlags: 0
@@ -3875,9 +3878,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1497317304}
   - component: {fileID: 1497317303}
-  - component: {fileID: 1497317302}
   - component: {fileID: 1497317305}
   - component: {fileID: 1497317306}
+  - component: {fileID: 1497317302}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera

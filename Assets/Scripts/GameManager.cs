@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     int totalPipes = 0;
+    
     [SerializeField]
     int totalFuses = 0;
 

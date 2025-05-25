@@ -7,6 +7,7 @@ public class MiniFusibles : MonoBehaviour
     float[] rotations = { 0, 180 };
 
     public float correctRotation;
+    
     [SerializeField]
     bool isPlaced = false;
     void Start()
