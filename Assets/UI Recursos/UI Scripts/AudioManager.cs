@@ -23,19 +23,23 @@ public class AudioManager : MonoBehaviour
 
     public GameObject musicObj;
 
-    public static AudioManager Instance;
+
     AudioSource gestorAudio;
     AudioSource audioMusic;
 
     //por si se quiere usar un mixer de audio al entrar en una zona:
     //public AudioMixerSnapshot burbujaSnapshot;
+    public static AudioManager Instance { get; private set; }
 
     void Awake()
     {
         //Si existe otro objeto de este tipo, destruyelo
-        if (Instance != null && Instance != this){
-            Destroy(Instance.gameObject);
-        }else{
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
@@ -44,7 +48,7 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         gestorAudio = this.GetComponent<AudioSource>();
-        
+
 
         audioMusic = musicObj.GetComponent<AudioSource>();
         audioMusic.clip = bandaSonora;
@@ -53,14 +57,17 @@ public class AudioManager : MonoBehaviour
         audioMusic.Play();
     }
 
-   
+
     void Update()
     {
-        
+
     }
 
     //Metodo seleccionador de clips de audio
-    public void SonarClipUnaVez(AudioClip ac){
-        gestorAudio.PlayOneShot(ac, 1f);
+    public void SonarClipUnaVez(AudioClip clipOnce)
+    {
+        gestorAudio.PlayOneShot(clipOnce, 1f);
     }
+    
+
 }

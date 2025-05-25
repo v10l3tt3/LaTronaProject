@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuUI.unity
+    guid: ac5318070d7890948a2cab0cec8cf461
+  - enabled: 1
+    path: Assets/Scenes/TilemapPueblo.unity
+    guid: 9eb43eca592fd804db66a6cebb74648a
+  - enabled: 1
     path: Assets/Scenes/TilemapCasa.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MiniFusibles.unity
+    guid: a0b7a48f85a62514984d5295dd361942
+  - enabled: 1
+    path: Assets/Scenes/MiniTuberias.unity
+    guid: a03f9558fcc04e048a03efa89d3b30a6
+  - enabled: 1
+    path: Assets/Scenes/MiniMazon.unity
+    guid: 3b184a23bd6ac0143bc1319c4282a5c7
+  - enabled: 1
+    path: Assets/Scenes/CreditsUI.unity
+    guid: dce0870a4f619f44ba0a8c97c975a0cf
   m_configObjects: {}

@@ -15,13 +15,16 @@ public class MiniTuberias : MonoBehaviour
         int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
 
-        //para +1 solucion
-        //PossibleRots = rotations.Length;
+
 
         //para 1 sola solucion
-        if(transform.eulerAngles.z == correctRotation){
+        if (transform.eulerAngles.z == correctRotation)
+        {
             isPlaced = true;
         }
+
+        //para +1 solucion
+        //PossibleRots = rotations.Length;
 
         //para +1 solucion 
         /*if(PossibleRots > 1){
