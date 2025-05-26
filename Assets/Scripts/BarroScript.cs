@@ -89,7 +89,7 @@ public class BarroScript : MonoBehaviour
         
             //animacion de muerte PROVISIONAL
             colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatal", true);
-            colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatalOther", true);
+            //colBS.gameObject.GetComponent<Animator>().SetBool("ManchadoFatalOther", true);
 
             Destroy(colBS.gameObject, 1.21f);
             //GameManager.poliKills += 1;
