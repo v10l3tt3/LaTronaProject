@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class PhotoSlideshow : MonoBehaviour
 {
-    public List<Sprite> photos;               // Lista de fotos
+    public List<Sprite> photos;              
     public float normalInterval = 4.0f;       // Tiempo entre fotos normales
-    public float fastInterval = 2f;         // Tiempo para las últimas fotos rápidas
-    public int fastCount = 4;                 // Cuántas fotos finales son rápidas
-    public float lastPhotoDuration = 6.0f;    // Tiempo especial para la última foto
+    public float fastInterval = 2f;         // Tiempo para las últimas
+    public int fastCount = 4;                 // Fotos finales rápidas
+    public float lastPhotoDuration = 6.0f;    // Última foto
     public Image displayImage;                // Componente UI donde se muestran
 
     void Start()
