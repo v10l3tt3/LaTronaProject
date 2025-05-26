@@ -81,8 +81,7 @@ public class GameManager : MonoBehaviour
             //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.2DolorMazonFX);
             gameObject.GetComponent<Animator>().SetBool("HIT2", true);
         }
-        else if (GameManager.vidasMazon == 1)
-        {
+        else if (GameManager.vidasMazon == 1){
             //fx audio 
             //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.3DolorMazonFX);
             gameObject.GetComponent<Animator>().SetBool("HIT3", true);
