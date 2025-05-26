@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     int totalFuses = 0;
 
-    //public static int vidasMazon = 4;
+    public static int vidasMazon = 4;
     float health, maxHealth;
     GameObject vidasMazonText;
 
@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Vidas Mazon: " + health + " / " + maxHealth);
 
-        //vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
+        vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
 
 
         /*if (GameManager.vidasMazon == 3)

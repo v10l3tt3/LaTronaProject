@@ -59,7 +59,7 @@ public class MiniMazon : MonoBehaviour
         animatorController = this.GetComponent<Animator>();
 
         currentPoint = PuntoA.transform;
-        animatorController.SetBool("WalkM", true);
+        //animatorController.SetBool("WalkM", true);
 
         health = maxHealth;
     }
