@@ -27,7 +27,7 @@ public class MiniMazon : MonoBehaviour
     //CONTRA MOVPERSO
     public float velocidadM = 1f;
     //CONTRA MOVPERSO
-    //public float multiplicadorM = 5f;
+    public float multiplicadorM = 5f;
 
     //CONTRA MOVPERSO
     //private Vector2 moveInput;
