@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 765899ac7ae0a3f4288dc33710dbe5fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plomillos_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 25
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bea05c22e950a04f80f1a79495045b1
+      internalID: -1507832624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plomillos_61
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 24
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.54, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6572562febd96a3428c18017875e70d7
+      internalID: -311663870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plomillos_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 24
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.54, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bd6090961ced143942683d10240f0c
+      internalID: -99146924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plomillos_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.54, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34de640e85c5a9d48b071f8f7e6a6099
+      internalID: -684196504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plomillos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 200
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f12e03e3e1dbf64ca680b788a52229d
+      internalID: 633834811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plomillos_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 14
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.54, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27443583fedde1d46bbfad68c3464e89
+      internalID: -310488162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plomillos_0: 633834811
+      Plomillos_1: 328865576
+      Plomillos_10: 18418758
+      Plomillos_11: -1963646528
+      Plomillos_12: 286921365
+      Plomillos_13: -1895819538
+      Plomillos_14: 608393734
+      Plomillos_15: 933517530
+      Plomillos_16: -1729622126
+      Plomillos_17: 973711535
+      Plomillos_18: -1170852654
+      Plomillos_19: -1399879097
+      Plomillos_2: -354165216
+      Plomillos_20: -474188994
+      Plomillos_21: -861727323
+      Plomillos_22: 1263830037
+      Plomillos_23: 1260134133
+      Plomillos_24: -1082085282
+      Plomillos_25: 677203314
+      Plomillos_26: -1836972256
+      Plomillos_27: 1232967751
+      Plomillos_28: -1308391788
+      Plomillos_29: 794555537
+      Plomillos_3: -62087439
+      Plomillos_30: -1800267471
+      Plomillos_31: 279579874
+      Plomillos_32: 1203013980
+      Plomillos_33: 1767620138
+      Plomillos_34: -1982630260
+      Plomillos_35: 335464827
+      Plomillos_36: -924613850
+      Plomillos_37: -532956044
+      Plomillos_38: -1988753293
+      Plomillos_39: 981800703
+      Plomillos_4: -1984907290
+      Plomillos_40: -661944335
+      Plomillos_41: -1815512262
+      Plomillos_42: -489295373
+      Plomillos_43: -130062300
+      Plomillos_44: -1027386121
+      Plomillos_45: 1467628429
+      Plomillos_46: -1237698140
+      Plomillos_47: 177481741
+      Plomillos_48: 1394675481
+      Plomillos_49: 1332759639
+      Plomillos_5: -848315636
+      Plomillos_50: 2130553319
+      Plomillos_51: -549132645
+      Plomillos_52: 949166486
+      Plomillos_53: 1446009352
+      Plomillos_54: 51761182
+      Plomillos_55: 1933777897
+      Plomillos_56: -322713226
+      Plomillos_57: 1734592826
+      Plomillos_58: -2139471992
+      Plomillos_59: -1497852935
+      Plomillos_6: 201753738
+      Plomillos_60: -1507832624
+      Plomillos_61: -311663870
+      Plomillos_62: -147913095
+      Plomillos_63: -99146924
+      Plomillos_64: -158538926
+      Plomillos_65: -684196504
+      Plomillos_66: -310488162
+      Plomillos_7: -554070518
+      Plomillos_8: -1719437668
+      Plomillos_9: 700127069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
