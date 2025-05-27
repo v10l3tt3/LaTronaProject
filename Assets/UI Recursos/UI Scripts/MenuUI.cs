@@ -27,8 +27,15 @@ public class MenuUI : MonoBehaviour
     public void StartGame()
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
+        SceneManager.LoadScene("Cinematica");
+    }
+
+    public void SkipCinematic()
+    {
         SceneManager.LoadScene("TilemapPueblo");
     }
+
+
 
     public void ShowSettings()
     {
@@ -69,5 +76,6 @@ public class MenuUI : MonoBehaviour
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
         SceneManager.LoadScene("TilemapCasa");
+        
     }
 }
