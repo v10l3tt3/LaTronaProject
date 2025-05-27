@@ -48,7 +48,9 @@ public class MiniTuberias : MonoBehaviour
         }*/
     }
     private void OnMouseDown(){
-    
+
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPipesClick);
+
         transform.Rotate(new Vector3(0,0, 90));
         Debug.Log("Click");
 

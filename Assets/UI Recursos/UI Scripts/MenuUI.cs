@@ -26,6 +26,7 @@ public class MenuUI : MonoBehaviour
 
     public void StartGame()
     {
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
         SceneManager.LoadScene("TilemapCasa");
     }
 
