@@ -841,7 +841,7 @@ Transform:
   m_GameObject: {fileID: 376373999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.23168838, y: 0.316, z: 4.998474}
+  m_LocalPosition: {x: 0.258, y: 0.316, z: 4.998474}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -890,7 +890,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c4ba8711a52c1d44f812df24cd5bb47b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.375, y: 0.375}
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 1
+  sceneBuildIndex: 2
 --- !u!61 &551711796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4829,7 +4829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 4
+  sceneBuildIndex: 5
 --- !u!61 &1304569163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5260,16 +5260,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df52b1c5f0c05a4d86cd7bb7a904f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 0}
+  bandaSonora: {fileID: 8300000, guid: 5c870ff9493588e478b25bfcd9fdd365, type: 3}
   creditsBandaSonora: {fileID: 0}
-  fxButtonIn: {fileID: 0}
-  fxButtonOut: {fileID: 0}
+  fxButtonIn: {fileID: 8300000, guid: 7c6f8569bda59a4429fded1c4684ce26, type: 3}
+  fxButtonOut: {fileID: 8300000, guid: 1d69ff179f591d147b19a6c411a6a09b, type: 3}
   fxPlayButton: {fileID: 0}
   fxExitGame: {fileID: 0}
+  fxFuseSwitch: {fileID: 0}
+  fxPipesClick: {fileID: 0}
   poliDolorOinkFX: {fileID: 0}
+  fxLowHelicopter: {fileID: 0}
   fxPiece1: {fileID: 0}
   fxPiece2: {fileID: 0}
-  fxPiece3: {fileID: 0}
   fxPhotoCompleted: {fileID: 0}
   musicObj: {fileID: 786134209}
 --- !u!1 &1681858194
@@ -5447,7 +5449,7 @@ Transform:
   m_GameObject: {fileID: 1761771442}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.456301, y: 1.6493965, z: -2.5501995}
+  m_LocalPosition: {x: 4.45, y: 1.6493965, z: -2.5501995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5466,7 +5468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 3
+  sceneBuildIndex: 4
 --- !u!61 &1761771445
 BoxCollider2D:
   m_ObjectHideFlags: 0

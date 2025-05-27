@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &68875890
 RectTransform:
   m_ObjectHideFlags: 0
@@ -466,7 +466,7 @@ RectTransform:
   m_Father: {fileID: 1138630225}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -541,7 +541,7 @@ RectTransform:
   m_Father: {fileID: 336646923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: -1}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1014,16 +1014,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandaSonora: {fileID: 8300000, guid: 5c870ff9493588e478b25bfcd9fdd365, type: 3}
   creditsBandaSonora: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
-  fxButtonIn: {fileID: 0}
-  fxButtonOut: {fileID: 0}
+  fxButtonIn: {fileID: 8300000, guid: 7c6f8569bda59a4429fded1c4684ce26, type: 3}
+  fxButtonOut: {fileID: 8300000, guid: 1d69ff179f591d147b19a6c411a6a09b, type: 3}
   fxPlayButton: {fileID: 8300000, guid: 64f2f2e9b25ef8f4d951256eb2eeea99, type: 3}
   fxExitGame: {fileID: 8300000, guid: 6c0d6dc948fa0194ab68ca9308cdd8f5, type: 3}
+  fxFuseSwitch: {fileID: 0}
   fxPipesClick: {fileID: 8300000, guid: 23a64dd530435d149aff9a3580c77675, type: 3}
   poliDolorOinkFX: {fileID: 8300000, guid: c31844616ee75c743965c4c4530d0120, type: 3}
   fxLowHelicopter: {fileID: 8300000, guid: f68c0261a7f7ab44e9652ff50fd617f2, type: 3}
-  fxPiece1: {fileID: 0}
-  fxPiece2: {fileID: 0}
-  fxPhotoCompleted: {fileID: 0}
+  fxPiece1: {fileID: 8300000, guid: 48f9e6da28493004397ef6f2456e0843, type: 3}
+  fxPiece2: {fileID: 8300000, guid: 48f9e6da28493004397ef6f2456e0843, type: 3}
+  fxPhotoCompleted: {fileID: 8300000, guid: 0145059a61348b244b448f2a4e44f6c1, type: 3}
   musicObj: {fileID: 1809505331}
 --- !u!4 &233014402
 Transform:
@@ -1646,7 +1647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &691128001
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2903,7 +2904,7 @@ RectTransform:
   m_Father: {fileID: 1037671377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3709,7 +3710,7 @@ RectTransform:
   m_Father: {fileID: 827517039}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: -1.7}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

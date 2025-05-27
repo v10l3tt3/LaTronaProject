@@ -47343,7 +47343,7 @@ GameObject:
   - component: {fileID: 794864934}
   - component: {fileID: 794864933}
   m_Layer: 0
-  m_Name: ME_Singles_Garden_16x16_Big_Stairs (1)
+  m_Name: extension1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94671,7 +94671,7 @@ GameObject:
   - component: {fileID: 990905828}
   - component: {fileID: 990905827}
   m_Layer: 0
-  m_Name: ME_Singles_Garden_16x16_Big_Stairs
+  m_Name: escaleras-helicoptero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98421,7 +98421,7 @@ GameObject:
   - component: {fileID: 1252959236}
   - component: {fileID: 1252959235}
   m_Layer: 0
-  m_Name: ME_Singles_Garden_16x16_Big_Stairs (2)
+  m_Name: extension2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

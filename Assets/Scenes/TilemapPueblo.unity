@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 2
+  sceneBuildIndex: 3
 --- !u!61 &41265300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -213,6 +213,73 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4860026, y: 1.8748045}
   m_EdgeRadius: 0
+--- !u!1 &83565530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83565531}
+  - component: {fileID: 83565532}
+  m_Layer: 0
+  m_Name: col-fallo-alcantarilla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83565531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83565530}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.4, y: -0.48, z: -8.142992}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 202746294}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &83565532
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83565530}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.019455194, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.31193376
 --- !u!1 &128063986
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,6 +759,7 @@ Transform:
   - {fileID: 431859010}
   - {fileID: 1977201554}
   - {fileID: 872143581}
+  - {fileID: 83565531}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &241091695
@@ -888,6 +956,7 @@ GameObject:
   - component: {fileID: 415436906}
   - component: {fileID: 415436905}
   - component: {fileID: 415436904}
+  - component: {fileID: 415436909}
   m_Layer: 0
   m_Name: Senyora
   m_TagString: NPC
@@ -927,7 +996,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.14231372, y: -0.148413}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -938,7 +1007,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4, y: 1.4}
+  m_Size: {x: 2.0099158, y: 1.9977175}
   m_EdgeRadius: 0
 --- !u!61 &415436905
 BoxCollider2D:
@@ -1001,11 +1070,16 @@ MonoBehaviour:
   dialogoPanel: {fileID: 974869157}
   dialogueText: {fileID: 2094643248}
   dialogueLines:
-  - 'SENYORA:'
-  - 'SENYORA:'
-  - 'SENYORA:'
-  - 'SENYORA:'
-  - 'SENYORA:'
+  - "SENYORA: Ai mante... \nTu saps, quina desgr\xE0cia?..."
+  - "SENYORA: Des de la Pantan\xE0 del 82 que no veia cosa igual.\nQuin desastre..."
+  - "SENYORA: No s\xE9 com haur\xE0 quedat ma casa, o si podr\xE9 recuperar alguna
+    cosa que no haja trencat el fang, \"mas que siga\" un retrato."
+  - "SENYORA: He fet sort que la ve\xEFna de dalt m'ha deixat pujar quan l'aigua
+    encara no feia dos pams... "
+  - "SENYORA: M'ha dit que em puc quedar tot el temps que fa\xE7a falta,\nper\xF2,
+    ja saps, \na mi em sap greu."
+  - "SENYORA: Tu que est\xE0s jove no podries ajudar-me? Ja estic major per a estes
+    coses, a m\xE9s, sols tinc al meu fill ac\xED, i no el vec des d'ahir a migdia.\r\n"
   typingTime: 0.05
 --- !u!212 &415436907
 SpriteRenderer:
@@ -1075,6 +1149,33 @@ Transform:
   - {fileID: 128063988}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &415436909
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415436903}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &431859009
 GameObject:
   m_ObjectHideFlags: 0
@@ -51221,16 +51322,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df52b1c5f0c05a4d86cd7bb7a904f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 0}
+  bandaSonora: {fileID: 8300000, guid: b26c034b183560d4b81b91198ef66695, type: 3}
   creditsBandaSonora: {fileID: 0}
   fxButtonIn: {fileID: 0}
   fxButtonOut: {fileID: 0}
   fxPlayButton: {fileID: 0}
-  fxExitGame: {fileID: 0}
+  fxExitGame: {fileID: 8300000, guid: 6c0d6dc948fa0194ab68ca9308cdd8f5, type: 3}
+  fxFuseSwitch: {fileID: 0}
+  fxPipesClick: {fileID: 0}
   poliDolorOinkFX: {fileID: 0}
+  fxLowHelicopter: {fileID: 0}
   fxPiece1: {fileID: 0}
   fxPiece2: {fileID: 0}
-  fxPiece3: {fileID: 0}
   fxPhotoCompleted: {fileID: 0}
   musicObj: {fileID: 139597916}
 --- !u!82 &1367219405
@@ -51413,10 +51516,10 @@ Canvas:
   m_GameObject: {fileID: 1444490473}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0

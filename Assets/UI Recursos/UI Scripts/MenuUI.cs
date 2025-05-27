@@ -18,16 +18,16 @@ public class MenuUI : MonoBehaviour
         controlsPanel.SetActive(false);
     }
 
-    
+
     void Update()
     {
-        
+
     }
 
     public void StartGame()
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
-        SceneManager.LoadScene("TilemapCasa");
+        SceneManager.LoadScene("TilemapPueblo");
     }
 
     public void ShowSettings()
@@ -60,8 +60,14 @@ public class MenuUI : MonoBehaviour
         Application.Quit();
     }
 
-    public void ButtonSound(){
+    public void ButtonSound()
+    {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
     }
 
+    public void ReturnHouse()
+    {
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
+        SceneManager.LoadScene("TilemapCasa");
+    }
 }

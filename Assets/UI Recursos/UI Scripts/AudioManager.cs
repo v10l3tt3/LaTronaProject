@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip fxPlayButton;
     public AudioClip fxExitGame;
 
+    public AudioClip fxFuseSwitch;
     public AudioClip fxPipesClick;
 
     public AudioClip poliDolorOinkFX;
