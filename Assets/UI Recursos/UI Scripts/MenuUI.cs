@@ -11,7 +11,7 @@ public class MenuUI : MonoBehaviour
     GameObject controlsPanel;
     void Start()
     {
-        settingsPanel = GameObject.Find("SettingsPanel");
+        settingsPanel = GameObject.Find("OptionsPanel");
         settingsPanel.SetActive(false);
 
         controlsPanel = GameObject.Find("ControlsPanel");
