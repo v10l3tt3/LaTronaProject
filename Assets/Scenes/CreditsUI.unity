@@ -634,8 +634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df52b1c5f0c05a4d86cd7bb7a904f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
-  creditsBandaSonora: {fileID: 0}
+  bandaSonora: {fileID: 0}
+  creditsBandaSonora: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
   fxButtonIn: {fileID: 0}
   fxButtonOut: {fileID: 0}
   fxPlayButton: {fileID: 0}

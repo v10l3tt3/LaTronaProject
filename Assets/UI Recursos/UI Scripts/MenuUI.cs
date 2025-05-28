@@ -27,12 +27,13 @@ public class MenuUI : MonoBehaviour
     public void StartGame()
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
-        SceneManager.LoadScene("Cinematica");
+        SceneManager.LoadScene("TilemapPueblo");
     }
 
     public void SkipCinematic()
     {
-        SceneManager.LoadScene("TilemapPueblo");
+        
+        SceneManager.LoadScene("MenuUI");
     }
 
 
