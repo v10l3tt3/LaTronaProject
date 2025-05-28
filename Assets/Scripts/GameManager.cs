@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     int totalFuses = 0;
 
     public static int vidasMazon = 4;
-    float health, maxHealth;
+    public float health, maxHealth;
     GameObject vidasMazonText;
 
 

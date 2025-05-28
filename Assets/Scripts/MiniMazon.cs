@@ -73,6 +73,8 @@ public class MiniMazon : MonoBehaviour
     {
         float miDeltaTime = Time.deltaTime;
 
+        health = GameManager.Instance.health;
+
         /*transform.Translate(
             movTeclas *  (Time.deltaTime * -multiplicadorM),0,0);
 
