@@ -66,6 +66,8 @@ public class BarroScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D colBS)
     {
 
+
+   Debug.Log(colBS.gameObject.tag);
         if (colBS.gameObject.tag == "Mazon" && colBS.gameObject.TryGetComponent<MiniMazon>(out MiniMazon enemyComponent))
         {
             enemyComponent.TakeDamage(1);
@@ -75,7 +77,7 @@ public class BarroScript : MonoBehaviour
         }
 
 
-        Debug.Log(colBS.gameObject.tag == "Policia");
+     
 
         if (colBS.gameObject.tag == "Policia")
         {

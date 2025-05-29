@@ -25,8 +25,6 @@ public class MiniTuberias : MonoBehaviour
 
         //para +1 solucion
         //PossibleRots = rotations.Length;
-
-        //para +1 solucion 
         /*if(PossibleRots > 1){
             if(transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1]){
                 isPlaced = true;
@@ -42,13 +40,13 @@ public class MiniTuberias : MonoBehaviour
     {
         //aprox 1
         /*if (Input.GetMouseButtonDown(0))
-        {
-            transform.Rotate(0, 0, -90);
-            Debug.Log("Click");
-        }*/
+        {transform.Rotate(0, 0, -90);
+            Debug.Log("Click");}*/
     }
     private void OnMouseDown(){
-    
+
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPipesClick);
+
         transform.Rotate(new Vector3(0,0, 90));
         Debug.Log("Click");
 

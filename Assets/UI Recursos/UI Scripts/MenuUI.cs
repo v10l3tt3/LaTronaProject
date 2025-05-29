@@ -11,23 +11,32 @@ public class MenuUI : MonoBehaviour
     GameObject controlsPanel;
     void Start()
     {
-        settingsPanel = GameObject.Find("SettingsPanel");
+        settingsPanel = GameObject.Find("OptionsPanel");
         settingsPanel.SetActive(false);
 
         controlsPanel = GameObject.Find("ControlsPanel");
         controlsPanel.SetActive(false);
     }
 
-    
+
     void Update()
     {
-        
+
     }
 
     public void StartGame()
     {
-        SceneManager.LoadScene("TilemapCasa");
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
+        SceneManager.LoadScene("TilemapPueblo");
     }
+
+    public void SkipCinematic()
+    {
+        
+        SceneManager.LoadScene("MenuUI");
+    }
+
+
 
     public void ShowSettings()
     {
@@ -59,8 +68,15 @@ public class MenuUI : MonoBehaviour
         Application.Quit();
     }
 
-    public void ButtonSound(){
+    public void ButtonSound()
+    {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
     }
 
+    public void ReturnHouse()
+    {
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
+        SceneManager.LoadScene("TilemapCasa");
+        
+    }
 }
