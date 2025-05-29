@@ -67,21 +67,6 @@ public class MiniMazon : MonoBehaviour
     void FixedUpdate()
     {
         //contramovperso mRb.MovePosition(mRb.position + moveInput * velocidadM * Time.fixedDeltaTime);  
-    }
-
-    void Update()
-    {
-        float miDeltaTime = Time.deltaTime;
-
-        health = GameManager.Instance.health;
-
-        /*transform.Translate(
-            movTeclas *  (Time.deltaTime * -multiplicadorM),0,0);
-
-        //Animacion IDLE TO WALKING 
-        movTeclas = Input.GetAxis("Horizontal");
-        if (movTeclas != 0)
-        {animatorController.SetBool("WalkM", true)} else {animatorController.SetBool("WalkM", false);}*/
 
         //PATROL AUTO
         Vector2 point = currentPoint.position - transform.position;
@@ -103,6 +88,21 @@ public class MiniMazon : MonoBehaviour
         {
             currentPoint = PuntoB.transform;
         }
+    }
+
+    void Update()
+    {
+        float miDeltaTime = Time.deltaTime;
+
+        health = GameManager.Instance.health;
+
+        /*transform.Translate(
+            movTeclas *  (Time.deltaTime * -multiplicadorM),0,0);
+
+        //Animacion IDLE TO WALKING 
+        movTeclas = Input.GetAxis("Horizontal");
+        if (movTeclas != 0)
+        {animatorController.SetBool("WalkM", true)} else {animatorController.SetBool("WalkM", false);}*/
 
     }
 

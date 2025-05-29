@@ -648,7 +648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &726725008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1025,6 +1025,8 @@ MonoBehaviour:
   Fuses: []
   totalPipes: 0
   totalFuses: 0
+  health: 0
+  maxHealth: 0
 --- !u!4 &1388056845
 Transform:
   m_ObjectHideFlags: 0
@@ -4675,7 +4677,7 @@ SceneRoots:
   - {fileID: 1388056845}
   - {fileID: 48171393}
   - {fileID: 1839639839}
-  - {fileID: 726725009}
   - {fileID: 2012064037}
   - {fileID: 2036403870}
+  - {fileID: 726725009}
   - {fileID: 230357407}

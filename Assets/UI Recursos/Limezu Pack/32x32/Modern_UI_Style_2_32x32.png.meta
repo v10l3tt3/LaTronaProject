@@ -2407,54 +2407,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Modern_UI_Style_2_32x32_120
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 960
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7086bd3bb8e39ae46a83fdb64874ab36
-      internalID: 130784698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Modern_UI_Style_2_32x32_121
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 960
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f61c51f7e72b37f4c9b60f607c7551a5
-      internalID: 1516663846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Modern_UI_Style_2_32x32_122
       rect:
         serializedVersion: 2
-        x: 192
+        x: 137
         y: 960
-        width: 32
+        width: 78
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
