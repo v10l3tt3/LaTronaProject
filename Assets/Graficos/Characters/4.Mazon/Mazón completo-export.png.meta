@@ -1,0 +1,1294 @@
+fileFormatVersion: 2
+guid: 0e456fff3b5c7fa458cc9bbe0ffbb5d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_10"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7375fcb21d64a4fa5ada49c62c1108
+      internalID: 587696000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_11"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deee6174938c724baf8162d6fd19f8c
+      internalID: -159295393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_12"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f49ad1d8f519b4a8fdd76f8b88d10a
+      internalID: 1402550121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_13"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e4329e8f0e19449bf590f2bfaaafef
+      internalID: 416316419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_17"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825119624e069f8428a0a9718162ab6f
+      internalID: -987565186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_18"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f286fde7e59f84146b33bbea38522dfe
+      internalID: -68230688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_19"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 161
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433abaf1cae7c4a4bb70f1e21eae7824
+      internalID: -2007425066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_20"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 161
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c581b1ea02369b4aa1fee3f9a78c850
+      internalID: -1613764005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_21"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1798aae1d5554be439a36bee1f2a8b89
+      internalID: 506823590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_22"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 161
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b315c6b4186ac640b090d1f493169fc
+      internalID: -197954562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_36"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca2775de212394c8d65daa29f46607
+      internalID: 1072557936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_37"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd591657cd45f804297e25816b62b93a
+      internalID: 258502827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_38"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570e0388fd3db594f8ed9b1d9ac5b2a5
+      internalID: -1681172564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_39"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e254d63658dd36408ce8ed45291cb8b
+      internalID: -2006162724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_43"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8c21e5dbe16e94c9f0b3e423cbb6df
+      internalID: 890643690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_44"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0529499c9eeeea04d94b9ef1104ffd52
+      internalID: -1302259879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_45"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 129
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2b7d0c5dfc5654f92ec26fb8157db4
+      internalID: 646379808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_46"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 129
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6eaee67938a7e4ebe3a7c8c6733c34
+      internalID: 1408460771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_47"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056c0955b5c48704f8f1ddd425488378
+      internalID: 1097803410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_48"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 129
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e03715b445b6cd49a7fd7e7cd8681c4
+      internalID: -1619231597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_62"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee214776203162409e5735fe2e05585
+      internalID: 885859898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_63"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e06d5fb48d7414f9a9485be1a30d49
+      internalID: 1616741159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_64"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14a9ac048bcff545804deeb31cb02db
+      internalID: -1139035520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_65"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac6cfa9715290246b062fc49b5e3468
+      internalID: 750334355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_69"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 97
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39552ab2fcd83cf479671c71cdda44d0
+      internalID: -735392161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_70"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2225d0f6987692438f925f1fb6487f4
+      internalID: 930815249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_71"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4e0e56745f25346985f2b7736d6115
+      internalID: 426823560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_72"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 97
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead2d69e375309b4e89b7b7dbc0be1f3
+      internalID: 1414623208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_73"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483417b09ec0b942a8c2319f3bc13eb
+      internalID: 478905473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_74"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 97
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f85566a81803f4ea6669fb0980ae56
+      internalID: 1237936906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_89"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcd24e7806ae4d4297334fb7a2381d9
+      internalID: 1282436817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_90"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685609ccb3035a149b5da172272b3c44
+      internalID: 655013850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_91"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf919d94202124c43b7cb54e7ee9ed7b
+      internalID: -1105985339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_92"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19e77b039662d549b774e6642ee766a
+      internalID: -1137033083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_93"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bdb56cc3668734ea1909fb8c7f982d
+      internalID: -631132932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_97"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 65
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df5a49634a827549a963f896e035fad
+      internalID: 2017148128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_98"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff068f0c1bdcdf4d98ff81bae0eb65b
+      internalID: 1578174446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_99"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e7b3378d12454cb4105cbef9cd3ed
+      internalID: -1513680264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_100"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 65
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae514adcc1282f47a770cf39c535366
+      internalID: 1234984244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_101"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9542b2d229897c84b8eea2f86e344eb7
+      internalID: 1538020806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_102"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 65
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b47b9b5f297ddd4d856f3553cd04f0e
+      internalID: -584009409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_115"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c5e52287f46c44b8f85e50b811a412
+      internalID: -2011093509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_116"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faee4862704ec5e47852de71e48d2d54
+      internalID: 1627133113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_117"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d5d71a0e6159c4793b045d394e1074
+      internalID: -473732245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_121"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7941b32f4786e48951d9391de1793e
+      internalID: -1400375880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_122"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f3a1b6126ad424aa386e08b46ef5ea
+      internalID: -914806873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_123"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05783de85edde144dbb82a210322d3de
+      internalID: -890351124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_124"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e9aa4ab9337504791cf2122c91b139
+      internalID: 1604704873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_125"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11253e418a77d6c4cb6461a0b6931552
+      internalID: 1208943106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Maz\xF3n completo-export_126"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51540249343e0df4c9ade772a24c3d8d
+      internalID: 68882580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Maz\xF3n completo-export_0": 1672708890
+      "Maz\xF3n completo-export_1": -1408092314
+      "Maz\xF3n completo-export_10": 587696000
+      "Maz\xF3n completo-export_100": 1234984244
+      "Maz\xF3n completo-export_101": 1538020806
+      "Maz\xF3n completo-export_102": -584009409
+      "Maz\xF3n completo-export_103": -304207690
+      "Maz\xF3n completo-export_104": 245311815
+      "Maz\xF3n completo-export_105": 145170419
+      "Maz\xF3n completo-export_106": 1376369661
+      "Maz\xF3n completo-export_107": 1394107770
+      "Maz\xF3n completo-export_108": 510413028
+      "Maz\xF3n completo-export_109": 1607040063
+      "Maz\xF3n completo-export_11": -159295393
+      "Maz\xF3n completo-export_110": 1059771822
+      "Maz\xF3n completo-export_111": 429817449
+      "Maz\xF3n completo-export_112": 631797491
+      "Maz\xF3n completo-export_113": -1240398474
+      "Maz\xF3n completo-export_114": 7952419
+      "Maz\xF3n completo-export_115": -2011093509
+      "Maz\xF3n completo-export_116": 1627133113
+      "Maz\xF3n completo-export_117": -473732245
+      "Maz\xF3n completo-export_118": 1080303611
+      "Maz\xF3n completo-export_119": 241127729
+      "Maz\xF3n completo-export_12": 1402550121
+      "Maz\xF3n completo-export_120": -1490678909
+      "Maz\xF3n completo-export_121": -1400375880
+      "Maz\xF3n completo-export_122": -914806873
+      "Maz\xF3n completo-export_123": -890351124
+      "Maz\xF3n completo-export_124": 1604704873
+      "Maz\xF3n completo-export_125": 1208943106
+      "Maz\xF3n completo-export_126": 68882580
+      "Maz\xF3n completo-export_127": -2092136224
+      "Maz\xF3n completo-export_128": -1672101536
+      "Maz\xF3n completo-export_129": 969857452
+      "Maz\xF3n completo-export_13": 416316419
+      "Maz\xF3n completo-export_14": -143297630
+      "Maz\xF3n completo-export_15": -1983183860
+      "Maz\xF3n completo-export_16": 1136016298
+      "Maz\xF3n completo-export_17": -987565186
+      "Maz\xF3n completo-export_18": -68230688
+      "Maz\xF3n completo-export_19": -2007425066
+      "Maz\xF3n completo-export_2": 2088242480
+      "Maz\xF3n completo-export_20": -1613764005
+      "Maz\xF3n completo-export_21": 506823590
+      "Maz\xF3n completo-export_22": -197954562
+      "Maz\xF3n completo-export_23": -422717382
+      "Maz\xF3n completo-export_24": 873345686
+      "Maz\xF3n completo-export_25": 833459118
+      "Maz\xF3n completo-export_26": -1099180711
+      "Maz\xF3n completo-export_27": -909161778
+      "Maz\xF3n completo-export_28": 763264868
+      "Maz\xF3n completo-export_29": -801430549
+      "Maz\xF3n completo-export_3": -949321372
+      "Maz\xF3n completo-export_30": 1635063837
+      "Maz\xF3n completo-export_31": 81688069
+      "Maz\xF3n completo-export_32": -2049500677
+      "Maz\xF3n completo-export_33": -1885632628
+      "Maz\xF3n completo-export_34": -1293696454
+      "Maz\xF3n completo-export_35": 1155120547
+      "Maz\xF3n completo-export_36": 1072557936
+      "Maz\xF3n completo-export_37": 258502827
+      "Maz\xF3n completo-export_38": -1681172564
+      "Maz\xF3n completo-export_39": -2006162724
+      "Maz\xF3n completo-export_4": -1392886947
+      "Maz\xF3n completo-export_40": -950225411
+      "Maz\xF3n completo-export_41": -837051259
+      "Maz\xF3n completo-export_42": 465464310
+      "Maz\xF3n completo-export_43": 890643690
+      "Maz\xF3n completo-export_44": -1302259879
+      "Maz\xF3n completo-export_45": 646379808
+      "Maz\xF3n completo-export_46": 1408460771
+      "Maz\xF3n completo-export_47": 1097803410
+      "Maz\xF3n completo-export_48": -1619231597
+      "Maz\xF3n completo-export_49": -865733712
+      "Maz\xF3n completo-export_5": 1374094101
+      "Maz\xF3n completo-export_50": 817495225
+      "Maz\xF3n completo-export_51": -870341634
+      "Maz\xF3n completo-export_52": -767829003
+      "Maz\xF3n completo-export_53": 161910630
+      "Maz\xF3n completo-export_54": 230249438
+      "Maz\xF3n completo-export_55": 1873304077
+      "Maz\xF3n completo-export_56": 288361751
+      "Maz\xF3n completo-export_57": -1911356379
+      "Maz\xF3n completo-export_58": 1058120436
+      "Maz\xF3n completo-export_59": -1794030380
+      "Maz\xF3n completo-export_6": 143970811
+      "Maz\xF3n completo-export_60": -1612475134
+      "Maz\xF3n completo-export_61": 68545658
+      "Maz\xF3n completo-export_62": 885859898
+      "Maz\xF3n completo-export_63": 1616741159
+      "Maz\xF3n completo-export_64": -1139035520
+      "Maz\xF3n completo-export_65": 750334355
+      "Maz\xF3n completo-export_66": -406081037
+      "Maz\xF3n completo-export_67": 1864008392
+      "Maz\xF3n completo-export_68": -572367349
+      "Maz\xF3n completo-export_69": -735392161
+      "Maz\xF3n completo-export_7": 1695710874
+      "Maz\xF3n completo-export_70": 930815249
+      "Maz\xF3n completo-export_71": 426823560
+      "Maz\xF3n completo-export_72": 1414623208
+      "Maz\xF3n completo-export_73": 478905473
+      "Maz\xF3n completo-export_74": 1237936906
+      "Maz\xF3n completo-export_75": -471437957
+      "Maz\xF3n completo-export_76": -1121536806
+      "Maz\xF3n completo-export_77": -1098662591
+      "Maz\xF3n completo-export_78": -1952960607
+      "Maz\xF3n completo-export_79": -1370140629
+      "Maz\xF3n completo-export_8": -1219357319
+      "Maz\xF3n completo-export_80": 2077488764
+      "Maz\xF3n completo-export_81": -1602632388
+      "Maz\xF3n completo-export_82": 1162679398
+      "Maz\xF3n completo-export_83": 933885906
+      "Maz\xF3n completo-export_84": -925829331
+      "Maz\xF3n completo-export_85": -414725199
+      "Maz\xF3n completo-export_86": 1793713656
+      "Maz\xF3n completo-export_87": -677538561
+      "Maz\xF3n completo-export_88": -249073187
+      "Maz\xF3n completo-export_89": 1282436817
+      "Maz\xF3n completo-export_9": -486565555
+      "Maz\xF3n completo-export_90": 655013850
+      "Maz\xF3n completo-export_91": -1105985339
+      "Maz\xF3n completo-export_92": -1137033083
+      "Maz\xF3n completo-export_93": -631132932
+      "Maz\xF3n completo-export_94": -1617290486
+      "Maz\xF3n completo-export_95": 1309824058
+      "Maz\xF3n completo-export_96": 1651749708
+      "Maz\xF3n completo-export_97": 2017148128
+      "Maz\xF3n completo-export_98": 1578174446
+      "Maz\xF3n completo-export_99": -1513680264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
