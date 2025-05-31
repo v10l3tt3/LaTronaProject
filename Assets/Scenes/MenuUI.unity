@@ -1052,7 +1052,7 @@ MonoBehaviour:
   creditsBandaSonora: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
   fxButtonIn: {fileID: 8300000, guid: 7c6f8569bda59a4429fded1c4684ce26, type: 3}
   fxButtonOut: {fileID: 8300000, guid: 1d69ff179f591d147b19a6c411a6a09b, type: 3}
-  fxPlayButton: {fileID: 8300000, guid: 64f2f2e9b25ef8f4d951256eb2eeea99, type: 3}
+  fxPlayButton: {fileID: 8300000, guid: f2847fb8e8cc32b4aa2771b7d4cb2a88, type: 3}
   fxExitGame: {fileID: 8300000, guid: 6c0d6dc948fa0194ab68ca9308cdd8f5, type: 3}
   fxFuseSwitch: {fileID: 0}
   fxPipesClick: {fileID: 8300000, guid: 23a64dd530435d149aff9a3580c77675, type: 3}
