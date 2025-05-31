@@ -6,16 +6,16 @@ using UnityEngine.SceneManagement;
 public class BotonesInventarioScript : MonoBehaviour
 {
     //test
-    
+
 
     void Start()
     {
-        
+
     }
-    
+
     void Update()
     {
-        
+
     }
 
 
@@ -30,6 +30,13 @@ public class BotonesInventarioScript : MonoBehaviour
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxExitGame);
         Application.Quit();
+    }
+    
+    public void ReturnHouse()
+    {
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
+        SceneManager.LoadScene(3);
+        
     }
 
 

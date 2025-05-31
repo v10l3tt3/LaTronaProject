@@ -879,10 +879,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866702597}
-  - component: {fileID: 866702599}
   - component: {fileID: 866702598}
   m_Layer: 0
-  m_Name: BotonObj
+  m_Name: MenuUIObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -897,11 +896,11 @@ Transform:
   m_GameObject: {fileID: 866702596}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -950.16, y: -540.80566, z: -3588.3086}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.323125, y: -4.055044, z: 89.96634}
+  m_LocalScale: {x: 0.0078125, y: 0.0078125, z: 0.0078125}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1817510331}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &866702598
 MonoBehaviour:
@@ -915,19 +914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63093a68ed9eb654884c323acecc590e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &866702599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866702596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneBuildIndex: 0
 --- !u!1 &908227317
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,7 +3595,6 @@ RectTransform:
   - {fileID: 42995184}
   - {fileID: 85559443}
   - {fileID: 1201404583}
-  - {fileID: 866702597}
   m_Father: {fileID: 2036403870}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3762,8 +3747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandaSonora: {fileID: 8300000, guid: 5c870ff9493588e478b25bfcd9fdd365, type: 3}
   creditsBandaSonora: {fileID: 0}
-  fxButtonIn: {fileID: 0}
-  fxButtonOut: {fileID: 0}
+  fxButtonIn: {fileID: 8300000, guid: 7c6f8569bda59a4429fded1c4684ce26, type: 3}
+  fxButtonOut: {fileID: 8300000, guid: 1d69ff179f591d147b19a6c411a6a09b, type: 3}
   fxPlayButton: {fileID: 0}
   fxExitGame: {fileID: 0}
   fxFuseSwitch: {fileID: 8300000, guid: 477fd59eabc44874a904591d1834c6a1, type: 3}
@@ -7053,9 +7038,10 @@ SceneRoots:
   - {fileID: 609873541}
   - {fileID: 1388056845}
   - {fileID: 48171393}
-  - {fileID: 1839639839}
   - {fileID: 2036403870}
   - {fileID: 726725009}
   - {fileID: 230357407}
   - {fileID: 2122087856}
   - {fileID: 1849253421}
+  - {fileID: 866702597}
+  - {fileID: 1839639839}

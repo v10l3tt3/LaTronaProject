@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 1685933982}
   - component: {fileID: 1685933981}
   m_Layer: 0
-  m_Name: BotonSkipObj
+  m_Name: MenuUIObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,11 +670,11 @@ Transform:
   m_GameObject: {fileID: 1685933980}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -589.9385, y: -249.66162, z: -9.052834}
+  m_LocalPosition: {x: 1135.0615, y: -150.66162, z: -9.052834}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2138513663}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1725791321
 GameObject:
@@ -911,7 +911,6 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1028481604}
-  - {fileID: 1685933982}
   m_Father: {fileID: 947140234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1023,3 +1022,4 @@ SceneRoots:
   - {fileID: 1884226843}
   - {fileID: 1725791323}
   - {fileID: 1333076182}
+  - {fileID: 1685933982}

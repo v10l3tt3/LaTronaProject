@@ -9,6 +9,9 @@ public class MenuUI : MonoBehaviour
     GameObject settingsPanel;
 
     GameObject controlsPanel;
+
+
+
     void Start()
     {
         settingsPanel = GameObject.Find("OptionsPanel");
@@ -32,8 +35,8 @@ public class MenuUI : MonoBehaviour
 
     public void SkipCinematic()
     {
-        
-        SceneManager.LoadScene("MenuUI");
+
+        SceneManager.LoadScene(1);
     }
 
 
@@ -73,10 +76,5 @@ public class MenuUI : MonoBehaviour
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPlayButton);
     }
 
-    public void ReturnHouse()
-    {
-        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
-        SceneManager.LoadScene("TilemapCasa");
-        
-    }
+
 }
