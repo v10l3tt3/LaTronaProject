@@ -731,12 +731,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310301282}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.155045, y: -20.47336, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.90576, y: -7.2663994, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &310301286
 Rigidbody2D:
@@ -982,7 +982,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.14231372, y: -0.148413}
+  m_Offset: {x: 0.014257073, y: -0.148413}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -993,7 +993,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0099158, y: 1.9977175}
+  m_Size: {x: 1.7538025, y: 1.9977175}
   m_EdgeRadius: 0
 --- !u!61 &415436905
 BoxCollider2D:
@@ -1127,13 +1127,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415436903}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.05, y: 1.54, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.19928479, y: 14.746961, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 128063988}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &415436909
 Rigidbody2D:
@@ -48318,13 +48318,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561002951}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.323686, y: -19.13, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0744011, y: -5.9230385, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1752770090}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &561002955
 BoxCollider2D:
@@ -49928,12 +49928,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701832082}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.453461, y: -17.008945, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.204176, y: -3.8019848, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &701832086
 BoxCollider2D:
@@ -51554,12 +51554,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956152277}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2438736, y: -1.880754, z: 2.0395803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -962.2439, y: -541.88074, z: 2.0395803}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1502711033}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &961277464
 GameObject:
@@ -51592,7 +51592,6 @@ Transform:
   m_Children:
   - {fileID: 41265297}
   - {fileID: 1680384292}
-  - {fileID: 1324752454}
   - {fileID: 1056698811}
   - {fileID: 931629868}
   m_Father: {fileID: 0}
@@ -52174,12 +52173,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204793750}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.073855, y: -13.900048, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8245702, y: -0.6930876, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1204793754
 Rigidbody2D:
@@ -52207,7 +52206,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1204793755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52315,37 +52314,6 @@ MonoBehaviour:
   dialogueText: {fileID: 0}
   dialogueLines: []
   typingTime: 0.05
---- !u!1 &1324752453
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1324752454}
-  m_Layer: 0
-  m_Name: Senyora
-  m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1324752454
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324752453}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.974464, y: 32.25225, z: 0.066970706}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 961277465}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359037196
 GameObject:
   m_ObjectHideFlags: 0
@@ -52428,7 +52396,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 956152278}
         m_TargetAssemblyTypeName: BotonesInventarioScript, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -52822,7 +52790,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 956152278}
         m_TargetAssemblyTypeName: BotonesInventarioScript, Assembly-CSharp
         m_MethodName: ReturnMenu
         m_Mode: 1
@@ -99929,6 +99897,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1019212888}
+  - {fileID: 956152279}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -103933,7 +103902,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!1 &2015733187
+=======
+--- !u!1 &2006644510
+>>>>>>> e81bc84dccece4ec9b53a2ef823bb2eda9aad75c
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103941,20 +103914,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 2015733188}
   m_Layer: 0
   m_Name: carpeta voluntarios sueltos
+=======
+  - component: {fileID: 2006644511}
+  m_Layer: 0
+  m_Name: --NPCs-Grid--
+>>>>>>> e81bc84dccece4ec9b53a2ef823bb2eda9aad75c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2015733188
+=======
+--- !u!4 &2006644511
+>>>>>>> e81bc84dccece4ec9b53a2ef823bb2eda9aad75c
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2015733187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -104078,6 +104062,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+  m_GameObject: {fileID: 2006644510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2492847, y: -13.206961, z: 1334.135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 415436908}
+  - {fileID: 1204793753}
+  - {fileID: 561002954}
+  - {fileID: 701832085}
+  - {fileID: 310301285}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> e81bc84dccece4ec9b53a2ef823bb2eda9aad75c
 --- !u!1 &2094643246
 GameObject:
   m_ObjectHideFlags: 0
@@ -104221,14 +104221,9 @@ SceneRoots:
   - {fileID: 1629049574}
   - {fileID: 202746294}
   - {fileID: 961277465}
+  - {fileID: 2006644511}
   - {fileID: 1502711033}
   - {fileID: 1444490477}
   - {fileID: 470273990}
-  - {fileID: 415436908}
-  - {fileID: 1204793753}
-  - {fileID: 561002954}
-  - {fileID: 701832085}
-  - {fileID: 310301285}
-  - {fileID: 956152279}
   - {fileID: 1367219406}
   - {fileID: 2015733188}

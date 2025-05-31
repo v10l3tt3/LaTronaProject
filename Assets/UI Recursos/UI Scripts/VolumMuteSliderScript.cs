@@ -6,14 +6,22 @@ using UnityEngine.UI;
 
 public class VolumMuteSliderScript : MonoBehaviour
 {
-     public Slider slider;
+    public Slider slider;
     public float sliderValue;
     public Image imagenMute;
 
-        public void ChangeSlider(float valor)
+    void Start()
+    {
+        slider.value = PlayerPrefs.GetFloat("volumenAudio", 1.0f);
+        AudioListener.volume = slider.value;
+        RevisarSiEstoyMute();
+    } 
+
+
+    public void ChangeSlider(float valor)
     {
         sliderValue = valor;
-        PlayerPrefs.SetFloat("volumenAudio", 0.5f);
+        PlayerPrefs.SetFloat("volumenAudio", sliderValue);
         AudioListener.volume = slider.value;
         RevisarSiEstoyMute();
     }
