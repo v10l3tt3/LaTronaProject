@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: 62bf74ca21f52294dbb1cc72aa128ec7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barrer1y2_188
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 369
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f3dadc57bbd584d99b6e26e34aec7f
+      internalID: -284021517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_189
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 369
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9d8bd9bc718a44da115a6f8fdc572c
+      internalID: 685508831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 369
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b64ca02c01fbd04b93212368d8fee9b
+      internalID: 317512886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_191
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 368
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d35432d47d014eb973623b7798aa5
+      internalID: 484088876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_192
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 368
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7256ace6fa3992145b4a8ce1bd9c718f
+      internalID: 1599031526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_193
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 368
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a6a54c0a91914facbd315fb6a4a32
+      internalID: -2111893513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_194
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 368
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2955c10db659a14e8e86afd3a1f6021
+      internalID: 1118269633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_195
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 368
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a9bd46a74bcf847b7f0aa0f4a39c1d
+      internalID: -256599557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69312ac966e158a49883035a299d9a4e
+      internalID: -298757425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_201
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c2fa5464f196143b0bf2ccd5a4f3d6
+      internalID: -860837217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_203
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ea9ee46dc8fab42b370248c118b914
+      internalID: 1766041320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_204
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c435224924107c48b6dde29a1ad948e
+      internalID: -1037066861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_206
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5889f1d6cc0894ebb58881320263a2
+      internalID: -575734520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_208
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452dcb2a9704e434ca5ce57c99a5dfee
+      internalID: -1796980824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_210
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2af2c4cff8f0a4ea95611b9bfc6b50
+      internalID: 1940897652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_211
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f00072d929dcf49a797607a380e86b
+      internalID: 1461329901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_213
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6f25c5f19d4cc4b840954302cc8741
+      internalID: -1108307569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_214
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d5c0e89537fc4bac0ed67803e4943
+      internalID: -1743544432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_216
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59997f86c2ce2d745bb3761380cf12a0
+      internalID: 2063489332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrer1y2_218
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cb337247d00cd4ba2476e7b1888311
+      internalID: -466713197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Barrer1y2_0: 140388220
+      Barrer1y2_1: -952189800
+      Barrer1y2_10: 1756065186
+      Barrer1y2_100: -1207889767
+      Barrer1y2_101: -561253695
+      Barrer1y2_102: -1025692595
+      Barrer1y2_103: 675336104
+      Barrer1y2_104: 1159983457
+      Barrer1y2_105: -1214178743
+      Barrer1y2_106: 1524177722
+      Barrer1y2_107: -1507893775
+      Barrer1y2_108: 1947504738
+      Barrer1y2_109: -1271454211
+      Barrer1y2_11: -197641029
+      Barrer1y2_110: 243867631
+      Barrer1y2_111: 1809316760
+      Barrer1y2_112: 1771506202
+      Barrer1y2_113: 1240505031
+      Barrer1y2_114: -1749588418
+      Barrer1y2_115: -835493949
+      Barrer1y2_116: 1950795087
+      Barrer1y2_117: 143860104
+      Barrer1y2_118: 1002127825
+      Barrer1y2_119: -1080266420
+      Barrer1y2_12: -1619260311
+      Barrer1y2_120: -1959841264
+      Barrer1y2_121: 227635208
+      Barrer1y2_122: 2113626428
+      Barrer1y2_123: 671060831
+      Barrer1y2_124: -1839687854
+      Barrer1y2_125: 2072207175
+      Barrer1y2_126: -449209513
+      Barrer1y2_127: 526129151
+      Barrer1y2_128: 1411616087
+      Barrer1y2_129: -2034749121
+      Barrer1y2_13: -917862955
+      Barrer1y2_130: -543617530
+      Barrer1y2_131: 2001828374
+      Barrer1y2_132: 643440085
+      Barrer1y2_133: 278991834
+      Barrer1y2_134: -1645193015
+      Barrer1y2_135: 653501865
+      Barrer1y2_136: 1979189333
+      Barrer1y2_137: -532926516
+      Barrer1y2_138: -1070573348
+      Barrer1y2_139: 1575726484
+      Barrer1y2_14: 69974649
+      Barrer1y2_140: -2034520620
+      Barrer1y2_141: -1785528203
+      Barrer1y2_142: 1474005000
+      Barrer1y2_143: 1546112518
+      Barrer1y2_144: 743111994
+      Barrer1y2_145: -1327195161
+      Barrer1y2_146: -408612803
+      Barrer1y2_147: 662256443
+      Barrer1y2_148: -94427341
+      Barrer1y2_149: -76753651
+      Barrer1y2_15: -858031061
+      Barrer1y2_150: -2089009440
+      Barrer1y2_151: -662104348
+      Barrer1y2_152: -1060528859
+      Barrer1y2_153: 1754542037
+      Barrer1y2_154: 1942863197
+      Barrer1y2_155: -443726541
+      Barrer1y2_156: 1938685823
+      Barrer1y2_157: -128330196
+      Barrer1y2_158: -369951100
+      Barrer1y2_159: 1694611814
+      Barrer1y2_16: 888994093
+      Barrer1y2_160: 784734301
+      Barrer1y2_161: -486469241
+      Barrer1y2_162: -1249134879
+      Barrer1y2_163: -1062237648
+      Barrer1y2_164: -1414291982
+      Barrer1y2_165: 1249357155
+      Barrer1y2_166: 2015661529
+      Barrer1y2_167: -1435132462
+      Barrer1y2_168: 2015260731
+      Barrer1y2_169: 1167389154
+      Barrer1y2_17: -291434002
+      Barrer1y2_170: -1031847980
+      Barrer1y2_171: 2063693966
+      Barrer1y2_172: 1533148126
+      Barrer1y2_173: 325585566
+      Barrer1y2_174: 243030222
+      Barrer1y2_175: -2005604993
+      Barrer1y2_176: 1987542659
+      Barrer1y2_177: -92195737
+      Barrer1y2_178: -537188242
+      Barrer1y2_179: -1185640395
+      Barrer1y2_18: -905862959
+      Barrer1y2_180: -785497723
+      Barrer1y2_181: 1479848834
+      Barrer1y2_182: 1488075369
+      Barrer1y2_183: 407938945
+      Barrer1y2_184: -701343294
+      Barrer1y2_185: 609170345
+      Barrer1y2_186: -646992560
+      Barrer1y2_187: 903000840
+      Barrer1y2_188: -284021517
+      Barrer1y2_189: 685508831
+      Barrer1y2_19: -513968857
+      Barrer1y2_190: 317512886
+      Barrer1y2_191: 484088876
+      Barrer1y2_192: 1599031526
+      Barrer1y2_193: -2111893513
+      Barrer1y2_194: 1118269633
+      Barrer1y2_195: -256599557
+      Barrer1y2_196: -355436243
+      Barrer1y2_197: -1857859085
+      Barrer1y2_198: 1843918974
+      Barrer1y2_199: -298757425
+      Barrer1y2_2: -179808261
+      Barrer1y2_20: 230717087
+      Barrer1y2_200: -403552178
+      Barrer1y2_201: -860837217
+      Barrer1y2_202: -148908943
+      Barrer1y2_203: 1766041320
+      Barrer1y2_204: -1037066861
+      Barrer1y2_205: -454540655
+      Barrer1y2_206: -575734520
+      Barrer1y2_207: -29436056
+      Barrer1y2_208: -1796980824
+      Barrer1y2_209: -315477773
+      Barrer1y2_21: 1730570994
+      Barrer1y2_210: 1940897652
+      Barrer1y2_211: 1461329901
+      Barrer1y2_212: -1345119606
+      Barrer1y2_213: -1108307569
+      Barrer1y2_214: -1743544432
+      Barrer1y2_215: -196639570
+      Barrer1y2_216: 2063489332
+      Barrer1y2_217: -1513664321
+      Barrer1y2_218: -466713197
+      Barrer1y2_219: 1894978345
+      Barrer1y2_22: -2044564009
+      Barrer1y2_220: 1086743223
+      Barrer1y2_221: -1542662580
+      Barrer1y2_222: -433010258
+      Barrer1y2_223: -1365641687
+      Barrer1y2_224: -542356410
+      Barrer1y2_225: -1038894746
+      Barrer1y2_226: -1337789006
+      Barrer1y2_227: -282866408
+      Barrer1y2_228: -2137335720
+      Barrer1y2_229: -373784407
+      Barrer1y2_23: 1760269218
+      Barrer1y2_230: -807411411
+      Barrer1y2_231: -406756442
+      Barrer1y2_232: 1782806876
+      Barrer1y2_233: -835548556
+      Barrer1y2_234: 680144385
+      Barrer1y2_235: 1451432316
+      Barrer1y2_236: -1790623316
+      Barrer1y2_237: -534432064
+      Barrer1y2_238: 470278115
+      Barrer1y2_239: 971821368
+      Barrer1y2_24: 786339779
+      Barrer1y2_240: 435996576
+      Barrer1y2_241: 1560934104
+      Barrer1y2_242: 1024389517
+      Barrer1y2_243: 1027142965
+      Barrer1y2_244: -950891523
+      Barrer1y2_245: 126100139
+      Barrer1y2_246: 1641875991
+      Barrer1y2_247: 408778429
+      Barrer1y2_248: -416058804
+      Barrer1y2_249: -1098624781
+      Barrer1y2_25: 1548356509
+      Barrer1y2_250: -1796369879
+      Barrer1y2_251: 828115958
+      Barrer1y2_252: -1848080398
+      Barrer1y2_253: -330236508
+      Barrer1y2_254: -1146757390
+      Barrer1y2_255: 519552363
+      Barrer1y2_256: 1855961070
+      Barrer1y2_257: 126909188
+      Barrer1y2_258: -276495566
+      Barrer1y2_259: 1733970182
+      Barrer1y2_26: 1221327209
+      Barrer1y2_260: -1239663025
+      Barrer1y2_261: 330875397
+      Barrer1y2_262: 1322563814
+      Barrer1y2_263: 1010155983
+      Barrer1y2_264: -1195313935
+      Barrer1y2_265: -269191628
+      Barrer1y2_266: -978556204
+      Barrer1y2_267: -261279955
+      Barrer1y2_268: -1562976743
+      Barrer1y2_269: 372475030
+      Barrer1y2_27: 56967882
+      Barrer1y2_270: 259142341
+      Barrer1y2_271: -1527126663
+      Barrer1y2_272: 135955724
+      Barrer1y2_273: -810364309
+      Barrer1y2_274: -1052544626
+      Barrer1y2_275: -355909915
+      Barrer1y2_276: 1155047839
+      Barrer1y2_277: 179102857
+      Barrer1y2_278: 738952719
+      Barrer1y2_279: -1042138641
+      Barrer1y2_28: 135591721
+      Barrer1y2_280: 1121545558
+      Barrer1y2_281: 567690851
+      Barrer1y2_282: -620369511
+      Barrer1y2_283: -1969511382
+      Barrer1y2_284: 727722083
+      Barrer1y2_285: 953388186
+      Barrer1y2_286: -275157252
+      Barrer1y2_287: -1627468378
+      Barrer1y2_288: 1776925316
+      Barrer1y2_289: -1249380625
+      Barrer1y2_29: -2050748171
+      Barrer1y2_290: 299759524
+      Barrer1y2_291: 491025173
+      Barrer1y2_292: -1754004823
+      Barrer1y2_293: -163434150
+      Barrer1y2_294: -2090098776
+      Barrer1y2_295: 1554407678
+      Barrer1y2_296: 1288847291
+      Barrer1y2_297: -827157895
+      Barrer1y2_298: 161327182
+      Barrer1y2_299: 1751635304
+      Barrer1y2_3: 1788506139
+      Barrer1y2_30: -1924418126
+      Barrer1y2_300: -1400786644
+      Barrer1y2_301: 1220548778
+      Barrer1y2_302: 1654902875
+      Barrer1y2_303: -1443484054
+      Barrer1y2_304: -1926756607
+      Barrer1y2_305: 1962832485
+      Barrer1y2_306: 1203354332
+      Barrer1y2_307: -2105613330
+      Barrer1y2_308: -228408723
+      Barrer1y2_309: 1453968359
+      Barrer1y2_31: 7597034
+      Barrer1y2_310: -18603695
+      Barrer1y2_311: 488381309
+      Barrer1y2_312: 2100236333
+      Barrer1y2_313: 203641705
+      Barrer1y2_314: -1758808300
+      Barrer1y2_315: -1395352319
+      Barrer1y2_316: 191508358
+      Barrer1y2_317: -1508775124
+      Barrer1y2_318: -489536913
+      Barrer1y2_319: 1889871655
+      Barrer1y2_32: -793082482
+      Barrer1y2_320: 1624237466
+      Barrer1y2_321: 595520925
+      Barrer1y2_322: 1120695737
+      Barrer1y2_323: -1064716586
+      Barrer1y2_324: -1790438532
+      Barrer1y2_325: 764264664
+      Barrer1y2_326: -1358035229
+      Barrer1y2_327: 585313099
+      Barrer1y2_328: 936589107
+      Barrer1y2_329: -1149196313
+      Barrer1y2_33: 504857545
+      Barrer1y2_330: 108495324
+      Barrer1y2_331: -8260986
+      Barrer1y2_332: 554672802
+      Barrer1y2_333: -396938834
+      Barrer1y2_334: -976178130
+      Barrer1y2_335: 949795027
+      Barrer1y2_336: -322877291
+      Barrer1y2_337: -255969178
+      Barrer1y2_338: 789293134
+      Barrer1y2_339: 846894446
+      Barrer1y2_34: 121177658
+      Barrer1y2_340: 10262985
+      Barrer1y2_341: -149256686
+      Barrer1y2_342: -74317812
+      Barrer1y2_343: 538241969
+      Barrer1y2_344: -2028421462
+      Barrer1y2_345: 1396731281
+      Barrer1y2_346: -376151522
+      Barrer1y2_347: -729722496
+      Barrer1y2_348: 1248204055
+      Barrer1y2_349: -285852120
+      Barrer1y2_35: 581368233
+      Barrer1y2_350: -1339130245
+      Barrer1y2_351: -1512282467
+      Barrer1y2_352: -690523643
+      Barrer1y2_353: -728761569
+      Barrer1y2_354: -1170378096
+      Barrer1y2_355: -104522468
+      Barrer1y2_356: 318948208
+      Barrer1y2_357: -1123297444
+      Barrer1y2_358: 2022280833
+      Barrer1y2_359: 1173250273
+      Barrer1y2_36: -166344590
+      Barrer1y2_360: -1962518443
+      Barrer1y2_361: 71622997
+      Barrer1y2_362: 1228718513
+      Barrer1y2_363: 1834847547
+      Barrer1y2_364: -685570721
+      Barrer1y2_365: 1711669785
+      Barrer1y2_366: -1066789243
+      Barrer1y2_367: -1355145737
+      Barrer1y2_368: 149195630
+      Barrer1y2_369: 1113227852
+      Barrer1y2_37: 1808963344
+      Barrer1y2_370: 1679650621
+      Barrer1y2_371: 13692612
+      Barrer1y2_372: -1529834804
+      Barrer1y2_373: 841884114
+      Barrer1y2_374: 200758784
+      Barrer1y2_375: 1302737008
+      Barrer1y2_376: 354002941
+      Barrer1y2_377: 1556019293
+      Barrer1y2_378: 145833106
+      Barrer1y2_379: 945686320
+      Barrer1y2_38: 1670780083
+      Barrer1y2_380: -1603704933
+      Barrer1y2_381: 1412358094
+      Barrer1y2_382: -801896217
+      Barrer1y2_383: -243557692
+      Barrer1y2_384: -1676859446
+      Barrer1y2_385: 319989908
+      Barrer1y2_386: 103889723
+      Barrer1y2_387: 2126864535
+      Barrer1y2_388: 265935167
+      Barrer1y2_389: 1204434511
+      Barrer1y2_39: 1220501335
+      Barrer1y2_390: -1371533896
+      Barrer1y2_391: 1059061651
+      Barrer1y2_392: 620041011
+      Barrer1y2_393: -1914577627
+      Barrer1y2_394: -1534823442
+      Barrer1y2_395: 2094850922
+      Barrer1y2_396: -1444834493
+      Barrer1y2_397: -2075622622
+      Barrer1y2_398: 1837060738
+      Barrer1y2_399: 1031500181
+      Barrer1y2_4: 1690726779
+      Barrer1y2_40: -139460947
+      Barrer1y2_400: 1373105832
+      Barrer1y2_401: -660525972
+      Barrer1y2_402: -165677982
+      Barrer1y2_403: 48362140
+      Barrer1y2_404: 881933225
+      Barrer1y2_405: 413950030
+      Barrer1y2_406: -1580652053
+      Barrer1y2_407: 1690956729
+      Barrer1y2_408: -413268134
+      Barrer1y2_409: -1708161920
+      Barrer1y2_41: 717797322
+      Barrer1y2_410: 491139085
+      Barrer1y2_411: -2093501916
+      Barrer1y2_412: -70630238
+      Barrer1y2_413: 252231953
+      Barrer1y2_414: 1144174499
+      Barrer1y2_415: -2068562227
+      Barrer1y2_416: 1243576031
+      Barrer1y2_417: -635907957
+      Barrer1y2_418: -1238689492
+      Barrer1y2_419: 1054913967
+      Barrer1y2_42: -2119972775
+      Barrer1y2_420: 1439724040
+      Barrer1y2_421: 2060127847
+      Barrer1y2_422: 1346749947
+      Barrer1y2_423: -1705071971
+      Barrer1y2_424: -636480432
+      Barrer1y2_425: -1492053651
+      Barrer1y2_426: 316709817
+      Barrer1y2_427: 2095463583
+      Barrer1y2_428: -1133067094
+      Barrer1y2_429: -282698150
+      Barrer1y2_43: 320298776
+      Barrer1y2_430: 2099489069
+      Barrer1y2_431: 778202567
+      Barrer1y2_432: 1939219471
+      Barrer1y2_433: 363111054
+      Barrer1y2_434: 1804507572
+      Barrer1y2_435: -464699028
+      Barrer1y2_436: 1573749628
+      Barrer1y2_437: 765925488
+      Barrer1y2_438: 955019575
+      Barrer1y2_439: -1671223537
+      Barrer1y2_44: -1850300445
+      Barrer1y2_440: 1914859810
+      Barrer1y2_441: 1198225891
+      Barrer1y2_442: -171227992
+      Barrer1y2_443: -1806262219
+      Barrer1y2_444: -1269069015
+      Barrer1y2_445: -283031292
+      Barrer1y2_446: -930714001
+      Barrer1y2_447: 324339847
+      Barrer1y2_448: 1156786449
+      Barrer1y2_449: 573985098
+      Barrer1y2_45: 1050816701
+      Barrer1y2_450: -602402320
+      Barrer1y2_451: 1121320188
+      Barrer1y2_452: -2019617451
+      Barrer1y2_453: -624259479
+      Barrer1y2_454: 1185732036
+      Barrer1y2_455: -2037814917
+      Barrer1y2_456: 230191657
+      Barrer1y2_46: -2073903344
+      Barrer1y2_47: 1094975342
+      Barrer1y2_48: -549573219
+      Barrer1y2_49: -1158239254
+      Barrer1y2_5: -1227260235
+      Barrer1y2_50: -1136345197
+      Barrer1y2_51: 343530651
+      Barrer1y2_52: 1098904504
+      Barrer1y2_53: -1656674342
+      Barrer1y2_54: -1946194875
+      Barrer1y2_55: -984094209
+      Barrer1y2_56: -1838136860
+      Barrer1y2_57: -2124794243
+      Barrer1y2_58: -1200095829
+      Barrer1y2_59: 279083543
+      Barrer1y2_6: -1859570180
+      Barrer1y2_60: 1523075245
+      Barrer1y2_61: 100970108
+      Barrer1y2_62: 892558538
+      Barrer1y2_63: -1077070122
+      Barrer1y2_64: -104093298
+      Barrer1y2_65: 1736593059
+      Barrer1y2_66: 1576955361
+      Barrer1y2_67: 1459651501
+      Barrer1y2_68: 1509413230
+      Barrer1y2_69: -2112070200
+      Barrer1y2_7: -109625887
+      Barrer1y2_70: -1782106023
+      Barrer1y2_71: 873811406
+      Barrer1y2_72: 361393020
+      Barrer1y2_73: 574210814
+      Barrer1y2_74: 1879819267
+      Barrer1y2_75: -2138307668
+      Barrer1y2_76: -1600419283
+      Barrer1y2_77: 2034259298
+      Barrer1y2_78: 783098935
+      Barrer1y2_79: -1897188823
+      Barrer1y2_8: -1219030370
+      Barrer1y2_80: -1954686435
+      Barrer1y2_81: 1364058324
+      Barrer1y2_82: -1572830388
+      Barrer1y2_83: 1983363652
+      Barrer1y2_84: 2061933402
+      Barrer1y2_85: 1862881158
+      Barrer1y2_86: -2102123149
+      Barrer1y2_87: -1385666298
+      Barrer1y2_88: -1848483117
+      Barrer1y2_89: -1244824787
+      Barrer1y2_9: 196802026
+      Barrer1y2_90: -1066637929
+      Barrer1y2_91: -1610078722
+      Barrer1y2_92: 448489648
+      Barrer1y2_93: 1347747934
+      Barrer1y2_94: -1082795342
+      Barrer1y2_95: 1608698491
+      Barrer1y2_96: 1094343039
+      Barrer1y2_97: -1143953943
+      Barrer1y2_98: -1860554982
+      Barrer1y2_99: -1459025418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
