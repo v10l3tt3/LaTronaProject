@@ -733,9 +733,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.90576, y: -7.2663994, z: -1334.135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.90576, y: -7.2663994, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 2006644511}
   m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &310301286
@@ -864,6 +867,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.014257073, y: -0.148413}
+  m_Offset: {x: 0.014257073, y: -0.148413}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -874,6 +878,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+  m_Size: {x: 1.7538025, y: 1.9977175}
   m_Size: {x: 1.7538025, y: 1.9977175}
   m_EdgeRadius: 0
 --- !u!61 &415436905
@@ -1010,10 +1015,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.19928479, y: 14.746961, z: -1334.135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.19928479, y: 14.746961, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 128063988}
+  m_Father: {fileID: 2006644511}
   m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &415436909
@@ -48201,10 +48209,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.0744011, y: -5.9230385, z: -1334.135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0744011, y: -5.9230385, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1752770090}
+  m_Father: {fileID: 2006644511}
   m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &561002955
@@ -49705,9 +49716,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.204176, y: -3.8019848, z: -1334.135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.204176, y: -3.8019848, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 2006644511}
   m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &701832086
@@ -51119,9 +51133,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -962.2439, y: -541.88074, z: 2.0395803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -962.2439, y: -541.88074, z: 2.0395803}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 1502711033}
   m_Father: {fileID: 1502711033}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &961277464
@@ -51526,9 +51543,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.8245702, y: -0.6930876, z: -1334.135}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8245702, y: -0.6930876, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 2006644511}
   m_Father: {fileID: 2006644511}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1204793754
@@ -51556,6 +51576,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 1
   m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &1204793755
@@ -51747,6 +51769,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 956152278}
       - m_Target: {fileID: 956152278}
         m_TargetAssemblyTypeName: BotonesInventarioScript, Assembly-CSharp
         m_MethodName: ExitGame
@@ -52035,6 +52058,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 956152278}
       - m_Target: {fileID: 956152278}
         m_TargetAssemblyTypeName: BotonesInventarioScript, Assembly-CSharp
         m_MethodName: ReturnMenu
@@ -99143,6 +99167,7 @@ RectTransform:
   m_Children:
   - {fileID: 1019212888}
   - {fileID: 956152279}
+  - {fileID: 956152279}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -103326,6 +103351,7 @@ SceneRoots:
   - {fileID: 1629049574}
   - {fileID: 202746294}
   - {fileID: 961277465}
+  - {fileID: 2006644511}
   - {fileID: 2006644511}
   - {fileID: 1502711033}
   - {fileID: 1444490477}
