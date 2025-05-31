@@ -9,6 +9,7 @@ TagManager:
   - Mazon
   - Policia
   - Limite
+  - Target
   layers:
   - Default
   - TransparentFX
