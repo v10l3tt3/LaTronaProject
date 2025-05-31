@@ -4061,7 +4061,7 @@ GameObject:
   - component: {fileID: 673318694}
   - component: {fileID: 673318693}
   m_Layer: 5
-  m_Name: PanelinventarioP
+  m_Name: PanelinventarioMT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
