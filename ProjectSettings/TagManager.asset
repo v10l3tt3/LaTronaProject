@@ -10,6 +10,12 @@ TagManager:
   - Policia
   - Limite
   - Target
+  - Item1
+  - Item2
+  - Item3
+  - Item-hoja
+  - Item-foto
+  - Item-tub
   layers:
   - Default
   - TransparentFX
