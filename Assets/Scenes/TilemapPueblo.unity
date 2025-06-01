@@ -52031,9 +52031,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f39ef30d2f2c84b8ea68e27be461ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueMark: {fileID: 0}
-  dialogoPanel: {fileID: 0}
-  dialogueText: {fileID: 0}
+  dialogueMark: {fileID: 693069108}
+  dialogoPanel: {fileID: 974869157}
+  dialogueText: {fileID: 2094643248}
   dialogueLines:
   - "PAG\xC8S: ...de veres, pareix rid\xEDcul que s'enviara l'av\xEDs quan ja hi
     havia morts...  Perd\xF3, estava a la meua. \nDigues, qu\xE8 te cal? "
