@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e69be69c18264fb2025be3561e5d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pipes: []
   mTubArreglado: 0
   totalPipes: 0
   correctedPipes: 0
@@ -1175,7 +1174,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.21875
+  orthographic size: 12.922368
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1309,7 +1308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 3
+  sceneBuildIndex: 4
 --- !u!61 &551711796
 BoxCollider2D:
   m_ObjectHideFlags: 0
