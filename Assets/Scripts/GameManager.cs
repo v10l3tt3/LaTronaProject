@@ -14,7 +14,9 @@ public class GameManager : MonoBehaviour
 
     //TUB
     GameObject PipesHolder;
-    public GameObject[] Pipes;
+    GameObject[] Pipes;
+
+    
 
     public bool mTubArreglado = false;
 

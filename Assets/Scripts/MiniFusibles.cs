@@ -18,7 +18,7 @@ public class MiniFusibles : MonoBehaviour
     void Start()
     {
         int rand = Random.Range(0, rotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        transform.eulerAngles = new Vector3(0, 0, 0);
 
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctRotation)
@@ -26,7 +26,9 @@ public class MiniFusibles : MonoBehaviour
             isPlaced = true;
         }
 
-        tinyLight = GameObject.Find("tiny-light");
+        tinyLight = GameObject.FindGameObjectsWithTag("OnTinyLight")[0];
+        tinyLight.SetActive(false);
+        
     }
 
     void Update()

@@ -23,7 +23,7 @@ public class BotonesInventarioScript : MonoBehaviour
     public void ReturnMenu()
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
-        SceneManager.LoadScene(2, LoadSceneMode.Single);
+        SceneManager.LoadScene("MenuUI", LoadSceneMode.Single);
     }
 
     public void ExitGame()
@@ -35,7 +35,7 @@ public class BotonesInventarioScript : MonoBehaviour
     public void ReturnHouse()
     {
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxButtonOut);
-        SceneManager.LoadScene(4, LoadSceneMode.Single);
+        SceneManager.LoadScene("TilemapCasa", LoadSceneMode.Single);
         
     }
 

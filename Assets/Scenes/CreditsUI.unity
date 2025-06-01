@@ -642,12 +642,17 @@ MonoBehaviour:
   fxExitGame: {fileID: 0}
   fxFuseSwitch: {fileID: 0}
   fxPipesClick: {fileID: 0}
+  fxMovBienTub: {fileID: 0}
+  fxLogroTub: {fileID: 0}
+  fxLogroFuse: {fileID: 0}
   poliDolorOinkFX: {fileID: 0}
   fxLowHelicopter: {fileID: 0}
   fxPiece1: {fileID: 0}
   fxPiece2: {fileID: 0}
   fxPhotoCompleted: {fileID: 0}
   musicObj: {fileID: 1104170824}
+  gestorAudio: {fileID: 0}
+  audioMusic: {fileID: 0}
 --- !u!82 &1602598870
 AudioSource:
   m_ObjectHideFlags: 0
@@ -658,7 +663,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -842,6 +847,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1965042537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965042539}
+  - component: {fileID: 1965042538}
+  m_Layer: 0
+  m_Name: EndGameAutoObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1965042538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965042537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9089f4ab49e55447a38538d4b7a3556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinematicTime: 50
+--- !u!4 &1965042539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965042537}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2873303, y: -1.013782, z: -0.82974154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -850,3 +900,4 @@ SceneRoots:
   - {fileID: 1515819002}
   - {fileID: 1217963765}
   - {fileID: 1602598868}
+  - {fileID: 1965042539}

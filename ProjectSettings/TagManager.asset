@@ -20,6 +20,7 @@ TagManager:
   - CasaSucia
   - CasaLimpia
   - PipesSingle
+  - OnTinyLight
   layers:
   - Default
   - TransparentFX
