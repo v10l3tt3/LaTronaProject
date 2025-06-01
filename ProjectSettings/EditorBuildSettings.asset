@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Scenes/T\xEDtol.unity"
+    guid: 7a409cd5115f448b38f937ff79ac452a
+  - enabled: 1
     path: Assets/Scenes/CinematicaInicial.unity
     guid: 4d78430c34397a1459a5059312c301d0
   - enabled: 1

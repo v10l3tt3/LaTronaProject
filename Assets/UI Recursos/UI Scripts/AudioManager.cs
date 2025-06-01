@@ -27,8 +27,8 @@ public class AudioManager : MonoBehaviour
     public GameObject musicObj;
 
 
-    AudioSource gestorAudio;
-    AudioSource audioMusic;
+    public AudioSource gestorAudio;
+    public AudioSource audioMusic;
 
     //por si se quiere usar un mixer de audio al entrar en una zona:
     //public AudioMixerSnapshot burbujaSnapshot;

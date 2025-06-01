@@ -8902,6 +8902,8 @@ MonoBehaviour:
   fxPiece2: {fileID: 0}
   fxPhotoCompleted: {fileID: 0}
   musicObj: {fileID: 786134209}
+  gestorAudio: {fileID: 0}
+  audioMusic: {fileID: 0}
 --- !u!1 &1681858194
 GameObject:
   m_ObjectHideFlags: 0
@@ -10282,7 +10284,6 @@ SceneRoots:
   - {fileID: 1532841440}
   - {fileID: 380906492}
   - {fileID: 927215001}
-  - {fileID: 506260894}
   - {fileID: 1983074706}
   - {fileID: 1769958917}
   - {fileID: 1446732913}
@@ -10290,3 +10291,4 @@ SceneRoots:
   - {fileID: 211781572}
   - {fileID: 110413753}
   - {fileID: 1631640230}
+  - {fileID: 506260894}
