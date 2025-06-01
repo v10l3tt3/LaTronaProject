@@ -37,7 +37,7 @@ public class MenuUI : MonoBehaviour
     public void SkipCinematic()
     {
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MenuUI");
     }
 
 
