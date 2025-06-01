@@ -1018,10 +1018,35 @@ MonoBehaviour:
     cosa que no haja trencat el fang, \"mas que siga\" un retrato."
   - "SENYORA: He fet sort que la ve\xEFna de dalt m'ha deixat pujar quan l'aigua
     encara no feia dos pams... "
-  - "SENYORA: M'ha dit que em puc quedar tot el temps que fa\xE7a falta,\nper\xF2,
+  - "SENYORA: M'ha dit que em puc quedar tot el temps que fa\xE7a falta, per\xF2,
     ja saps, \na mi em sap greu."
   - "SENYORA: Tu que est\xE0s jove no podries ajudar-me? Ja estic major per a estes
     coses, a m\xE9s, sols tinc al meu fill ac\xED, i no el vec des d'ahir a migdia.\r\n"
+  - 'SENYORA: AAAAIII!!! QUIN DESASTRE!!!!'
+  - "SENYORA: Com estava a fosques no podia veure res... b\xE9, al menys ja es pot
+    entrar... Moltes gr\xE0cies perla, no s\xE9 qu\xE8 faria sola..."
+  - "SENYORA: Ui, qu\xE8 \xE9s aix\xF2? Pareix un retrato. Ja veig que l'aigua l'ha
+    trencat..."
+  - "SENYORA: De tota manera reconec la roda del retrato. \xC9s la bicicleta del
+    meu fill."
+  - 'SENYORA: Mira que li tinc dit que no l''agafe per anar a treballar, preferiria
+    que agafara el cotxe per a creuar el pont...'
+  - "SENYORA: En lo bonico que \xE9s el retrato, no es podria arreglar si trob\xE0rem
+    els trossos que falten?"
+  - 'SENYORA: Per cert, no em faries el favor de comprovar si funciona l''aixeta?
+    Si tan sols em poguera dutxar a casa...'
+  - "SENYORA: Ai perla, de veres que moltes gr\xE0cies. A\xE7\xF2 ja fa altra cara,
+    que ll\xE0stima que haur\xE9 de tirar la meitat de mobles..."
+  - "SENYORA: Aix\xF2 qu\xE8 \xE9s? Has trobat l'altra part del retrato?? Qu\xE8
+    ll\xE0stima que estiga trencat, el meu fill es quedar\xE0 tant despagat quan
+    el veja..."
+  - "SENYORA: Vor\xE0s mante, eixe retrato \xE9s de la \xFAltima carrera en bicicleta
+    que va fer. A vore si quan s'acabe a\xE7\xF2 es torna a apuntar a alguna i aix\xED
+    fa algo m\xE9s que treballar..."
+  - "SENYORA: Per cert, he vist que a la PLA\xC7A estan netejant i arreglant retratos,
+    crec que s\xF3n estudiants del polit\xE8cnic."
+  - "SENYORA: No em far\xEDes el favor d'acostar-te a que l'arreglen?? Em faria molta
+    il\u2022lusi\xF3 que el meu fill vegera que al menys el retrato est\xE0 b\xE9."
   typingTime: 0.05
 --- !u!212 &415436907
 SpriteRenderer:
@@ -51782,7 +51807,7 @@ GameObject:
   - component: {fileID: 1204793755}
   - component: {fileID: 1204793754}
   m_Layer: 0
-  m_Name: Payes
+  m_Name: Pages
   m_TagString: NPC
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -52010,11 +52035,25 @@ MonoBehaviour:
   dialogoPanel: {fileID: 0}
   dialogueText: {fileID: 0}
   dialogueLines:
-  - "PAY\xC9S: ...de veres, pareix rid\xEDcul que s'enviara l'av\xEDs quan ja hi
-    havia morts...  Perd\xF3, estava a la meua. \nDigues, qu\xE8 et fa falta? "
-  - "PAY\xC9S: Aigua? \nClar, ac\xED en tens."
-  - "PAY\xC9S: \xC9s impressionant la quantitat de donacions que estem rebent.\nSi
-    no fos pel poble, estar\xEDem perduts...\r\n \r\n"
+  - "PAG\xC8S: ...de veres, pareix rid\xEDcul que s'enviara l'av\xEDs quan ja hi
+    havia morts...  Perd\xF3, estava a la meua. \nDigues, qu\xE8 te cal? "
+  - "PAG\xC8S: Aigua? \nClar, ac\xED en tens."
+  - "PAG\xC8S: \xC9s impressionant la de cabassos de donacions que estem rebent.\nSi
+    no fos pel poble estar\xEDem fets una merda..."
+  - "PAG\xC8S: Ja saps, estar\xEDem perduts."
+  - "PAG\xC8S: X\xE8! Mira la que s'ha liat!!\r\n \r\n"
+  - "PAG\xC8S: No comprenc com pot tindre la cara de vindre-se'n... i m\xE9s encara
+    \"conforme\" estan les coses..."
+  - "PAG\xC8S: \"Ausaes\", qu\xE8 poca vergonya..."
+  - "PAG\xC8S: Ja saps, quin poc trellat..."
+  - "PAG\xC8S: MARE DE D\xC9U, QUINA PUNTERIA!!!"
+  - "PAG\xC8S: B\xE9, al menys ja se n'ha anat all\xE0 a fer la m\xE0..."
+  - "PAG\xC8S: Ja saps, all\xE0 a pastar fang..."
+  - "PAG\xC8S: Mira, com m'ha agradat eixa exhibici\xF3 de punteria et vaig a donar
+    una cosa que potser fages servir."
+  - "PAG\xC8S: He trobat abans unes tuber\xEDes que deuen d'haver eixit del seu lloc.
+    Per\xF2 no estan trencades, estan de categoria..."
+  - "PAG\xC8S: Ja saps, estan de puta mare..."
   typingTime: 0.05
 --- !u!1 &1359037196
 GameObject:
