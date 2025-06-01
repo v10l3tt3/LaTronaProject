@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/Animaci\xF3T\xEDtol.unity"
+    path: Assets/Scenes/AnimacioAFERLAMA.unity
+    guid: 1422376ef08434f0ba79fe64d5bda4cb
+  - enabled: 1
+    path: Assets/Scenes/AnimacioTitol.unity
     guid: 7a409cd5115f448b38f937ff79ac452a
   - enabled: 1
     path: Assets/Scenes/CinematicaInicial.unity
