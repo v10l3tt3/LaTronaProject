@@ -303,24 +303,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A FER LA M\xC0 Productions\n\nIdea original de Mario Biendicho Mart\xED\n\nGui\xF3:\nMario
+  m_text: "A FER LA M\xC0 Produccions\n\nIdea original de Mario Biendicho Mart\xED\n\nGui\xF3:\nMario
     Biendicho Mart\xED\n\nSprites originals:\nLime Zu \nSciGho\n\nAnimacions: \nAida
     Salvador M\xE1rquez\nVer\xF3nica Carrasco Trujillo\n\nProgramaci\xF3:\nViolette
     Mulet Debbihi\nVer\xF3nica Carrasco Trujillo\n\nSo i FX:\nAida Salvador M\xE1rquez\nViolette
     Mulet Debbihi\n\n\n\nDedicat a totes les v\xEDctimes de la terra de Val\xE8ncia
-    afectats per la Dana\n\nLa Dana va ser un esdeveniment que data del 28/10/24,
+    afectats per la Dana\n\nLa Dana va ser un esdeveniment que data del 29/10/24,
     als pobles de la perif\xE8ria de la capital valenciana. Una tempestat d'unes
-    grans magnituts va provocar el desbordament del barranc del Pollo, sufocant als
-    municipis amb kilolitres d'aigua i fang en cuesti\xF3 d'hores. Les cases, els
-    locals i garatges no pogueren bloquejar la f\xFAria meteorol\xF3gica i deixaren
-    un rastre de destrucci\xF3 i, llastimosament, morts.\n\nNo disposem del nombre
-    total dels desafortunats degut a que el govern va anunciar una xifra que q\xFCasi
-    es llimita a 1/4 part del estimat per la gent de a peu. \n\nEl govern tard\xE0
-    fins 3 dies en manar ajuda, la mil\xEDcia francesa arrib\xE0 abans i va tindre
-    que tornar sense poder ajudar. Qui va acudir des de que el carrer es pod\xEDa
-    tornar a circular seren decenes de milers de voluntaris des de tota Espanya.
-    Civils carregats del que pod\xEDen prendre amb les mans, per\xF2 sobretot carregats
-    de la solidaritat mes pura.\n"
+    grans magnituds va provocar el desbordament del barranc del Poio, sufocant als
+    municipis amb kilolitres d'aigua i fang en q\xFCesti\xF3 d'hores. Les cases,
+    els locals i garatges no pogueren bloquejar la f\xFAria meteorol\xF2gica i deixaren
+    un rastre de destrucci\xF3 i morts.\n\nNo disposem del nombre total dels desafortunats
+    degut a que el govern va anunciar una xifra que quasi es limita a una quarta
+    part de l'estimat per la gent de a peu. \n\nEl govern tard\xE0 fins tres dies
+    en enviar ajuda. La mil\xEDcia francesa arrib\xE0 abans i va tindre que tornar
+    sense poder ajudar. Qui va acudir des de que el carrer es podia tornar a circular
+    foren decenes de milers de voluntaris de tota Espanya. Civils carregats del que
+    pod\xEDen prendre amb les mans, per\xF2 sobretot carregats de la solidaritat
+    mes pura.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7b709d8f42f086b4c9893623952971c9, type: 2}
   m_sharedMaterial: {fileID: -3221043596273191683, guid: 7b709d8f42f086b4c9893623952971c9, type: 2}
