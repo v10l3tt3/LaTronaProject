@@ -16,6 +16,10 @@ TagManager:
   - Item-hoja
   - Item-foto
   - Item-tub
+  - TUB
+  - CasaSucia
+  - CasaLimpia
+  - PipesSingle
   layers:
   - Default
   - TransparentFX

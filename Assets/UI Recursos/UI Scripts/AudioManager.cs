@@ -16,6 +16,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip fxFuseSwitch;
     public AudioClip fxPipesClick;
 
+
+    public AudioClip fxMovBienTub;
+    public AudioClip fxLogroTub;
+    public AudioClip fxLogroFuse;
+
     public AudioClip poliDolorOinkFX;
     public AudioClip fxLowHelicopter;
 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,20 +12,22 @@ public class GameManager : MonoBehaviour
     public static int trozoFoto = 0;
 
 
-    public GameObject PipesHolder;
+    //TUB
+    GameObject PipesHolder;
     public GameObject[] Pipes;
 
-    public GameObject FusesHolder;
-    public GameObject[] Fuses;
+    public bool mTubArreglado = false;
 
     [SerializeField]
     int totalPipes = 0;
-    
-    [SerializeField]
-    int totalFuses = 0;
 
-    public static int vidasMazon = 4;
-    public float health, maxHealth;
+     [SerializeField]
+    int correctedPipes = 0;
+
+
+
+    //public static int vidasMazon = 4;
+    //public float health, maxHealth;
     GameObject vidasMazonText;
 
 
@@ -33,51 +36,46 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     void Awake()
     {
-        /*if (Instance == null)
+        //Si existe otro objeto de este tipo, destruyelo
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
         {
             Instance = this;
-        }*/
-
-       DontDestroyOnLoad(gameObject);
-       if(Instance != this)
-       {
-           Destroy(gameObject);
-       }else
-       {
-           Instance = this;
-       }
-
+            DontDestroyOnLoad(this.gameObject);
+        }
     }
     void Start()
     {
         //para MiniTuberias
-        totalPipes = PipesHolder.transform.childCount;
+        PipesHolder = GameObject.FindWithTag("TUB");
+        Pipes = GameObject.FindGameObjectsWithTag("PipesSingle");
+
+
+        /*totalPipes = PipesHolder.transform.childCount;
         Pipes = new GameObject[totalPipes];
         for (int i = 0; i < Pipes.Length; i++)
         {
             Pipes[i] = PipesHolder.transform.GetChild(i).gameObject;
-        }
+        }*/
+        totalPipes = 34; // Total de tuberías que hay que arreglar
 
-        //para MiniFusibles
-        totalFuses = FusesHolder.transform.childCount;
-        Fuses = new GameObject[totalFuses];
-        for (int i = 0; i < Fuses.Length; i++)
-        {
-            Fuses[i] = FusesHolder.transform.GetChild(i).gameObject;
-        }
 
-        health = gameObject.GetComponent<MiniMazon>().health;
-        maxHealth = gameObject.GetComponent<MiniMazon>().maxHealth;
 
-        vidasMazonText = GameObject.Find("vidasMazonText");
+        //health = gameObject.GetComponent<MiniMazon>().health;
+        //maxHealth = gameObject.GetComponent<MiniMazon>().maxHealth;
+
+        //vidasMazonText = GameObject.Find("vidasMazonText");
     }
 
 
     void Update()
     {
-        Debug.Log("Vidas Mazon: " + health + " / " + maxHealth);
+        //Debug.Log("Vidas Mazon: " + health + " / " + maxHealth);
 
-        vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
+        //vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
 
 
         /*if (GameManager.vidasMazon == 3)
@@ -97,6 +95,21 @@ public class GameManager : MonoBehaviour
             //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.3DolorMazonFX);
             gameObject.GetComponent<Animator>().SetBool("HIT3", true);
         }*/
+    }
+    
+    public void correctMove()
+    {
+        correctedPipes += 1;
+        Debug.Log("Tubería arreglada: " + correctedPipes + " de " + totalPipes);
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+
+
+        if (correctedPipes == totalPipes)
+        {
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroTub);
+            Debug.Log("Tuberías arregladas");
+            mTubArreglado = true;
+        }
     }
 }
 

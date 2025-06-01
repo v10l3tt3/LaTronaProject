@@ -4,16 +4,30 @@ using UnityEngine;
 
 public class MiniTuberias : MonoBehaviour
 {
-    float[] rotations = {0, 90, 180, 270 };
+    float[] rotations = { 0, 90, 180, 270 };
     public float correctRotation;
     [SerializeField]
     bool isPlaced = false;
 
+
     //int PossibleRots = 1;
+
+    GameManager gameManager;
+    
+
+    void Awake()
+    {
+        gameManager = GameObject.Find("GameManagerObj").GetComponent<GameManager>();
+        
+    }
+
     private void Start()
     {
         int rand = Random.Range(0, rotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        transform.eulerAngles = new Vector3(0, 0, 90);
+        
+        
+        GetComponent<BoxCollider2D>().enabled = true;
 
 
 
@@ -21,7 +35,16 @@ public class MiniTuberias : MonoBehaviour
         if (transform.eulerAngles.z == correctRotation)
         {
             isPlaced = true;
+            gameManager.correctMove();
+            
+
         }
+        else if (isPlaced == true)
+        {
+            isPlaced = false;
+        }
+
+
 
         //para +1 solucion
         //PossibleRots = rotations.Length;
@@ -43,17 +66,23 @@ public class MiniTuberias : MonoBehaviour
         {transform.Rotate(0, 0, -90);
             Debug.Log("Click");}*/
     }
-    private void OnMouseDown(){
+    private void OnMouseDown()
+    {
 
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxPipesClick);
 
-        transform.Rotate(new Vector3(0,0, 90));
+        transform.Rotate(new Vector3(0, 0, 90));
         Debug.Log("Click");
 
         //para 1 sola solucion
-        if(transform.eulerAngles.z == correctRotation && isPlaced == false){
+        if (transform.eulerAngles.z == correctRotation && isPlaced == false)
+        {
             isPlaced = true;
-        }else if(isPlaced == true){
+            gameManager.correctMove();
+            GetComponent<BoxCollider2D>().enabled = false;
+        }
+        else if (isPlaced == true)
+        {
             isPlaced = false;
         }
 
@@ -68,6 +97,8 @@ public class MiniTuberias : MonoBehaviour
 
         //PREFERENCIA POR SOLO 1 SOLUCION
     }
+
+    
 
 }
 
