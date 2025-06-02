@@ -38,14 +38,17 @@ public class MiniFusibles : MonoBehaviour
         if (transform.eulerAngles.z == correctSwitchRotation)
         {
             isPlacedF = true;
-        }else if (isPlacedF == true)
+        }
+        else if (isPlacedF == true)
         {
             isPlacedF = false;
         }
 
-        /*fusible1 = GameObject.Find("Plomillos-black-1");
+        fusible1 = GameObject.Find("Plomillos-black-1");
         fusible1.GetComponent<SpriteRenderer>().flipY = false;
-        fusible1.GetComponent<BoxCollider2D>().enabled = true;*/
+        fusible1.GetComponent<BoxCollider2D>().enabled = true;
+        
+        tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
     }
 
     void Update()

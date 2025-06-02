@@ -6613,7 +6613,7 @@ GameObject:
   - component: {fileID: 5267275601377904196}
   - component: {fileID: 2647247752562979274}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light2D0
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6630,7 +6630,7 @@ GameObject:
   - component: {fileID: 5267275601451022005}
   - component: {fileID: 2647247752619098427}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light 2D1
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6647,7 +6647,7 @@ GameObject:
   - component: {fileID: 5267275601841992966}
   - component: {fileID: 2647247752431288968}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light 2D2
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6664,7 +6664,7 @@ GameObject:
   - component: {fileID: 5267275602018422794}
   - component: {fileID: 2647247752121165700}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light 2D4
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6681,7 +6681,7 @@ GameObject:
   - component: {fileID: 5267275602569484847}
   - component: {fileID: 2647247753720999329}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light 2D6
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6698,7 +6698,7 @@ GameObject:
   - component: {fileID: 5267275602822003661}
   - component: {fileID: 2647247753461664835}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light 2D5
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6715,7 +6715,7 @@ GameObject:
   - component: {fileID: 5267275603066437272}
   - component: {fileID: 2647247753152481558}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: Light 2D3
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6819,7 +6819,7 @@ GameObject:
   - component: {fileID: 2315096199004148821}
   m_Layer: 0
   m_Name: tiny-light4
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6836,7 +6836,7 @@ GameObject:
   - component: {fileID: 2315096199360917849}
   m_Layer: 0
   m_Name: tiny-light2
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6853,7 +6853,7 @@ GameObject:
   - component: {fileID: 2315096198635975402}
   m_Layer: 0
   m_Name: tiny-light1
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6870,7 +6870,7 @@ GameObject:
   - component: {fileID: 2315096198562333211}
   m_Layer: 0
   m_Name: tiny-light
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6887,7 +6887,7 @@ GameObject:
   - component: {fileID: 2315096200250342087}
   m_Layer: 0
   m_Name: tiny-light3
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6904,7 +6904,7 @@ GameObject:
   - component: {fileID: 2315096200343551890}
   m_Layer: 0
   m_Name: tiny-light5
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6921,7 +6921,7 @@ GameObject:
   - component: {fileID: 2315096199551540848}
   m_Layer: 0
   m_Name: tiny-light6
-  m_TagString: OnTinyLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

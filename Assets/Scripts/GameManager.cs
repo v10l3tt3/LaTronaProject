@@ -143,12 +143,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
         // Activar luz REVISAR
-            var light2D = tinyLight.GetComponentInChildren<Light2D>();
-            if (light2D != null)
-            {
-                light2D.enabled = true;
-            }
-        
+            //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
         if (correctedFuses == totalFuses)
         {
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);
