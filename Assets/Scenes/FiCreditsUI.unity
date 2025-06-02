@@ -399,7 +399,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -560,7 +560,7 @@ MonoBehaviour:
     que tornar sense poder ajudar. Qui va acudir des de que el carrer es podia tornar
     a circular foren decenes de milers de voluntaris de tota Espanya. Civils carregats
     del que pod\xEDen prendre amb les mans, per\xF2 sobretot carregats de la solidaritat
-    mes pura.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"Sols el poble, salva al poble.\"\n\n"
+    mes pura.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"Sols el poble\n salva al poble.\"\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7b709d8f42f086b4c9893623952971c9, type: 2}
   m_sharedMaterial: {fileID: -3221043596273191683, guid: 7b709d8f42f086b4c9893623952971c9, type: 2}
