@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     int correctedFuses = 0;
     
-
+    
     GameObject fb1;
     GameObject fb2;
     GameObject fb3;
@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
     GameObject fo1;
     GameObject fo2;
 
+    
     GameObject light0;
     GameObject light1;
     GameObject light2;
@@ -54,6 +55,10 @@ public class GameManager : MonoBehaviour
     GameObject light4;
     GameObject light5;
     GameObject light6;
+
+    
+    Component fb1COL;
+    Component fb2COL;
 
 
 
@@ -101,7 +106,7 @@ public class GameManager : MonoBehaviour
         //tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
         //tinyLight = GameObject.FindWithTag("OnTinyLight");
         //tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
-                                                                     //tinyLight.SetActive(false);
+        //tinyLight.SetActive(false);
 
 
 
@@ -125,7 +130,7 @@ public class GameManager : MonoBehaviour
         light4 = GameObject.Find("Light2D4");
         light5 = GameObject.Find("Light2D5");
         light6 = GameObject.Find("Light2D6");
-        
+
         light0.SetActive(false);
         light1.SetActive(false);
         light2.SetActive(false);
@@ -133,6 +138,12 @@ public class GameManager : MonoBehaviour
         light4.SetActive(false);
         light5.SetActive(false);
         light6.SetActive(false);
+        
+        /*fb1COL = fb1.GetComponent<BoxCollider2D>();
+        fb2COL = fb2.GetComponent<BoxCollider2D>();
+
+        ((BoxCollider2D)fb1COL).enabled = true;
+        ((BoxCollider2D)fb2COL).enabled = true;*/
 
     }
 
@@ -185,14 +196,23 @@ public class GameManager : MonoBehaviour
         {
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
             correctedFuses += 1;
+            fb1.GetComponent<BoxCollider2D>().enabled = false;
             Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
-            light0.SetActive(true);
-            
+            light0.SetActive(true);  
+        }
+
+        if (fb2.GetComponent<MiniFusibles>().isPlacedF == true)
+        {
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+            correctedFuses += 1;
+            fb2.GetComponent<BoxCollider2D>().enabled = false;
+            Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
+            light2.SetActive(true);
         }
 
         //correctedFuses += 1;
         // Activar luz REVISAR
-            //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
+        //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
         if (correctedFuses == totalFuses)
         {
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);

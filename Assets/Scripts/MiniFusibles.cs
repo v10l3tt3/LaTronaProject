@@ -17,6 +17,7 @@ public class MiniFusibles : MonoBehaviour
     public bool isPlacedF = false;
 
     //fusibles
+    [SerializeField]
     GameObject fb1;
     GameObject fb2;
     GameObject fb3;
@@ -25,6 +26,9 @@ public class MiniFusibles : MonoBehaviour
     GameObject fo1;
     GameObject fo2;
 
+    
+
+    [SerializeField]
     GameObject light0;
     GameObject light1;
     GameObject light2;
@@ -73,14 +77,16 @@ public class MiniFusibles : MonoBehaviour
         light6 = GameObject.Find("Light2D6");*/
 
 
+        //GetComponent<BoxCollider2D>().enabled = true;
 
-        fb1.GetComponent<BoxCollider2D>().enabled = true;
-        fb2.GetComponent<BoxCollider2D>().enabled = true;
+        
+
+        /*fb2.GetComponent<BoxCollider2D>().enabled = true;
         fb3.GetComponent<BoxCollider2D>().enabled = true;
         fb4.GetComponent<BoxCollider2D>().enabled = true;
         fb5.GetComponent<BoxCollider2D>().enabled = true;
         fo1.GetComponent<BoxCollider2D>().enabled = true;
-        fo2.GetComponent<BoxCollider2D>().enabled = true;
+        fo2.GetComponent<BoxCollider2D>().enabled = true;*/
 
         /*light0.SetActive(false);
         light1.SetActive(false);
@@ -103,25 +109,38 @@ public class MiniFusibles : MonoBehaviour
     private void OnMouseDown()
     {
         //this.GetComponent<SpriteRenderer>().flipY = true;
-        
-        Debug.Log("Click");
+        //Debug.Log("Click");
 
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxFuseSwitch);
-        
+
         //if ( FlipYTool== correctSwitch && isPlacedF == false){}
 
-       
+
         transform.Rotate(new Vector3(0, 0, 180));
-        
+
         //para 1 sola solucion
         if (fb1.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
         {
-            this.GetComponent<BoxCollider2D>().enabled = false;
+
             isPlacedF = true;
+            //((BoxCollider2D)fb1COL).enabled = false;
             gameManager.correctSwitch();
-            
+
+        }
+        else if (isPlacedF == true)
+        { isPlacedF = false; }
+
+        if (fb2.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
+        {
+
+            isPlacedF = true;
+            //((BoxCollider2D)fb1COL).enabled = false;
+            gameManager.correctSwitch();
+
         }
         else if (isPlacedF == true)
         { isPlacedF = false; } 
+        
+
     }
 }

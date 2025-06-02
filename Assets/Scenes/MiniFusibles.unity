@@ -3714,7 +3714,7 @@ MonoBehaviour:
   fxExitGame: {fileID: 0}
   fxFuseSwitch: {fileID: 8300000, guid: 477fd59eabc44874a904591d1834c6a1, type: 3}
   fxPipesClick: {fileID: 8300000, guid: 23a64dd530435d149aff9a3580c77675, type: 3}
-  fxMovBienTub: {fileID: 0}
+  fxMovBienTub: {fileID: 8300000, guid: 11a2176dc6525ef41b62f8212f3c2b14, type: 3}
   fxLogroTub: {fileID: 0}
   fxLogroFuse: {fileID: 8300000, guid: bb884799eadd1c14192db25640809b1d, type: 3}
   poliDolorOinkFX: {fileID: 0}
@@ -5309,6 +5309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 180
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!114 &2647247752121165700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5858,6 +5860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!61 &4169810255455131620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5936,6 +5940,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 180
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &4685457456483641643
 GameObject:
   m_ObjectHideFlags: 0
@@ -6419,6 +6425,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!212 &6569640390678273589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6551,7 +6559,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 180
-  isPlacedF: 0
+  isPlacedF: 1
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!4 &6645945640019171851
 Transform:
   m_ObjectHideFlags: 0
@@ -6596,6 +6606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045009872582171
 GameObject:
   m_ObjectHideFlags: 0
@@ -6621,13 +6633,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045009872582171}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045009946134250
 GameObject:
   m_ObjectHideFlags: 0
@@ -6653,13 +6667,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045009946134250}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045010370135385
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,13 +6701,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045010370135385}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045010580660309
 GameObject:
   m_ObjectHideFlags: 0
@@ -6717,13 +6735,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045010580660309}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045011097709168
 GameObject:
   m_ObjectHideFlags: 0
@@ -6749,13 +6769,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045011097709168}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045011384290194
 GameObject:
   m_ObjectHideFlags: 0
@@ -6781,13 +6803,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045011384290194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045011561615047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6813,13 +6837,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6675045011561615047}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!212 &7513924427240480422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7083,7 +7109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
-  isPlacedF: 0
+  isPlacedF: 1
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
