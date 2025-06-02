@@ -152,8 +152,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTubArreglado: 0
+  mFusColocado: 0
   totalPipes: 0
   correctedPipes: 0
+  totalFuses: 0
+  correctedFuses: 0
 --- !u!4 &110413753
 Transform:
   m_ObjectHideFlags: 0
@@ -1174,7 +1177,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 12.922368
+  orthographic size: 4.21875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8091,7 +8094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 6
+  sceneBuildIndex: 7
 --- !u!61 &1304569163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11185,7 +11188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994c271f0eed45b448e092fc3286ef6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 5
+  sceneBuildIndex: 6
 --- !u!61 &1761771445
 BoxCollider2D:
   m_ObjectHideFlags: 0

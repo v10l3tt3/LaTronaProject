@@ -14,9 +14,10 @@ public class MiniFusibles : MonoBehaviour
     public float correctSwitchRotation; // Flip correcto para el fusible
 
     [SerializeField]
-    bool isPlacedF = false;
+    public bool isPlacedF = false;
 
     //fusibles
+    [SerializeField]
     GameObject fb1;
     GameObject fb2;
     GameObject fb3;
@@ -25,6 +26,9 @@ public class MiniFusibles : MonoBehaviour
     GameObject fo1;
     GameObject fo2;
 
+    
+
+    [SerializeField]
     GameObject light0;
     GameObject light1;
     GameObject light2;
@@ -72,23 +76,29 @@ public class MiniFusibles : MonoBehaviour
         light5 = GameObject.Find("Light2D5");
         light6 = GameObject.Find("Light2D6");
 
+        //GetComponent<BoxCollider2D>().enabled = true;
 
         
+
+
+        /*fb2.GetComponent<BoxCollider2D>().enabled = true;
+
         fb1.GetComponent<BoxCollider2D>().enabled = true;
         fb2.GetComponent<BoxCollider2D>().enabled = true;
+
         fb3.GetComponent<BoxCollider2D>().enabled = true;
         fb4.GetComponent<BoxCollider2D>().enabled = true;
         fb5.GetComponent<BoxCollider2D>().enabled = true;
         fo1.GetComponent<BoxCollider2D>().enabled = true;
-        fo2.GetComponent<BoxCollider2D>().enabled = true;
+        fo2.GetComponent<BoxCollider2D>().enabled = true;*/
 
-        light0.GetComponent<Light2D>().enabled = false;
-        light1.GetComponent<Light2D>().enabled = false;
-        light2.GetComponent<Light2D>().enabled = false;
-        light3.GetComponent<Light2D>().enabled = false;
-        light4.GetComponent<Light2D>().enabled = false;
-        light5.GetComponent<Light2D>().enabled = false;
-        light6.GetComponent<Light2D>().enabled = false;
+        light0.SetActive(false);
+        light1.SetActive(false);
+        light2.SetActive(false);
+        light3.SetActive(false);
+        light4.SetActive(false);
+        light5.SetActive(false);
+        light6.SetActive(false);
 
         
         //tinyLight.SetActive(false);
@@ -102,24 +112,44 @@ public class MiniFusibles : MonoBehaviour
     private void OnMouseDown()
     {
         //this.GetComponent<SpriteRenderer>().flipY = true;
-        
-        Debug.Log("Click");
+        //Debug.Log("Click");
 
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxFuseSwitch);
-        
+
         //if ( FlipYTool== correctSwitch && isPlacedF == false){}
 
-       
+
         transform.Rotate(new Vector3(0, 0, 180));
-        
+
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
         {
+
+
+
+
             isPlacedF = true;
+            //((BoxCollider2D)fb1COL).enabled = false;
             gameManager.correctSwitch();
+
+        }
+        else if (isPlacedF == true)
+        { isPlacedF = false; }
+
+        if (fb2.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
+        {
+
+            isPlacedF = true;
+            //((BoxCollider2D)fb1COL).enabled = false;
+            gameManager.correctSwitch();
+
+
             GetComponent<BoxCollider2D>().enabled = false;
+
         }
         else if (isPlacedF == true)
         { isPlacedF = false; } 
+        
+
     }
 }
