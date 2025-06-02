@@ -16,15 +16,26 @@ public class GameManager : MonoBehaviour
     GameObject PipesHolder;
     GameObject[] Pipes;
 
-    
+    //FUSIBLES
+    GameObject FusesHolder;
+    GameObject[] Fuses;
+
+
 
     public bool mTubArreglado = false;
+    public bool mFusColocado = false;
 
     [SerializeField]
     int totalPipes = 0;
 
-     [SerializeField]
+    [SerializeField]
     int correctedPipes = 0;
+
+    [SerializeField]
+    int totalFuses = 0;
+
+    [SerializeField]
+    int correctedFuses = 0;
 
 
 
@@ -55,6 +66,10 @@ public class GameManager : MonoBehaviour
         PipesHolder = GameObject.FindWithTag("TUB");
         Pipes = GameObject.FindGameObjectsWithTag("PipesSingle");
 
+        //para MiniFusibles
+        FusesHolder = GameObject.FindWithTag("FUSIBLES");
+        Fuses = GameObject.FindGameObjectsWithTag("FusesSingle");
+
 
         /*totalPipes = PipesHolder.transform.childCount;
         Pipes = new GameObject[totalPipes];
@@ -63,6 +78,7 @@ public class GameManager : MonoBehaviour
             Pipes[i] = PipesHolder.transform.GetChild(i).gameObject;
         }*/
         totalPipes = 34; // Total de tuberías que hay que arreglar
+        totalFuses = 7; // Total de fusibles que hay que arreglar
 
 
 
@@ -98,7 +114,7 @@ public class GameManager : MonoBehaviour
             gameObject.GetComponent<Animator>().SetBool("HIT3", true);
         }*/
     }
-    
+
     public void correctMove()
     {
         correctedPipes += 1;
@@ -111,6 +127,20 @@ public class GameManager : MonoBehaviour
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroTub);
             Debug.Log("Tuberías arregladas");
             mTubArreglado = true;
+        }
+    }
+
+    public void correctSwitch()
+    {
+        correctedFuses += 1;
+        Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+        
+        if (correctedFuses == totalFuses)
+        {
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);
+            Debug.Log("Plomillos colocados");
+            mFusColocado = true;
         }
     }
 }

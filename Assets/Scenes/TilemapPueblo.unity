@@ -732,7 +732,7 @@ Transform:
   m_GameObject: {fileID: 310301282}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.90576, y: -7.2663994, z: -1334.135}
+  m_LocalPosition: {x: 9, y: -1.87, z: -1334.135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -899,6 +899,7 @@ GameObject:
   - component: {fileID: 415436905}
   - component: {fileID: 415436904}
   - component: {fileID: 415436909}
+  - component: {fileID: 415436910}
   m_Layer: 0
   m_Name: Senyora
   m_TagString: NPC
@@ -1046,7 +1047,7 @@ MonoBehaviour:
   - "SENYORA: Per cert, he vist que a la PLA\xC7A estan netejant i arreglant retratos,
     crec que s\xF3n estudiants del polit\xE8cnic."
   - "SENYORA: No em far\xEDes el favor d'acostar-te a que l'arreglen?? Em faria molta
-    il\u2022lusi\xF3 que el meu fill vegera que al menys el retrato est\xE0 b\xE9."
+    il\xB7lusi\xF3 que el meu fill vegera que al menys el retrato est\xE0 b\xE9."
   typingTime: 0.05
 --- !u!212 &415436907
 SpriteRenderer:
@@ -1088,7 +1089,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1971859316, guid: ac3527ee0642d8c4a8b4c74aac4e866c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1143,6 +1144,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!95 &415436910
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415436903}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 411ae279e43717d498965d223cdf0fb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &431859009
 GameObject:
   m_ObjectHideFlags: 0
@@ -49867,7 +49889,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 369832504, guid: 6546c0356576da045a878da30b200ae3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -51331,7 +51353,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 18.016655
+  orthographic size: 4.21875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -51807,7 +51829,7 @@ GameObject:
   - component: {fileID: 1204793755}
   - component: {fileID: 1204793754}
   m_Layer: 0
-  m_Name: Pages
+  m_Name: Payes
   m_TagString: NPC
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -51874,7 +51896,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 875109036, guid: fc282a2bee1b22d478e09fb86fb11335, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

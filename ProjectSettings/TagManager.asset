@@ -21,6 +21,8 @@ TagManager:
   - CasaLimpia
   - PipesSingle
   - OnTinyLight
+  - FUSIBLES
+  - FusesSingle
   layers:
   - Default
   - TransparentFX

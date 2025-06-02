@@ -1,30 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class MiniFusibles : MonoBehaviour
 {
-    float[] rotations = { 0, 180 };
+    /*float[] rotations = { 0, 180 };
+    public float correctRotation;*/
 
-    public float correctRotation;
+    bool [] switches = { true, false};
+    public float correctSwitch; // Flip correcto para el fusible
 
     [SerializeField]
     bool isPlaced = false;
 
+    //fusibles
+    GameObject fusible1;
+
     //luces correctas
     public GameObject tinyLight;
 
+    GameManager gameManager;
+
+    void Awake()
+    {
+        gameManager = GameObject.Find("GameManagerObj").GetComponent<GameManager>();
+    }
+
     void Start()
     {
-        int rand = Random.Range(0, rotations.Length);
+        /*int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0, 0, 0);
 
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctRotation)
         {
             isPlaced = true;
-        }
+        }*/
+
+        fusible1 = GameObject.Find("Plomillos-black-1");
+        fusible1.GetComponent<SpriteRenderer>().flipY = false;
+        fusible1.GetComponent<BoxCollider2D>().enabled = true;
+
 
         tinyLight = GameObject.FindGameObjectsWithTag("OnTinyLight")[0];
         tinyLight.SetActive(false);
@@ -38,9 +57,16 @@ public class MiniFusibles : MonoBehaviour
 
     private void OnMouseDown()
     {
-        transform.Rotate(new Vector3(0, 0, 180));
-        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxFuseSwitch);
+        this.GetComponent<SpriteRenderer>().flipY = true;
+        
+        Debug.Log("Click");
 
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxFuseSwitch);
+        
+        //if ( FlipYTool== correctSwitch && isPlaced == false){}
+
+        /*METODO DE TUBERIAS ADAPTADO, NO FUNCIONA
+        transform.Rotate(new Vector3(0, 0, 180));
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctRotation && isPlaced == false)
         {
@@ -53,6 +79,6 @@ public class MiniFusibles : MonoBehaviour
             }
         }
         else if (isPlaced == true)
-        { isPlaced = false; }
+        { isPlaced = false; }*/
     }
 }
