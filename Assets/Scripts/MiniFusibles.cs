@@ -14,7 +14,7 @@ public class MiniFusibles : MonoBehaviour
     public float correctSwitchRotation; // Flip correcto para el fusible
 
     [SerializeField]
-    bool isPlacedF = false;
+    public bool isPlacedF = false;
 
     //fusibles
     GameObject fb1;
@@ -64,16 +64,16 @@ public class MiniFusibles : MonoBehaviour
         fo1 = GameObject.Find("Plomillos-orange-1");
         fo2 = GameObject.Find("Plomillos-orange-2");
 
-        light0 = GameObject.Find("Light2D0");
+        /*light0 = GameObject.Find("Light2D0");
         light1 = GameObject.Find("Light2D1");
         light2 = GameObject.Find("Light2D2");
         light3 = GameObject.Find("Light2D3");
         light4 = GameObject.Find("Light2D4");
         light5 = GameObject.Find("Light2D5");
-        light6 = GameObject.Find("Light2D6");
+        light6 = GameObject.Find("Light2D6");*/
 
 
-        
+
         fb1.GetComponent<BoxCollider2D>().enabled = true;
         fb2.GetComponent<BoxCollider2D>().enabled = true;
         fb3.GetComponent<BoxCollider2D>().enabled = true;
@@ -82,13 +82,14 @@ public class MiniFusibles : MonoBehaviour
         fo1.GetComponent<BoxCollider2D>().enabled = true;
         fo2.GetComponent<BoxCollider2D>().enabled = true;
 
-        light0.GetComponent<Light2D>().enabled = false;
-        light1.GetComponent<Light2D>().enabled = false;
-        light2.GetComponent<Light2D>().enabled = false;
-        light3.GetComponent<Light2D>().enabled = false;
-        light4.GetComponent<Light2D>().enabled = false;
-        light5.GetComponent<Light2D>().enabled = false;
-        light6.GetComponent<Light2D>().enabled = false;
+        /*light0.SetActive(false);
+        light1.SetActive(false);
+        light2.SetActive(false);
+        light3.SetActive(false);
+        light4.SetActive(false);
+        light5.SetActive(false);
+        light6.SetActive(false);*/
+        
 
         
         //tinyLight.SetActive(false);
@@ -113,11 +114,12 @@ public class MiniFusibles : MonoBehaviour
         transform.Rotate(new Vector3(0, 0, 180));
         
         //para 1 sola solucion
-        if (transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
+        if (fb1.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
         {
+            this.GetComponent<BoxCollider2D>().enabled = false;
             isPlacedF = true;
             gameManager.correctSwitch();
-            GetComponent<BoxCollider2D>().enabled = false;
+            
         }
         else if (isPlacedF == true)
         { isPlacedF = false; } 

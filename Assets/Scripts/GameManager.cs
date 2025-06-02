@@ -37,7 +37,23 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     int correctedFuses = 0;
-    GameObject tinyLight;
+    
+
+    GameObject fb1;
+    GameObject fb2;
+    GameObject fb3;
+    GameObject fb4;
+    GameObject fb5;
+    GameObject fo1;
+    GameObject fo2;
+
+    GameObject light0;
+    GameObject light1;
+    GameObject light2;
+    GameObject light3;
+    GameObject light4;
+    GameObject light5;
+    GameObject light6;
 
 
 
@@ -82,10 +98,10 @@ public class GameManager : MonoBehaviour
         totalPipes = 34; // Total de tuberías que hay que arreglar
         totalFuses = 7; // Total de fusibles que hay que arreglar
 
-        tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
+        //tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
         //tinyLight = GameObject.FindWithTag("OnTinyLight");
-        tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
-        //tinyLight.SetActive(false);
+        //tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
+                                                                     //tinyLight.SetActive(false);
 
 
 
@@ -93,6 +109,31 @@ public class GameManager : MonoBehaviour
         //maxHealth = gameObject.GetComponent<MiniMazon>().maxHealth;
 
         //vidasMazonText = GameObject.Find("vidasMazonText");
+
+        fb1 = GameObject.Find("Plomillos-black-1");
+        fb2 = GameObject.Find("Plomillos-black-2");
+        fb3 = GameObject.Find("Plomillos-black-3");
+        fb4 = GameObject.Find("Plomillos-black-4");
+        fb5 = GameObject.Find("Plomillos-black-5");
+        fo1 = GameObject.Find("Plomillos-orange-1");
+        fo2 = GameObject.Find("Plomillos-orange-2");
+
+        light0 = GameObject.Find("Light2D0");
+        light1 = GameObject.Find("Light2D1");
+        light2 = GameObject.Find("Light2D2");
+        light3 = GameObject.Find("Light2D3");
+        light4 = GameObject.Find("Light2D4");
+        light5 = GameObject.Find("Light2D5");
+        light6 = GameObject.Find("Light2D6");
+        
+        light0.SetActive(false);
+        light1.SetActive(false);
+        light2.SetActive(false);
+        light3.SetActive(false);
+        light4.SetActive(false);
+        light5.SetActive(false);
+        light6.SetActive(false);
+
     }
 
 
@@ -139,9 +180,17 @@ public class GameManager : MonoBehaviour
 
     public void correctSwitch()
     {
-        correctedFuses += 1;
-        Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
-        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+
+        if (fb1.GetComponent<MiniFusibles>().isPlacedF == true)
+        {
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+            correctedFuses += 1;
+            Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
+            light0.SetActive(true);
+            
+        }
+
+        //correctedFuses += 1;
         // Activar luz REVISAR
             //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
         if (correctedFuses == totalFuses)
