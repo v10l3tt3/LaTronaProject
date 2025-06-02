@@ -1056,12 +1056,17 @@ MonoBehaviour:
   fxExitGame: {fileID: 8300000, guid: 6c0d6dc948fa0194ab68ca9308cdd8f5, type: 3}
   fxFuseSwitch: {fileID: 0}
   fxPipesClick: {fileID: 8300000, guid: 23a64dd530435d149aff9a3580c77675, type: 3}
+  fxMovBienTub: {fileID: 0}
+  fxLogroTub: {fileID: 0}
+  fxLogroFuse: {fileID: 0}
   poliDolorOinkFX: {fileID: 8300000, guid: c31844616ee75c743965c4c4530d0120, type: 3}
   fxLowHelicopter: {fileID: 8300000, guid: f68c0261a7f7ab44e9652ff50fd617f2, type: 3}
   fxPiece1: {fileID: 8300000, guid: 48f9e6da28493004397ef6f2456e0843, type: 3}
   fxPiece2: {fileID: 8300000, guid: 48f9e6da28493004397ef6f2456e0843, type: 3}
   fxPhotoCompleted: {fileID: 8300000, guid: 0145059a61348b244b448f2a4e44f6c1, type: 3}
   musicObj: {fileID: 1809505331}
+  gestorAudio: {fileID: 0}
+  audioMusic: {fileID: 0}
 --- !u!4 &233014402
 Transform:
   m_ObjectHideFlags: 0
