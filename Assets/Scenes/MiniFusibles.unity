@@ -575,8 +575,8 @@ Transform:
   - {fileID: 2447838377945639969}
   - {fileID: 6652695579143510278}
   - {fileID: 6156405007821789470}
-  - {fileID: 5781734449496084420}
   - {fileID: 6645945640019171851}
+  - {fileID: 5781734449496084420}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658298776
@@ -1256,7 +1256,6 @@ MonoBehaviour:
   correctedPipes: 0
   totalFuses: 0
   correctedFuses: 0
-  tinyLight: {fileID: 0}
 --- !u!4 &1388056845
 Transform:
   m_ObjectHideFlags: 0
@@ -3824,7 +3823,7 @@ Transform:
   m_GameObject: {fileID: 1839639836}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5949602, y: -17.319971, z: -4.0781684}
+  m_LocalPosition: {x: 3.7, y: -7.6, z: -4.0781684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4471,7 +4470,7 @@ Transform:
   m_GameObject: {fileID: 2108078197}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -15.8, y: 11.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5308,8 +5307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 0}
 --- !u!114 &2647247752121165700
 MonoBehaviour:
@@ -5858,8 +5857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 0}
 --- !u!61 &4169810255455131620
 BoxCollider2D:
@@ -5916,8 +5915,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2447838377945639969}
   - component: {fileID: 2796523838623507462}
-  - component: {fileID: 4169810255455131620}
   - component: {fileID: 4372275967641787405}
+  - component: {fileID: 4169810255455131620}
   m_Layer: 0
   m_Name: Plomillos-black-3
   m_TagString: FusesSingle
@@ -5937,8 +5936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 0}
 --- !u!1 &4685457456483641643
 GameObject:
@@ -5949,9 +5948,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6652695579143510278}
+  - component: {fileID: 6652695579143510279}
   - component: {fileID: 6585486368569119009}
   - component: {fileID: 4932922896420086467}
-  - component: {fileID: 6652695579143510279}
   m_Layer: 0
   m_Name: Plomillos-black-4
   m_TagString: FusesSingle
@@ -5969,8 +5968,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6636980616883312146}
   - component: {fileID: 6569640390678273589}
-  - component: {fileID: 4917111555361877463}
   - component: {fileID: 6636980616883312147}
+  - component: {fileID: 4917111555361877463}
   m_Layer: 0
   m_Name: Plomillos-black-1
   m_TagString: FusesSingle
@@ -6122,8 +6121,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6156405007821789470}
-  - component: {fileID: 5933692795711852857}
   - component: {fileID: 6156405007821789471}
+  - component: {fileID: 5933692795711852857}
   - component: {fileID: 5569173592753365723}
   m_Layer: 0
   m_Name: Plomillos-black-5
@@ -6421,8 +6420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 0}
 --- !u!212 &6569640390678273589
 SpriteRenderer:
@@ -6555,8 +6554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 0}
 --- !u!4 &6645945640019171851
 Transform:
@@ -6600,8 +6599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 8407755731599668614}
 --- !u!1 &6675045009872582171
 GameObject:
@@ -6799,8 +6798,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8030364402246538881}
   - component: {fileID: 7513924427240480422}
-  - component: {fileID: 8599563823398219076}
   - component: {fileID: 8599563823398219077}
+  - component: {fileID: 8599563823398219076}
   m_Layer: 0
   m_Name: Plomillos-black-2
   m_TagString: FusesSingle
@@ -6820,7 +6819,7 @@ GameObject:
   - component: {fileID: 2315096199004148821}
   m_Layer: 0
   m_Name: tiny-light4
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6837,7 +6836,7 @@ GameObject:
   - component: {fileID: 2315096199360917849}
   m_Layer: 0
   m_Name: tiny-light2
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6854,7 +6853,7 @@ GameObject:
   - component: {fileID: 2315096198635975402}
   m_Layer: 0
   m_Name: tiny-light1
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6871,7 +6870,7 @@ GameObject:
   - component: {fileID: 2315096198562333211}
   m_Layer: 0
   m_Name: tiny-light
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6888,7 +6887,7 @@ GameObject:
   - component: {fileID: 2315096200250342087}
   m_Layer: 0
   m_Name: tiny-light3
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6905,7 +6904,7 @@ GameObject:
   - component: {fileID: 2315096200343551890}
   m_Layer: 0
   m_Name: tiny-light5
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6922,7 +6921,7 @@ GameObject:
   - component: {fileID: 2315096199551540848}
   m_Layer: 0
   m_Name: tiny-light6
-  m_TagString: Untagged
+  m_TagString: OnTinyLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6984,8 +6983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0970ba004ea6af429154bdb0583c7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctSwitch: 0
-  isPlaced: 0
+  correctSwitchRotation: 0
+  isPlacedF: 0
   tinyLight: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
