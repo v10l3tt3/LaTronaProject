@@ -227,11 +227,17 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 577690877511766067}
+  - {fileID: 5267275601377904196}
   - {fileID: 577690877589528770}
+  - {fileID: 5267275601451022005}
   - {fileID: 577690877778682737}
+  - {fileID: 5267275601841992966}
   - {fileID: 577690877057558767}
+  - {fileID: 5267275603066437272}
   - {fileID: 577690877951411837}
+  - {fileID: 5267275602018422794}
   - {fileID: 577690876611767738}
+  - {fileID: 5267275602822003661}
   - {fileID: 577690876354530392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4745,8 +4751,7 @@ Transform:
   m_LocalPosition: {x: 0.16535497, y: -0.2664585, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275602569484847}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &577690876611767738
@@ -4761,8 +4766,7 @@ Transform:
   m_LocalPosition: {x: -0.95964503, y: -0.2663586, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275602822003661}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &577690877057558767
@@ -4777,8 +4781,7 @@ Transform:
   m_LocalPosition: {x: -3.585345, y: -0.2671585, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275603066437272}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &577690877511766067
@@ -4793,8 +4796,7 @@ Transform:
   m_LocalPosition: {x: -7.5224447, y: -0.2671585, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275601377904196}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &577690877589528770
@@ -4809,8 +4811,7 @@ Transform:
   m_LocalPosition: {x: -4.897445, y: -0.2664585, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275601451022005}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &577690877778682737
@@ -4825,8 +4826,7 @@ Transform:
   m_LocalPosition: {x: -6.209545, y: -0.2671585, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275601841992966}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &577690877951411837
@@ -4841,8 +4841,7 @@ Transform:
   m_LocalPosition: {x: -2.273245, y: -0.2664585, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5267275602018422794}
+  m_Children: []
   m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &603982549781838249
@@ -6143,11 +6142,11 @@ Transform:
   m_GameObject: {fileID: 6675045009872582171}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: -7.5173445, y: -0.27745843, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690877511766067}
+  m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5267275601451022005
 Transform:
@@ -6158,11 +6157,11 @@ Transform:
   m_GameObject: {fileID: 6675045009946134250}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: -4.8923454, y: -0.27675843, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690877589528770}
+  m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5267275601841992966
 Transform:
@@ -6173,11 +6172,11 @@ Transform:
   m_GameObject: {fileID: 6675045010370135385}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: -6.204445, y: -0.27745843, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690877778682737}
+  m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5267275602018422794
 Transform:
@@ -6188,11 +6187,11 @@ Transform:
   m_GameObject: {fileID: 6675045010580660309}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: -2.268145, y: -0.27675843, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690877951411837}
+  m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5267275602569484847
 Transform:
@@ -6203,11 +6202,11 @@ Transform:
   m_GameObject: {fileID: 6675045011097709168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: 3.9119, y: 3.4897, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690876354530392}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5267275602822003661
 Transform:
@@ -6218,11 +6217,11 @@ Transform:
   m_GameObject: {fileID: 6675045011384290194}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: -0.954545, y: -0.27665854, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690876611767738}
+  m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5267275603066437272
 Transform:
@@ -6233,11 +6232,11 @@ Transform:
   m_GameObject: {fileID: 6675045011561615047}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.010299921, z: 0}
+  m_LocalPosition: {x: -3.580245, y: -0.27745843, z: 2.4587123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 577690877057558767}
+  m_Father: {fileID: 48171393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5569173592753365723
 BoxCollider2D:
@@ -6560,6 +6559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 180
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!4 &6645945640019171851
 Transform:
   m_ObjectHideFlags: 0
@@ -6616,6 +6617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275601377904196}
   - component: {fileID: 2647247752562979274}
+  - component: {fileID: 6675045009872582172}
   m_Layer: 0
   m_Name: Light2D0
   m_TagString: OnTinyLight
@@ -6637,6 +6639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045009946134250
 GameObject:
   m_ObjectHideFlags: 0
@@ -6647,6 +6651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275601451022005}
   - component: {fileID: 2647247752619098427}
+  - component: {fileID: 6675045009946134251}
   m_Layer: 0
   m_Name: Light2D1
   m_TagString: OnTinyLight
@@ -6668,6 +6673,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045010370135385
 GameObject:
   m_ObjectHideFlags: 0
@@ -6678,6 +6685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275601841992966}
   - component: {fileID: 2647247752431288968}
+  - component: {fileID: 6675045010370135386}
   m_Layer: 0
   m_Name: Light2D2
   m_TagString: OnTinyLight
@@ -6699,6 +6707,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045010580660309
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,6 +6719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275602018422794}
   - component: {fileID: 2647247752121165700}
+  - component: {fileID: 6675045010580660310}
   m_Layer: 0
   m_Name: Light2D4
   m_TagString: OnTinyLight
@@ -6730,6 +6741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045011097709168
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,6 +6753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275602569484847}
   - component: {fileID: 2647247753720999329}
+  - component: {fileID: 6675045011097709169}
   m_Layer: 0
   m_Name: Light2D6
   m_TagString: OnTinyLight
@@ -6761,6 +6775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045011384290194
 GameObject:
   m_ObjectHideFlags: 0
@@ -6771,6 +6787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275602822003661}
   - component: {fileID: 2647247753461664835}
+  - component: {fileID: 6675045011384290195}
   m_Layer: 0
   m_Name: Light2D5
   m_TagString: OnTinyLight
@@ -6792,6 +6809,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!1 &6675045011561615047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6802,6 +6821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5267275603066437272}
   - component: {fileID: 2647247753152481558}
+  - component: {fileID: 6675045011561615048}
   m_Layer: 0
   m_Name: Light2D3
   m_TagString: OnTinyLight
@@ -6823,6 +6843,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
+  fb1: {fileID: 0}
+  light0: {fileID: 0}
 --- !u!212 &7513924427240480422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7099,6 +7121,7 @@ SceneRoots:
   - {fileID: 1740186485}
   - {fileID: 609873541}
   - {fileID: 48171393}
+  - {fileID: 5267275602569484847}
   - {fileID: 2036403870}
   - {fileID: 726725009}
   - {fileID: 230357407}

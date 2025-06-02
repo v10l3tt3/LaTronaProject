@@ -204,7 +204,7 @@ public class GameManager : MonoBehaviour
     {
 
 
-        /*if (fb1.GetComponent<MiniFusibles>().isPlacedF == true)
+        if (fb1.GetComponent<MiniFusibles>().isPlacedF == true)
         {
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
             correctedFuses += 1;
@@ -235,7 +235,7 @@ public class GameManager : MonoBehaviour
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);
             Debug.Log("Plomillos colocados");
             mFusColocado = true;
-        }*/
+        }
     }
 }
 

@@ -14,7 +14,7 @@ public class MiniFusibles : MonoBehaviour
     public float correctSwitchRotation; // Flip correcto para el fusible
 
     [SerializeField]
-    bool isPlacedF = false;
+    public bool isPlacedF = false;
 
     //fusibles
     [SerializeField]
@@ -92,13 +92,13 @@ public class MiniFusibles : MonoBehaviour
         fo1.GetComponent<BoxCollider2D>().enabled = true;
         fo2.GetComponent<BoxCollider2D>().enabled = true;*/
 
-        light0.GetComponent<Light2D>().enabled = false;
-        light1.GetComponent<Light2D>().enabled = false;
-        light2.GetComponent<Light2D>().enabled = false;
-        light3.GetComponent<Light2D>().enabled = false;
-        light4.GetComponent<Light2D>().enabled = false;
-        light5.GetComponent<Light2D>().enabled = false;
-        light6.GetComponent<Light2D>().enabled = false;
+        light0.SetActive(false);
+        light1.SetActive(false);
+        light2.SetActive(false);
+        light3.SetActive(false);
+        light4.SetActive(false);
+        light5.SetActive(false);
+        light6.SetActive(false);
 
         
         //tinyLight.SetActive(false);
