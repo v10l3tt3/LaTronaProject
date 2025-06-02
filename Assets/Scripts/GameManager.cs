@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class GameManager : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     int correctedFuses = 0;
+    public GameObject tinyLight;
 
 
 
@@ -79,6 +81,9 @@ public class GameManager : MonoBehaviour
         }*/
         totalPipes = 34; // Total de tuberías que hay que arreglar
         totalFuses = 7; // Total de fusibles que hay que arreglar
+
+        tinyLight = GameObject.FindGameObjectsWithTag("OnTinyLight")[0];
+        tinyLight.SetActive(false);
 
 
 
@@ -135,6 +140,12 @@ public class GameManager : MonoBehaviour
         correctedFuses += 1;
         Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+        // Activar luz REVISAR
+            var light2D = tinyLight.GetComponentInChildren<UnityEngine.Rendering.Universal.Light2D>();
+            if (light2D != null)
+            {
+                light2D.enabled = true;
+            }
         
         if (correctedFuses == totalFuses)
         {
