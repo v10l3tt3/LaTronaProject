@@ -4675,7 +4675,7 @@ GameObject:
   - component: {fileID: 2561832261229780490}
   - component: {fileID: 4788204678538510811}
   m_Layer: 0
-  m_Name: Plomillos-dual-orange-2
+  m_Name: Plomillos-dual-orange-1
   m_TagString: FusesSingle
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4910,7 +4910,7 @@ GameObject:
   - component: {fileID: 3425700404187417541}
   - component: {fileID: 5653392235452601364}
   m_Layer: 0
-  m_Name: Plomillos-dual-orange
+  m_Name: Plomillos-dual-orange-2
   m_TagString: FusesSingle
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
