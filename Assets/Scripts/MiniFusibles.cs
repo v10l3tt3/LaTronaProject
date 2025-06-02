@@ -91,7 +91,7 @@ public class MiniFusibles : MonoBehaviour
         light6.GetComponent<Light2D>().enabled = false;
 
         
-        
+        //tinyLight.SetActive(false);
     }
 
     void Update()
