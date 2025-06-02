@@ -116,8 +116,8 @@ public class MiniFusibles : MonoBehaviour
         //para 1 sola solucion
         if (fb1.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
         {
+            this.GetComponent<BoxCollider2D>().enabled = false;
             isPlacedF = true;
-            GetComponent<BoxCollider2D>().enabled = false;
             gameManager.correctSwitch();
             
         }
