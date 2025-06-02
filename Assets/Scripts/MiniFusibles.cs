@@ -17,7 +17,13 @@ public class MiniFusibles : MonoBehaviour
     bool isPlacedF = false;
 
     //fusibles
-    GameObject fusible1;
+    GameObject fb1;
+    GameObject fb2;
+    GameObject fb3;
+    GameObject fb4;
+    GameObject fb5;
+    GameObject fo1;
+    GameObject fo2;
 
     //luces correctas
     public GameObject tinyLight;
@@ -44,9 +50,15 @@ public class MiniFusibles : MonoBehaviour
             isPlacedF = false;
         }
 
-        fusible1 = GameObject.Find("Plomillos-black-1");
-        fusible1.GetComponent<SpriteRenderer>().flipY = false;
-        fusible1.GetComponent<BoxCollider2D>().enabled = true;
+        fb1 = GameObject.Find("Plomillos-black-1");
+        fb2 = GameObject.Find("Plomillos-black-2");
+        fb3 = GameObject.Find("Plomillos-black-3");
+        fb4 = GameObject.Find("Plomillos-black-4");
+        fb5 = GameObject.Find("Plomillos-black-5");
+        fo1 = GameObject.Find("Plomillos-orange-1");
+        fo2 = GameObject.Find("Plomillos-orange-2");
+        
+        fb1.GetComponent<BoxCollider2D>().enabled = true;
         
         tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
     }
