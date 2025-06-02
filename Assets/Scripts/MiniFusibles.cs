@@ -14,7 +14,7 @@ public class MiniFusibles : MonoBehaviour
     public float correctSwitch; // Flip correcto para el fusible
 
     [SerializeField]
-    bool isPlaced = false;
+    bool isPlacedF = false;
 
     //fusibles
     GameObject fusible1;
@@ -37,16 +37,13 @@ public class MiniFusibles : MonoBehaviour
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctRotation)
         {
-            isPlaced = true;
+            isPlacedF = true;
         }*/
 
         fusible1 = GameObject.Find("Plomillos-black-1");
         fusible1.GetComponent<SpriteRenderer>().flipY = false;
         fusible1.GetComponent<BoxCollider2D>().enabled = true;
 
-
-        tinyLight = GameObject.FindGameObjectsWithTag("OnTinyLight")[0];
-        tinyLight.SetActive(false);
         
     }
 
@@ -63,12 +60,12 @@ public class MiniFusibles : MonoBehaviour
 
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxFuseSwitch);
         
-        //if ( FlipYTool== correctSwitch && isPlaced == false){}
+        //if ( FlipYTool== correctSwitch && isPlacedF == false){}
 
         /*METODO DE TUBERIAS ADAPTADO, NO FUNCIONA
         transform.Rotate(new Vector3(0, 0, 180));
         //para 1 sola solucion
-        if (transform.eulerAngles.z == correctRotation && isPlaced == false)
+        if (transform.eulerAngles.z == correctRotation && isPlacedF == false)
         {
             isPlaced = true;
             // Activar luz REVISAR
@@ -78,7 +75,7 @@ public class MiniFusibles : MonoBehaviour
                 light2D.enabled = true;
             }
         }
-        else if (isPlaced == true)
+        else if (isPlacedF == true)
         { isPlaced = false; }*/
     }
 }
