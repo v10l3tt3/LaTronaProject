@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     int correctedFuses = 0;
+
     
     
     GameObject fb1;
@@ -55,6 +56,9 @@ public class GameManager : MonoBehaviour
     GameObject light4;
     GameObject light5;
     GameObject light6;
+
+    GameObject tinyLight;
+
 
     
     Component fb1COL;
@@ -103,9 +107,13 @@ public class GameManager : MonoBehaviour
         totalPipes = 34; // Total de tuberías que hay que arreglar
         totalFuses = 7; // Total de fusibles que hay que arreglar
 
-        //tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
+        tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
         //tinyLight = GameObject.FindWithTag("OnTinyLight");
+
         //tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
+
+        tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
+
         //tinyLight.SetActive(false);
 
 
@@ -114,6 +122,7 @@ public class GameManager : MonoBehaviour
         //maxHealth = gameObject.GetComponent<MiniMazon>().maxHealth;
 
         //vidasMazonText = GameObject.Find("vidasMazonText");
+
 
         fb1 = GameObject.Find("Plomillos-black-1");
         fb2 = GameObject.Find("Plomillos-black-2");
@@ -144,6 +153,8 @@ public class GameManager : MonoBehaviour
 
         ((BoxCollider2D)fb1COL).enabled = true;
         ((BoxCollider2D)fb2COL).enabled = true;*/
+
+
 
     }
 
@@ -192,7 +203,8 @@ public class GameManager : MonoBehaviour
     public void correctSwitch()
     {
 
-        if (fb1.GetComponent<MiniFusibles>().isPlacedF == true)
+
+        /*if (fb1.GetComponent<MiniFusibles>().isPlacedF == true)
         {
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
             correctedFuses += 1;
@@ -211,6 +223,11 @@ public class GameManager : MonoBehaviour
         }
 
         //correctedFuses += 1;
+
+        correctedFuses += 1;
+        Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
+        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+
         // Activar luz REVISAR
         //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
         if (correctedFuses == totalFuses)
@@ -218,7 +235,7 @@ public class GameManager : MonoBehaviour
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);
             Debug.Log("Plomillos colocados");
             mFusColocado = true;
-        }
+        }*/
     }
 }
 
