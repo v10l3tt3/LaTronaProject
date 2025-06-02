@@ -33,6 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniMazon.unity
     guid: 3b184a23bd6ac0143bc1319c4282a5c7
   - enabled: 1
-    path: Assets/Scenes/CreditsUI.unity
+    path: Assets/Scenes/FiCreditsUI.unity
     guid: dce0870a4f619f44ba0a8c97c975a0cf
   m_configObjects: {}
