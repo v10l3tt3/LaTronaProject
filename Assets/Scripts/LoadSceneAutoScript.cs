@@ -16,6 +16,6 @@ public class LoadSceneAutoScript : MonoBehaviour
     private IEnumerator LoadSceneAfterDelay()
     {
         yield return new WaitForSecondsRealtime(cinematicTime);
-        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+         SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
     }
 }
