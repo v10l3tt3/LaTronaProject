@@ -101573,11 +101573,11 @@ GameObject:
   - component: {fileID: 1748687674}
   - component: {fileID: 1748687673}
   m_Layer: 0
-<<<<<<< HEAD
+
   m_Name: Voluntari en idle 1
-=======
+
   m_Name: Voluntari-stand-aida
->>>>>>> 3b414f3a75525f8c18d89f8bd2fd122c7e56d0cc
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106719,10 +106719,7 @@ Transform:
   - {fileID: 1688281065}
   - {fileID: 846723959}
   - {fileID: 1748687672}
-<<<<<<< HEAD
   - {fileID: 844980048}
-=======
->>>>>>> 3b414f3a75525f8c18d89f8bd2fd122c7e56d0cc
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2094643246
