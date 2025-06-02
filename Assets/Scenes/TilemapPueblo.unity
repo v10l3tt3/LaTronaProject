@@ -52539,7 +52539,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 18.016655
+  orthographic size: 4.21875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -101526,7 +101526,7 @@ GameObject:
   - component: {fileID: 1764748274}
   - component: {fileID: 1764748273}
   m_Layer: 0
-  m_Name: Sit_12
+  m_Name: Voluntari-sentat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
