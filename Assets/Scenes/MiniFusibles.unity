@@ -1256,6 +1256,7 @@ MonoBehaviour:
   correctedPipes: 0
   totalFuses: 0
   correctedFuses: 0
+  tinyLight: {fileID: 0}
 --- !u!4 &1388056845
 Transform:
   m_ObjectHideFlags: 0
@@ -3709,7 +3710,7 @@ MonoBehaviour:
   fxPipesClick: {fileID: 8300000, guid: 23a64dd530435d149aff9a3580c77675, type: 3}
   fxMovBienTub: {fileID: 0}
   fxLogroTub: {fileID: 0}
-  fxLogroFuse: {fileID: 0}
+  fxLogroFuse: {fileID: 8300000, guid: bb884799eadd1c14192db25640809b1d, type: 3}
   poliDolorOinkFX: {fileID: 0}
   fxLowHelicopter: {fileID: 0}
   fxPiece1: {fileID: 0}
