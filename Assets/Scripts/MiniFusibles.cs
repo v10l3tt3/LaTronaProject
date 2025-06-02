@@ -14,7 +14,7 @@ public class MiniFusibles : MonoBehaviour
     public float correctSwitchRotation; // Flip correcto para el fusible
 
     [SerializeField]
-    bool isPlacedF = false;
+    public bool isPlacedF = false;
 
     //fusibles
     GameObject fb1;
@@ -114,11 +114,12 @@ public class MiniFusibles : MonoBehaviour
         transform.Rotate(new Vector3(0, 0, 180));
         
         //para 1 sola solucion
-        if (transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
+        if (fb1.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
         {
             isPlacedF = true;
-            gameManager.correctSwitch();
             GetComponent<BoxCollider2D>().enabled = false;
+            gameManager.correctSwitch();
+            
         }
         else if (isPlacedF == true)
         { isPlacedF = false; } 

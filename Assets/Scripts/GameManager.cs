@@ -181,10 +181,15 @@ public class GameManager : MonoBehaviour
     public void correctSwitch()
     {
         
+        if(fb1.GetComponent<MiniFusibles>().isPlacedF == true)
+        {
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+            correctedFuses += 1;
+            Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
+            light0.SetActive(true);
+        }
 
-        correctedFuses += 1;
-        Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
-        AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+        //correctedFuses += 1;
         // Activar luz REVISAR
             //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
         if (correctedFuses == totalFuses)
