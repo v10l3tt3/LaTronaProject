@@ -5309,7 +5309,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 0}
 --- !u!114 &2647247752121165700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5859,7 +5858,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 0}
 --- !u!61 &4169810255455131620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5938,7 +5936,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 0}
 --- !u!1 &4685457456483641643
 GameObject:
   m_ObjectHideFlags: 0
@@ -6422,7 +6419,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 0}
 --- !u!212 &6569640390678273589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6556,7 +6552,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 0}
 --- !u!4 &6645945640019171851
 Transform:
   m_ObjectHideFlags: 0
@@ -6601,7 +6596,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 8407755731599668614}
 --- !u!1 &6675045009872582171
 GameObject:
   m_ObjectHideFlags: 0
@@ -6630,7 +6624,7 @@ GameObject:
   - component: {fileID: 5267275601451022005}
   - component: {fileID: 2647247752619098427}
   m_Layer: 0
-  m_Name: Light 2D1
+  m_Name: Light2D1
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6647,7 +6641,7 @@ GameObject:
   - component: {fileID: 5267275601841992966}
   - component: {fileID: 2647247752431288968}
   m_Layer: 0
-  m_Name: Light 2D2
+  m_Name: Light2D2
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6664,7 +6658,7 @@ GameObject:
   - component: {fileID: 5267275602018422794}
   - component: {fileID: 2647247752121165700}
   m_Layer: 0
-  m_Name: Light 2D4
+  m_Name: Light2D4
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6681,7 +6675,7 @@ GameObject:
   - component: {fileID: 5267275602569484847}
   - component: {fileID: 2647247753720999329}
   m_Layer: 0
-  m_Name: Light 2D6
+  m_Name: Light2D6
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6698,7 +6692,7 @@ GameObject:
   - component: {fileID: 5267275602822003661}
   - component: {fileID: 2647247753461664835}
   m_Layer: 0
-  m_Name: Light 2D5
+  m_Name: Light2D5
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6715,7 +6709,7 @@ GameObject:
   - component: {fileID: 5267275603066437272}
   - component: {fileID: 2647247753152481558}
   m_Layer: 0
-  m_Name: Light 2D3
+  m_Name: Light2D3
   m_TagString: OnTinyLight
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6985,7 +6979,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctSwitchRotation: 0
   isPlacedF: 0
-  tinyLight: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
