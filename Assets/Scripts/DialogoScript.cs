@@ -18,6 +18,10 @@ public class DialogoScript : MonoBehaviour
     private int lineIndex;
 
 
+
+    
+
+
     void Update()
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space))
@@ -45,6 +49,9 @@ public class DialogoScript : MonoBehaviour
         lineIndex = 0;
         Time.timeScale = 0f; // Pausa todo el juego
         StartCoroutine(ShowDialogueLine());
+
+        GameManager.Instance.contadorInteracciones++;
+        Debug.Log("Contador de interacciones: " + GameManager.Instance.contadorInteracciones);
     }
 
     private IEnumerator ShowDialogueLine()

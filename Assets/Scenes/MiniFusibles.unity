@@ -808,7 +808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &726725008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1258,10 +1258,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mTubArreglado: 0
   mFusColocado: 0
+  fotomitades: 0
+  fotocompleta: 0
   totalPipes: 0
   correctedPipes: 0
   totalFuses: 0
   correctedFuses: 0
+  contadorInteracciones: 0
+  tePidieronAgua: 0
+  agua: 0
+  hoja: 0
 --- !u!4 &1388056845
 Transform:
   m_ObjectHideFlags: 0
@@ -3717,6 +3723,8 @@ MonoBehaviour:
   fxLogroTub: {fileID: 0}
   fxLogroFuse: {fileID: 8300000, guid: bb884799eadd1c14192db25640809b1d, type: 3}
   poliDolorOinkFX: {fileID: 0}
+  mazonDolorFX: {fileID: 0}
+  masMazonDolorFX: {fileID: 0}
   fxLowHelicopter: {fileID: 0}
   fxPiece1: {fileID: 0}
   fxPiece2: {fileID: 0}

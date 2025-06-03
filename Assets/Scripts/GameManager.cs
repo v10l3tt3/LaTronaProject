@@ -32,6 +32,9 @@ public class GameManager : MonoBehaviour
     public bool mTubArreglado = false;
     public bool mFusColocado = false;
 
+    public int fotomitades = 0;
+    public bool fotocompleta = false;
+
     [SerializeField]
     int totalPipes = 0;
 
@@ -78,6 +81,14 @@ public class GameManager : MonoBehaviour
     //public static int maxHealth = 4;
     /// </summary>
     GameObject vidasMazonText;
+
+    public int contadorInteracciones = 0;
+
+    public bool tePidieronAgua = false;
+    public bool agua = false;
+
+    public bool hoja = false;
+    public bool tuberiasnuevas = false;
 
 
 
@@ -127,7 +138,7 @@ public class GameManager : MonoBehaviour
 
 
 
-        
+
         //vidasMazonText = GameObject.Find("vidasMazonText");
 
 
@@ -170,12 +181,18 @@ public class GameManager : MonoBehaviour
 
         item3FotoMitad = GameObject.Find("Item3-Foto-mal-mitad1de2");
         item3FotoMitad.SetActive(false);
-        
+
         item3FotoCompleta = GameObject.Find("Item3-Foto-mal-mitad2de2");
         item3FotoCompleta.SetActive(false);
-       
+
         item3FotoRestaurada = GameObject.Find("Item3-Foto-restaurada");
         item3FotoRestaurada.SetActive(false);
+
+        GameObject.Find("HojaPista-Item1").SetActive(false);
+        
+
+        GameObject.Find("CanvasMuestreoTuberias").SetActive(true);
+        GameObject.Find("---EntramadoWaterTubs---").SetActive(false);
 
     }
 
@@ -183,7 +200,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         //Debug.Log("Vidas Mazon: " + health + " / " + maxHealth);
-        Debug.Log(+ vidasMazon + " / " + 4);
+        Debug.Log(+vidasMazon + " / " + 4);
 
         //vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
 
@@ -205,6 +222,32 @@ public class GameManager : MonoBehaviour
             //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.3DolorMazonFX);
             gameObject.GetComponent<Animator>().SetBool("HIT3", true);
         }*/
+
+        if (fotomitades == 2)
+        {
+            // Si se han recogido las dos mitades de la foto, activa la foto completa
+            item3FotoCompleta.SetActive(true);
+            fotocompleta = true;
+            Debug.Log("Foto completa activada");
+        }
+
+        if (hoja == true)
+        {
+            // Si se ha recogido la hoja, activa el item de la hoja
+            item1Hoja.SetActive(true);
+            GameObject.Find("HojaPista-Item1").SetActive(true);
+            Debug.Log("Hoja activada");
+        }
+
+        if (tuberiasnuevas == true)
+        {
+            // Si se han recogido las tuberías nuevas, activa el item de las tuberías
+            item2Tuberias.SetActive(true);
+            GameObject.Find("CanvasMuestreoTuberias").SetActive(false);
+            GameObject.Find("---EntramadoWaterTubs---").SetActive(true);
+            Debug.Log("Tuberías nuevas activadas");
+            
+        }
     }
 
     public void correctMove()
