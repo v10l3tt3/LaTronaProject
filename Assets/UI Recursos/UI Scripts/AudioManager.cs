@@ -34,12 +34,13 @@ public class AudioManager : MonoBehaviour
     public GameObject musicObj;
 
 
-    public AudioSource gestorAudio;
-    public AudioSource audioMusic;
+     AudioSource gestorAudio;
+     AudioSource audioMusic;
 
     //por si se quiere usar un mixer de audio al entrar en una zona:
     //public AudioMixerSnapshot burbujaSnapshot;
-    public static AudioManager Instance { get; private set; }
+    //[SerializeField] private AudioSource sfxAudioSource, musicAudioSource;
+    public static AudioManager Instance; 
 
     void Awake()
     {

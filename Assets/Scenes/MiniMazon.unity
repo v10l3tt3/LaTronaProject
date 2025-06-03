@@ -52950,25 +52950,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bandaSonora: {fileID: 8300000, guid: 2ce755c2674f3444db699c53118739e5, type: 3}
   creditsBandaSonora: {fileID: 0}
-  fxButtonIn: {fileID: 0}
+  fxButtonIn: {fileID: 8300000, guid: 7c6f8569bda59a4429fded1c4684ce26, type: 3}
   fxButtonOut: {fileID: 8300000, guid: 1d69ff179f591d147b19a6c411a6a09b, type: 3}
-  fxPlayButton: {fileID: 0}
+  fxPlayButton: {fileID: 8300000, guid: f2847fb8e8cc32b4aa2771b7d4cb2a88, type: 3}
   fxExitGame: {fileID: 8300000, guid: 6c0d6dc948fa0194ab68ca9308cdd8f5, type: 3}
-  fxFuseSwitch: {fileID: 0}
-  fxPipesClick: {fileID: 0}
-  fxMovBienTub: {fileID: 0}
-  fxLogroTub: {fileID: 0}
-  fxLogroFuse: {fileID: 0}
+  fxFuseSwitch: {fileID: 8300000, guid: 477fd59eabc44874a904591d1834c6a1, type: 3}
+  fxPipesClick: {fileID: 8300000, guid: 23a64dd530435d149aff9a3580c77675, type: 3}
+  fxMovBienTub: {fileID: 8300000, guid: 11a2176dc6525ef41b62f8212f3c2b14, type: 3}
+  fxLogroTub: {fileID: 8300000, guid: b2bf7ae46756f9949940d2ff8903a17c, type: 3}
+  fxLogroFuse: {fileID: 8300000, guid: bb884799eadd1c14192db25640809b1d, type: 3}
   poliDolorOinkFX: {fileID: 8300000, guid: c31844616ee75c743965c4c4530d0120, type: 3}
   mazonDolorFX: {fileID: 8300000, guid: 9f50cf779719a5c448c70a1e90ec41ca, type: 3}
   masMazonDolorFX: {fileID: 8300000, guid: 36c9a117a1b371246934350f2a440937, type: 3}
   fxLowHelicopter: {fileID: 0}
-  fxPiece1: {fileID: 0}
-  fxPiece2: {fileID: 0}
-  fxPhotoCompleted: {fileID: 0}
+  fxPiece1: {fileID: 8300000, guid: 48f9e6da28493004397ef6f2456e0843, type: 3}
+  fxPiece2: {fileID: 8300000, guid: 48f9e6da28493004397ef6f2456e0843, type: 3}
+  fxPhotoCompleted: {fileID: 8300000, guid: 0145059a61348b244b448f2a4e44f6c1, type: 3}
   musicObj: {fileID: 1814770357}
-  gestorAudio: {fileID: 0}
-  audioMusic: {fileID: 0}
 --- !u!4 &759249134
 Transform:
   m_ObjectHideFlags: 0
@@ -52995,7 +52993,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2ce755c2674f3444db699c53118739e5, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.671
   m_Pitch: 1.76
@@ -54145,10 +54143,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mTubArreglado: 0
   mFusColocado: 0
+  fotomitades: 0
+  fotocompleta: 0
+  fotoRestaurada: 0
   totalPipes: 0
   correctedPipes: 0
   totalFuses: 0
   correctedFuses: 0
+  contadorInteracciones: 0
+  tePidieronAgua: 0
+  agua: 0
+  hoja: 0
+  tuberiasnuevas: 0
 --- !u!4 &1388769317
 Transform:
   m_ObjectHideFlags: 0
