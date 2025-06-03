@@ -53744,7 +53744,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -1887761525, guid: 0ec2f190f494e4e5ab30b83704dd4be5, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 51eeedceff585174592744e2f3ea165a, type: 3}
+    m_Data: {fileID: 1590100889, guid: 0ec2f190f494e4e5ab30b83704dd4be5, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1028186332, guid: f9c5f6efacad04c8d9d3b3172325b678, type: 3}
   m_TileMatrixArray:
@@ -53848,7 +53848,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.21875
+  orthographic size: 18.016655
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
