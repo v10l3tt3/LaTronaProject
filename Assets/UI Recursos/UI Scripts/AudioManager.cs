@@ -48,13 +48,13 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(this);
         }
-        /*else
+        
         {
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
 
             //DontDestroyOnLoad(musicObj.GetComponent<AudioSource>());
-        }*/
+        }
     }
 
     void Start()
