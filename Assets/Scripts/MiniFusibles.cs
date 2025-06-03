@@ -81,7 +81,7 @@ public class MiniFusibles : MonoBehaviour
         
 
 
-        /*fb2.GetComponent<BoxCollider2D>().enabled = true;
+        fb2.GetComponent<BoxCollider2D>().enabled = true;
 
         fb1.GetComponent<BoxCollider2D>().enabled = true;
         fb2.GetComponent<BoxCollider2D>().enabled = true;
@@ -90,7 +90,7 @@ public class MiniFusibles : MonoBehaviour
         fb4.GetComponent<BoxCollider2D>().enabled = true;
         fb5.GetComponent<BoxCollider2D>().enabled = true;
         fo1.GetComponent<BoxCollider2D>().enabled = true;
-        fo2.GetComponent<BoxCollider2D>().enabled = true;*/
+        fo2.GetComponent<BoxCollider2D>().enabled = true;
 
         light0.SetActive(false);
         light1.SetActive(false);
