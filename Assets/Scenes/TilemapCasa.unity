@@ -153,10 +153,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mTubArreglado: 0
   mFusColocado: 0
+  fotomitades: 0
+  fotocompleta: 0
   totalPipes: 0
   correctedPipes: 0
   totalFuses: 0
   correctedFuses: 0
+  contadorInteracciones: 0
+  tePidieronAgua: 0
+  agua: 0
+  hoja: 0
+  tuberiasnuevas: 0
 --- !u!4 &110413753
 Transform:
   m_ObjectHideFlags: 0
@@ -993,7 +1000,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2197810321690684532, guid: 5c98477a4ba328f459352e38510b6adb, type: 3}
+  m_Sprite: {fileID: -8840825227006653616, guid: a24029c32eaf4674d8736a87e7fa087e, type: 3}
   m_Color: {r: 0.735849, g: 0.5234567, b: 0.28114986, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3861,6 +3868,91 @@ Transform:
   - {fileID: 1304569161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &986707768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986707770}
+  - component: {fileID: 986707769}
+  m_Layer: 0
+  m_Name: Item-collect-semi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!212 &986707769
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986707768}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 2197810321690684532, guid: 5c98477a4ba328f459352e38510b6adb, type: 3}
+  m_Color: {r: 0.735849, g: 0.5234567, b: 0.28114986, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.28125, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &986707770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986707768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.258819, w: 0.9659259}
+  m_LocalPosition: {x: 2.99, y: 0.82, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1978043337}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
 --- !u!1 &990664604
 GameObject:
   m_ObjectHideFlags: 0
@@ -8853,8 +8945,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.04644999, y: -0.022249997, z: 0}
-    m_Extent: {x: 0.62555003, y: 0.79965, z: 0}
+    m_Center: {x: 0.12900001, y: -0.012349993, z: 0}
+    m_Extent: {x: 0.8131, y: 0.82914996, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -8865,18 +8957,12 @@ MonoBehaviour:
   m_ShapeLightFalloffSize: 0.39
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -0.28228194, y: -0.42939162, z: 0}
-  - {x: 0.1399301, y: -0.43275377, z: 0}
-  - {x: 0.13903616, y: -0.28395423, z: 0}
-  - {x: 0.19135159, y: -0.27660295, z: 0}
-  - {x: 0.17688423, y: -0.12474217, z: 0}
-  - {x: 0.13122661, y: -0.12482354, z: 0}
-  - {x: 0.13241799, y: 0.13124678, z: 0}
-  - {x: 0.17957097, y: 0.12647638, z: 0}
-  - {x: 0.18350035, y: 0.28577542, z: 0}
-  - {x: 0.12672295, y: 0.2762543, z: 0}
-  - {x: 0.13086961, y: 0.38743398, z: 0}
-  - {x: -0.27921152, y: 0.38123083, z: 0}
+  - {x: -0.2943437, y: -0.44766024, z: 0}
+  - {x: 0.15671067, y: -0.3835004, z: 0}
+  - {x: 0.5493381, y: -0.4527911, z: 0}
+  - {x: 0.55281496, y: 0.4026912, z: 0}
+  - {x: 0.14581239, y: 0.31466407, z: 0}
+  - {x: -0.28852117, y: 0.42672464, z: 0}
 --- !u!1 &1489987770
 GameObject:
   m_ObjectHideFlags: 0
@@ -11614,6 +11700,96 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!1 &1978043336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1978043337}
+  - component: {fileID: 1978043338}
+  m_Layer: 0
+  m_Name: GlowItemLight2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1978043337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978043336}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.08083762, y: 0.32668155, z: 0}
+  m_LocalScale: {x: 0.6166667, y: 0.6166667, z: 0.6166667}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 986707770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -30}
+--- !u!114 &1978043338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978043336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 1
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.92549026, g: 0.64705884, b: 0.32941177, a: 1}
+  m_Intensity: 2.22
+  m_LightVolumeIntensity: 1
+  m_LightVolumeIntensityEnabled: 0
+  m_ApplyToSortingLayers: 0000000015fddcad91080f99
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowIntensityEnabled: 0
+  m_ShadowIntensity: 0.75
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: -0.042399973, y: -0.011700004, z: 0}
+    m_Extent: {x: 0.6417, y: 0.8268, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.39
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.2943437, y: -0.44766024, z: 0}
+  - {x: 0.1543441, y: -0.43832082, z: 0}
+  - {x: 0.1491629, y: -0.3072094, z: 0}
+  - {x: 0.2071879, y: -0.28101218, z: 0}
+  - {x: 0.20097202, y: -0.10235674, z: 0}
+  - {x: 0.13983941, y: -0.089056954, z: 0}
+  - {x: 0.13528822, y: 0.1124128, z: 0}
+  - {x: 0.20679127, y: 0.114819475, z: 0}
+  - {x: 0.20911652, y: 0.2959621, z: 0}
+  - {x: 0.14920086, y: 0.31058857, z: 0}
+  - {x: 0.13401236, y: 0.3856028, z: 0}
+  - {x: -0.28852117, y: 0.42672464, z: 0}
 --- !u!1 &1983074705
 GameObject:
   m_ObjectHideFlags: 0
@@ -12600,11 +12776,12 @@ SceneRoots:
   - {fileID: 1769958917}
   - {fileID: 1446732913}
   - {fileID: 1924474203}
+  - {fileID: 753566488}
+  - {fileID: 428630640}
+  - {fileID: 986707770}
   - {fileID: 211781572}
   - {fileID: 110413753}
   - {fileID: 1631640230}
   - {fileID: 506260894}
   - {fileID: 276627046}
   - {fileID: 1182393832}
-  - {fileID: 753566488}
-  - {fileID: 428630640}

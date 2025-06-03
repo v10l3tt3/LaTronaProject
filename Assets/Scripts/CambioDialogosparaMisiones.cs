@@ -77,6 +77,24 @@ public class CambioDialogosparaMisiones : MonoBehaviour
             // Si ls fusibles colocados, desactiva la señora de la introducción
             senyoraIntro.SetActive(false);
             senyoratoPipe.SetActive(true);
+
+            pagesIntrodaAgua.SetActive(false);
+            pagestoMazon.SetActive(true);
+        }
+
+        if (GameManager.vidasMazon <= 2)
+        {
+            // Si Mazon ha perdido todas sus vidas, desactiva la señora de la restauración de la foto
+            pagestoMazon.SetActive(false);
+            pagesdaPipes.SetActive(true);
+            GameManager.Instance.tuberiasnuevas = true;
+        }
+
+        if (GameManager.Instance.tuberiasnuevas == true && GameManager.Instance.mTubArreglado == true && GameManager.Instance.fotocompleta == true)
+        {
+            // Si las tuberías nuevas han sido colocadas, desactiva la señora de las tuberías
+            senyoratoPipe.SetActive(false);
+            senyoratoRestaurarFoto.SetActive(true);
         }
 
         if (GameManager.Instance.fotocompleta == true)
@@ -84,6 +102,13 @@ public class CambioDialogosparaMisiones : MonoBehaviour
             // Si la foto ha sido restaurada, desactiva la señora de las tuberías
             senyoratoPipe.SetActive(false);
             senyoratoRestaurarFoto.SetActive(true);
+        }
+
+        if (GameManager.Instance.fotoRestaurada == true)
+        {
+            // Si la foto ha sido restaurada, desactiva la señora de la restauración de la foto
+            senyoratoRestaurarFoto.SetActive(false);
+            senyoraEnd.SetActive(true);
         }
 
 

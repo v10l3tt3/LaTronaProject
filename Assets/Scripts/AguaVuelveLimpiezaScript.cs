@@ -12,7 +12,9 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
 
     bool puedeTaparAgujero = false;
 
-    GameObject ItemSemiPolaroid;
+    GameObject ItemTotalPolaroid;
+
+    
     void Start()
     {
         mTuberias = GameObject.Find("trigger-col-m.tub");
@@ -26,8 +28,8 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
         IndicaPostTub = GameObject.Find("CanvasIndicaciones");
         IndicaPostTub.SetActive(false);
 
-        ItemSemiPolaroid = GameObject.Find("Item-collect-polaroid");
-        ItemSemiPolaroid.SetActive(false);
+        ItemTotalPolaroid = GameObject.Find("Item-collect-polaroid");
+        ItemTotalPolaroid.SetActive(false);
     }
 
     // Update is called once per frame
@@ -80,8 +82,8 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
             mTuberias.SetActive(false);
             IndicaPostTub.SetActive(false);
             
-            //APARECE ITEM POLAROID SEMI
-            ItemSemiPolaroid.SetActive(true);
+            //APARECE ITEM POLAROID Total
+            ItemTotalPolaroid.SetActive(true);
         }
     }
 }

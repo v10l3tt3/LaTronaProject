@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
     public int fotomitades = 0;
     public bool fotocompleta = false;
 
+    public bool fotoRestaurada = false;
+
     [SerializeField]
     int totalPipes = 0;
 
@@ -89,6 +91,9 @@ public class GameManager : MonoBehaviour
 
     public bool hoja = false;
     public bool tuberiasnuevas = false;
+
+
+    
 
 
 
@@ -187,6 +192,8 @@ public class GameManager : MonoBehaviour
 
         item3FotoRestaurada = GameObject.Find("Item3-Foto-restaurada");
         item3FotoRestaurada.SetActive(false);
+
+        
 
         GameObject.Find("HojaPista-Item1").SetActive(false);
         
