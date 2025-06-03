@@ -47,7 +47,7 @@ public class AudioManager : MonoBehaviour
         //Si existe otro objeto de este tipo, destruyelo
         if (Instance != null && Instance != this)
         {
-            Destroy(this);
+            Destroy(Instance.gameObject);
         }
         
         {
