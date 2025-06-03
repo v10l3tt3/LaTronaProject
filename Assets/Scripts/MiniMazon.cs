@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MiniMazon : MonoBehaviour
 {
@@ -41,8 +42,8 @@ public class MiniMazon : MonoBehaviour
     private Rigidbody2D mRb;
     private Animator animatorController;
 
-    [SerializeField] public float health, maxHealth = 3f;
-
+    int health;
+    int maxHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -61,7 +62,8 @@ public class MiniMazon : MonoBehaviour
         currentPoint = PuntoA.transform;
         //animatorController.SetBool("WalkM", true);
 
-        health = maxHealth;
+        health = GameManager.vidasMazon;
+        maxHealth = 4;
     }
 
     void FixedUpdate()
@@ -106,32 +108,30 @@ public class MiniMazon : MonoBehaviour
 
     }
 
-    public void TakeDamage(float damageAmount)
+    public void TakeDamage(int damageAmount)
     {
         health -= damageAmount; //3 -> 2 -> 1 
 
-        if (health <= 2)
+        if (health == 3)
         {
             //fx audio
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolor1FX);
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolorFX);
             gameObject.GetComponent<Animator>().SetBool("HIT1", true);
         }
-        else if (health <= 1)
+        else if (health == 2)
         {
             //fx audio
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolor2FX);
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.masMazonDolorFX);
             gameObject.GetComponent<Animator>().SetBool("HIT2", true);
         }
-        else if (health <= 0)
+        else if (health == 1)
         {
             //fx audio
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.mazonDolor3FX);
+            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.masMazonDolorFX);
 
-            Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
-            rb.constraints = RigidbodyConstraints2D.FreezePositionX;
-            rb.constraints = RigidbodyConstraints2D.FreezePositionY;
-        
             gameObject.GetComponent<Animator>().SetBool("HIT3", true);
+            
+            SceneManager.LoadScene(9, LoadSceneMode.Single);
         }
     }
         /*public void RecibirImpacto()

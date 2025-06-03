@@ -67,12 +67,12 @@ public class BarroScript : MonoBehaviour
     {
 
 
-   Debug.Log(colBS.gameObject.tag);
+        Debug.Log(colBS.gameObject.tag);
         if (colBS.gameObject.tag == "Mazon" && colBS.gameObject.TryGetComponent<MiniMazon>(out MiniMazon enemyComponent))
         {
             enemyComponent.TakeDamage(1);
             //Destroy(colBS.gameObject, 0.1f);
-            //GameManager.vidasMazon -= 1;
+            GameManager.vidasMazon -= 1;
             Destroy(this.gameObject, 0.1f);
         }
 

@@ -10,9 +10,6 @@ TagManager:
   - Policia
   - Limite
   - Target
-  - Item1
-  - Item2
-  - Item3
   - Item-hoja
   - Item-foto
   - Item-tub
@@ -23,6 +20,9 @@ TagManager:
   - OnTinyLight
   - FUSIBLES
   - FusesSingle
+  - item-foto2de2
+  - item-foto-restaurada
+  - item-foto1de2
   layers:
   - Default
   - TransparentFX

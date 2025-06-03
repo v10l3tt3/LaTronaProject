@@ -9,6 +9,12 @@ public class GameManager : MonoBehaviour
     public static int pieza1 = 0;
     public static int pieza2 = 0;
 
+    GameObject item1Hoja;
+    GameObject item2Tuberias;
+    GameObject item3FotoMitad;
+    GameObject item3FotoCompleta;
+    GameObject item3FotoRestaurada;
+
 
     public static int trozoFoto = 0;
 
@@ -66,8 +72,11 @@ public class GameManager : MonoBehaviour
 
 
 
-    //public static int vidasMazon = 4;
-    //public float health, maxHealth;
+    public static int vidasMazon = 4;
+    //public static int health;
+    /// <summary>
+    //public static int maxHealth = 4;
+    /// </summary>
     GameObject vidasMazonText;
 
 
@@ -118,9 +127,7 @@ public class GameManager : MonoBehaviour
 
 
 
-        //health = gameObject.GetComponent<MiniMazon>().health;
-        //maxHealth = gameObject.GetComponent<MiniMazon>().maxHealth;
-
+        
         //vidasMazonText = GameObject.Find("vidasMazonText");
 
 
@@ -147,7 +154,7 @@ public class GameManager : MonoBehaviour
         light4.SetActive(false);
         light5.SetActive(false);
         light6.SetActive(false);
-        
+
         /*fb1COL = fb1.GetComponent<BoxCollider2D>();
         fb2COL = fb2.GetComponent<BoxCollider2D>();
 
@@ -155,6 +162,20 @@ public class GameManager : MonoBehaviour
         ((BoxCollider2D)fb2COL).enabled = true;*/
 
 
+        item1Hoja = GameObject.Find("Item1-hojas");
+        item1Hoja.SetActive(false);
+
+        item2Tuberias = GameObject.Find("Item2-tuberias");
+        item2Tuberias.SetActive(false);
+
+        item3FotoMitad = GameObject.Find("Item3-Foto-mal-mitad1de2");
+        item3FotoMitad.SetActive(false);
+        
+        item3FotoCompleta = GameObject.Find("Item3-Foto-mal-mitad2de2");
+        item3FotoCompleta.SetActive(false);
+       
+        item3FotoRestaurada = GameObject.Find("Item3-Foto-restaurada");
+        item3FotoRestaurada.SetActive(false);
 
     }
 
@@ -162,6 +183,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         //Debug.Log("Vidas Mazon: " + health + " / " + maxHealth);
+        Debug.Log(+ vidasMazon + " / " + 4);
 
         //vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
 

@@ -22,6 +22,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip fxLogroFuse;
 
     public AudioClip poliDolorOinkFX;
+    public AudioClip mazonDolorFX;
+    public AudioClip masMazonDolorFX;
     public AudioClip fxLowHelicopter;
 
     public AudioClip fxPiece1;
@@ -50,7 +52,8 @@ public class AudioManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
-            DontDestroyOnLoad(musicObj);
+
+            //DontDestroyOnLoad(musicObj.GetComponent<AudioSource>());
         }
     }
 
