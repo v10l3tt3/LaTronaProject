@@ -367,6 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1104170825}
   - component: {fileID: 1104170826}
+  - component: {fileID: 1104170827}
   m_Layer: 0
   m_Name: MusicObj
   m_TagString: Untagged
@@ -399,9 +400,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a517d9f31650c984a96b1dfb3df86fcc, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.246
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -485,6 +486,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1104170827
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104170824}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1165780403
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +881,10 @@ PlayableDirector:
     value: {fileID: 1165780407}
   - key: {fileID: 8055037031475442971, guid: 5903fe5da64a0c540bcc94b110ae28d4, type: 2}
     value: {fileID: 1165780403}
+  - key: {fileID: -2343441831012974118, guid: 5903fe5da64a0c540bcc94b110ae28d4, type: 2}
+    value: {fileID: 1104170824}
+  - key: {fileID: 9051833527884687883, guid: 5903fe5da64a0c540bcc94b110ae28d4, type: 2}
+    value: {fileID: 1104170827}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1602598867
@@ -936,9 +962,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7bc564d4257f83b4d9756a8bcd3b5368, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.159
   m_Pitch: 1
   Loop: 0
   Mute: 0
