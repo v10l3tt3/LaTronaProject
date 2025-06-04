@@ -43,7 +43,7 @@ public class MiniMazon : MonoBehaviour
     private Animator animatorController;
 
     int health;
-    int maxHealth;
+    //int maxHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -63,7 +63,7 @@ public class MiniMazon : MonoBehaviour
         //animatorController.SetBool("WalkM", true);
 
         health = GameManager.vidasMazon;
-        maxHealth = 4;
+        //maxHealth = 4;
     }
 
     void FixedUpdate()

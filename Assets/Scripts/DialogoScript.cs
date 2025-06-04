@@ -50,8 +50,8 @@ public class DialogoScript : MonoBehaviour
         Time.timeScale = 0f; // Pausa todo el juego
         StartCoroutine(ShowDialogueLine());
 
-        GameManager.Instance.contadorInteracciones++;
-        Debug.Log("Contador de interacciones: " + GameManager.Instance.contadorInteracciones);
+        GameManager.contadorInteracciones += 1; // Incrementa el contador de interacciones
+        Debug.Log("Contador de interacciones: " + GameManager.contadorInteracciones);
     }
 
     private IEnumerator ShowDialogueLine()

@@ -44,10 +44,10 @@ public class GameManager : MonoBehaviour
     int correctedPipes = 0;
 
     [SerializeField]
-    int totalFuses = 0;
+    public int totalFuses = 0;
 
     [SerializeField]
-    int correctedFuses = 0;
+    public int correctedFuses = 0;
 
     
     
@@ -58,15 +58,6 @@ public class GameManager : MonoBehaviour
     GameObject fb5;
     GameObject fo1;
     GameObject fo2;
-
-    
-    GameObject light0;
-    GameObject light1;
-    GameObject light2;
-    GameObject light3;
-    GameObject light4;
-    GameObject light5;
-    GameObject light6;
 
     GameObject tinyLight;
 
@@ -84,12 +75,14 @@ public class GameManager : MonoBehaviour
     /// </summary>
     GameObject vidasMazonText;
 
-    public int contadorInteracciones = 0;
+    public static int contadorInteracciones = 0;
 
     public bool tePidieronAgua = false;
     public bool agua = false;
 
     public bool hoja = false;
+
+    GameObject hojaPista;
     public bool tuberiasnuevas = false;
 
 
@@ -132,19 +125,7 @@ public class GameManager : MonoBehaviour
         totalPipes = 34; // Total de tuberías que hay que arreglar
         totalFuses = 7; // Total de fusibles que hay que arreglar
 
-        tinyLight = GameObject.FindGameObjectWithTag("OnTinyLight");
-        //tinyLight = GameObject.FindWithTag("OnTinyLight");
-
-        //tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
-
-        tinyLight.GetComponentInChildren<Light2D>().enabled = false; // Desactivar luz al inicio
-
-        //tinyLight.SetActive(false);
-
-
-
-
-        //vidasMazonText = GameObject.Find("vidasMazonText");
+        // //vidasMazonText = GameObject.Find("vidasMazonText");
 
 
         fb1 = GameObject.Find("Plomillos-black-1");
@@ -155,21 +136,6 @@ public class GameManager : MonoBehaviour
         fo1 = GameObject.Find("Plomillos-orange-1");
         fo2 = GameObject.Find("Plomillos-orange-2");
 
-        light0 = GameObject.Find("Light2D0");
-        light1 = GameObject.Find("Light2D1");
-        light2 = GameObject.Find("Light2D2");
-        light3 = GameObject.Find("Light2D3");
-        light4 = GameObject.Find("Light2D4");
-        light5 = GameObject.Find("Light2D5");
-        light6 = GameObject.Find("Light2D6");
-
-        light0.SetActive(false);
-        light1.SetActive(false);
-        light2.SetActive(false);
-        light3.SetActive(false);
-        light4.SetActive(false);
-        light5.SetActive(false);
-        light6.SetActive(false);
 
         /*fb1COL = fb1.GetComponent<BoxCollider2D>();
         fb2COL = fb2.GetComponent<BoxCollider2D>();
@@ -177,9 +143,14 @@ public class GameManager : MonoBehaviour
         ((BoxCollider2D)fb1COL).enabled = true;
         ((BoxCollider2D)fb2COL).enabled = true;*/
 
+        //fo2.GetComponent<Light2D>().enabled = false; 
+
 
         item1Hoja = GameObject.Find("Item1-hojas");
         item1Hoja.SetActive(false);
+
+        hojaPista = GameObject.Find("HojaPista-Item1");
+        hojaPista.SetActive(false);
 
         item2Tuberias = GameObject.Find("Item2-tuberias");
         item2Tuberias.SetActive(false);
@@ -211,25 +182,6 @@ public class GameManager : MonoBehaviour
 
         //vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
 
-
-        /*if (GameManager.vidasMazon == 3)
-        {
-            //fx audio 
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.1DolorMazonFX);
-            gameObject.GetComponent<Animator>().SetBool("HIT1", true);
-        }
-        else if (GameManager.vidasMazon == 2)
-        {
-            //fx audio 
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.2DolorMazonFX);
-            gameObject.GetComponent<Animator>().SetBool("HIT2", true);
-        }
-        else if (GameManager.vidasMazon == 1){
-            //fx audio 
-            //AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.3DolorMazonFX);
-            gameObject.GetComponent<Animator>().SetBool("HIT3", true);
-        }*/
-
         if (fotomitades == 2)
         {
             // Si se han recogido las dos mitades de la foto, activa la foto completa
@@ -242,7 +194,7 @@ public class GameManager : MonoBehaviour
         {
             // Si se ha recogido la hoja, activa el item de la hoja
             item1Hoja.SetActive(true);
-            GameObject.Find("HojaPista-Item1").SetActive(true);
+            hojaPista.SetActive(true);
             Debug.Log("Hoja activada");
         }
 
@@ -253,8 +205,10 @@ public class GameManager : MonoBehaviour
             GameObject.Find("CanvasMuestreoTuberias").SetActive(false);
             GameObject.Find("---EntramadoWaterTubs---").SetActive(true);
             Debug.Log("Tuberías nuevas activadas");
-            
+
         }
+        
+        
     }
 
     public void correctMove()
@@ -274,39 +228,24 @@ public class GameManager : MonoBehaviour
 
     public void correctSwitch()
     {
-
-
-        if (fb1.GetComponent<MiniFusibles>().isPlacedF == true)
-        {
-            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
-            correctedFuses += 1;
-            fb1.GetComponent<BoxCollider2D>().enabled = false;
-            Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
-            light0.SetActive(true);  
-        }
-
-        if (fb2.GetComponent<MiniFusibles>().isPlacedF == true)
-        {
-            AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
-            correctedFuses += 1;
-            fb2.GetComponent<BoxCollider2D>().enabled = false;
-            Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
-            light2.SetActive(true);
-        }
-
-        //correctedFuses += 1;
-
         correctedFuses += 1;
         Debug.Log("Plomillo colocado: " + correctedFuses + " de " + totalFuses);
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
+
+
 
         // Activar luz REVISAR
         //tinyLight.GetComponentInChildren<Light2D>(true).enabled = true; 
         if (correctedFuses == totalFuses)
         {
+
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);
             Debug.Log("Plomillos colocados");
+            GameObject.Find("FGlobal-light2D").GetComponent<Light2D>().intensity = 1f; // Aumentar intensidad de la luz global
             mFusColocado = true;
+
+            // Activar luz de la escena
+            
         }
     }
 }

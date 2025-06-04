@@ -47,8 +47,32 @@ public class MiniFusibles : MonoBehaviour
 
     void Start()
     {
-        int rand = Random.Range(0, switchesrotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rand * 180); // Asignar una rotación aleatoria de 0 o 180 grados
+        fb1 = GameObject.Find("Plomillos-black-1");
+        fb1.transform.eulerAngles = new Vector3(0, 0, 0);
+
+        fb2 = GameObject.Find("Plomillos-black-2");
+        fb2.transform.eulerAngles = new Vector3(0, 0, 180);
+
+        fb3 = GameObject.Find("Plomillos-black-3");
+        fb3.transform.eulerAngles = new Vector3(0, 0, 0);
+
+        fb4 = GameObject.Find("Plomillos-black-4");
+        fb4.transform.eulerAngles = new Vector3(0, 0, 180);
+
+        fb5 = GameObject.Find("Plomillos-black-5");
+        fb5.transform.eulerAngles = new Vector3(0, 0, 180);
+
+        fo1 = GameObject.Find("Plomillos-orange-1");
+        fo1.transform.eulerAngles = new Vector3(0, 0, 0);
+
+        fo2 = GameObject.Find("Plomillos-orange-2");
+        fo2.transform.eulerAngles = new Vector3(0, 0, 180);
+
+       
+
+        //int rand = Random.Range(0, switchesrotations.Length);
+        //transform.eulerAngles = new Vector3(0, 0, 0); // Asignar una rotación aleatoria de 0 o 180 grados
+
 
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctSwitchRotation)
@@ -60,95 +84,82 @@ public class MiniFusibles : MonoBehaviour
             isPlacedF = false;
         }
 
-        fb1 = GameObject.Find("Plomillos-black-1");
-        fb2 = GameObject.Find("Plomillos-black-2");
-        fb3 = GameObject.Find("Plomillos-black-3");
-        fb4 = GameObject.Find("Plomillos-black-4");
-        fb5 = GameObject.Find("Plomillos-black-5");
-        fo1 = GameObject.Find("Plomillos-orange-1");
-        fo2 = GameObject.Find("Plomillos-orange-2");
-
-        light0 = GameObject.Find("Light2D0");
-        light1 = GameObject.Find("Light2D1");
-        light2 = GameObject.Find("Light2D2");
-        light3 = GameObject.Find("Light2D3");
-        light4 = GameObject.Find("Light2D4");
-        light5 = GameObject.Find("Light2D5");
-        light6 = GameObject.Find("Light2D6");
+        
 
         //GetComponent<BoxCollider2D>().enabled = true;
 
-        
+        //fb1.transform.eulerAngles = new Vector3(0, 0, rand * 180); 
 
-
-        fb2.GetComponent<BoxCollider2D>().enabled = true;
-
-        fb1.GetComponent<BoxCollider2D>().enabled = true;
+        /*fb1.GetComponent<BoxCollider2D>().enabled = true;
         fb2.GetComponent<BoxCollider2D>().enabled = true;
 
         fb3.GetComponent<BoxCollider2D>().enabled = true;
         fb4.GetComponent<BoxCollider2D>().enabled = true;
         fb5.GetComponent<BoxCollider2D>().enabled = true;
         fo1.GetComponent<BoxCollider2D>().enabled = true;
-        fo2.GetComponent<BoxCollider2D>().enabled = true;
+        fo2.GetComponent<BoxCollider2D>().enabled = true;*/
 
-        light0.SetActive(false);
+        /*light0.SetActive(false);
         light1.SetActive(false);
         light2.SetActive(false);
         light3.SetActive(false);
         light4.SetActive(false);
         light5.SetActive(false);
-        light6.SetActive(false);
+        light6.SetActive(false);*/
 
-        
+
         //tinyLight.SetActive(false);
     }
 
     void Update()
     {
-        
+        /*if (isPlacedF == false)
+        {
+            fb3.GetComponent<BoxCollider2D>().enabled = true;
+        }
+        else
+        {
+            fb3.GetComponent<BoxCollider2D>().enabled = false;
+        }*/
+
+        if (GameManager.Instance.mFusColocado == true)
+        {
+            GameObject.Find("GlobalLight").GetComponent<Light2D>().intensity = 1f; // Aumentar intensidad de la luz global
+        }
     }
 
     private void OnMouseDown()
     {
-        //this.GetComponent<SpriteRenderer>().flipY = true;
+        this.GetComponent<SpriteRenderer>().flipY = true;
         //Debug.Log("Click");
 
+        if (this.GetComponent<SpriteRenderer>().flipY == true)
+        {
+            isPlacedF = true;
+            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<Light2D>().enabled = true;
+            gameManager.correctSwitch();
+        }
+            
+
         AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxFuseSwitch);
-
-        //if ( FlipYTool== correctSwitch && isPlacedF == false){}
-
-
-        transform.Rotate(new Vector3(0, 0, 180));
+        /*transform.Rotate(new Vector3(0, 0, 180));
 
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
         {
-
-
-
-
-            isPlacedF = true;
-            //((BoxCollider2D)fb1COL).enabled = false;
-            gameManager.correctSwitch();
-
-        }
-        else if (isPlacedF == true)
-        { isPlacedF = false; }
-
-        if (fb2.transform.eulerAngles.z == correctSwitchRotation && isPlacedF == false)
-        {
-
-            isPlacedF = true;
-            //((BoxCollider2D)fb1COL).enabled = false;
-            gameManager.correctSwitch();
-
-
             GetComponent<BoxCollider2D>().enabled = false;
 
+            isPlacedF = true;
+
+            gameManager.correctSwitch();
+
         }
         else if (isPlacedF == true)
-        { isPlacedF = false; } 
+        {
+            isPlacedF = false;
+        }*/
+       
         
 
     }
