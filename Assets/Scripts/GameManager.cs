@@ -241,11 +241,9 @@ public class GameManager : MonoBehaviour
 
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxLogroFuse);
             Debug.Log("Plomillos colocados");
-            GameObject.Find("FGlobal-light2D").GetComponent<Light2D>().intensity = 1f; // Aumentar intensidad de la luz global
-            mFusColocado = true;
-
             // Activar luz de la escena
-            
+            GameObject.Find("FGlobal-light2D").GetComponent<Light2D>().intensity = 1f; // Aumentar intensidad de la luz global
+            mFusColocado = true;   
         }
     }
 }

@@ -10,9 +10,9 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
 
     GameObject IndicaPostTub;
 
-    bool puedeTaparAgujero = false;
+    public bool puedeTaparAgujero = false;
 
-    GameObject ItemTotalPolaroid;
+    public GameObject ItemTotalPolaroid;
 
     
     void Start()
@@ -25,11 +25,11 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
         CasaSucia.SetActive(true);
         CasaLimpia.SetActive(false);
 
-        IndicaPostTub = GameObject.Find("CanvasIndicaciones");
-        IndicaPostTub.SetActive(false);
+        //IndicaPostTub = GameObject.Find("CanvasIndicaciones");
+        //IndicaPostTub.SetActive(false);
 
-        ItemTotalPolaroid = GameObject.Find("Item-collect-polaroid");
-        ItemTotalPolaroid.SetActive(false);
+        //ItemTotalPolaroid = GameObject.Find("Item-collect-polaroid");
+        
     }
 
     // Update is called once per frame
@@ -63,10 +63,14 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
 
         if (GameManager.Instance.mTubArreglado == true)
         {
+            
+            
             //Activa casa limpia
-
             CasaLimpia.SetActive(true);
             CasaSucia.SetActive(false);
+
+            mTuberias.SetActive(false);
+            ItemTotalPolaroid.SetActive(true);
 
             Debug.Log("Prem (Espai) per tapar l'esvoranc de les canonades");
             IndicaPostTub.SetActive(true);
@@ -74,16 +78,16 @@ public class AguaVuelveLimpiezaScript : MonoBehaviour
             puedeTaparAgujero = true;
 
         }
-        else if (puedeTaparAgujero = true && Input.GetKeyDown(KeyCode.Space))
+        /*else if (puedeTaparAgujero = true && Input.GetKeyDown(KeyCode.Space))
         {
 
-            new WaitForSecondsRealtime(2.5f);
+            new WaitForSecondsRealtime(0.5f);
             AudioManager.Instance.SonarClipUnaVez(AudioManager.Instance.fxMovBienTub);
             mTuberias.SetActive(false);
             IndicaPostTub.SetActive(false);
             
             //APARECE ITEM POLAROID Total
             ItemTotalPolaroid.SetActive(true);
-        }
+        }*/
     }
 }

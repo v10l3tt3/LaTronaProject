@@ -84,28 +84,13 @@ public class MiniFusibles : MonoBehaviour
             isPlacedF = false;
         }
 
-        
 
         //GetComponent<BoxCollider2D>().enabled = true;
 
         //fb1.transform.eulerAngles = new Vector3(0, 0, rand * 180); 
 
         /*fb1.GetComponent<BoxCollider2D>().enabled = true;
-        fb2.GetComponent<BoxCollider2D>().enabled = true;
-
-        fb3.GetComponent<BoxCollider2D>().enabled = true;
-        fb4.GetComponent<BoxCollider2D>().enabled = true;
-        fb5.GetComponent<BoxCollider2D>().enabled = true;
-        fo1.GetComponent<BoxCollider2D>().enabled = true;
-        fo2.GetComponent<BoxCollider2D>().enabled = true;*/
-
-        /*light0.SetActive(false);
-        light1.SetActive(false);
-        light2.SetActive(false);
-        light3.SetActive(false);
-        light4.SetActive(false);
-        light5.SetActive(false);
-        light6.SetActive(false);*/
+        fb2.GetComponent<BoxCollider2D>().enabled = true;*/
 
 
         //tinyLight.SetActive(false);

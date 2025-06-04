@@ -26,10 +26,7 @@ public class MiniTuberias : MonoBehaviour
         int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0, 0, 90);
         
-        
         GetComponent<BoxCollider2D>().enabled = true;
-
-
 
         //para 1 sola solucion
         if (transform.eulerAngles.z == correctRotation)
@@ -43,8 +40,6 @@ public class MiniTuberias : MonoBehaviour
         {
             isPlaced = false;
         }
-
-
 
         //para +1 solucion
         //PossibleRots = rotations.Length;
