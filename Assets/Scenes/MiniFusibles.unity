@@ -935,7 +935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &726725008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1251,6 +1251,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864e69be69c18264fb2025be3561e5d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item1Hoja: {fileID: 0}
+  item2Tuberias: {fileID: 0}
+  item3FotoMitad: {fileID: 0}
+  item3FotoCompleta: {fileID: 0}
+  item3FotoRestaurada: {fileID: 0}
   mTubArreglado: 0
   mFusColocado: 0
   fotomitades: 0
