@@ -5,7 +5,7 @@ using UnityEngine;
 public class FotografiaCollectScript : MonoBehaviour
 {
     
-    
+
     void OnTriggerEnter2D(Collider2D colC){
         if(colC.gameObject.tag == "Player"){
             GameManager.Instance.fotomitades += 1;

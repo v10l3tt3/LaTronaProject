@@ -9,11 +9,11 @@ public class GameManager : MonoBehaviour
     public static int pieza1 = 0;
     public static int pieza2 = 0;
 
-    GameObject item1Hoja;
-    GameObject item2Tuberias;
-    GameObject item3FotoMitad;
-    GameObject item3FotoCompleta;
-    GameObject item3FotoRestaurada;
+    public GameObject item1Hoja;
+    public GameObject item2Tuberias;
+    public GameObject item3FotoMitad;
+    public GameObject item3FotoCompleta;
+    public GameObject item3FotoRestaurada;
 
 
     public static int trozoFoto = 0;
@@ -49,15 +49,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public int correctedFuses = 0;
 
-    
-    
-    GameObject fb1;
-    GameObject fb2;
-    GameObject fb3;
-    GameObject fb4;
-    GameObject fb5;
-    GameObject fo1;
-    GameObject fo2;
+
 
     GameObject tinyLight;
 
@@ -84,11 +76,6 @@ public class GameManager : MonoBehaviour
 
     GameObject hojaPista;
     public bool tuberiasnuevas = false;
-
-
-    
-
-
 
 
     public static GameManager Instance { get; private set; }
@@ -127,16 +114,6 @@ public class GameManager : MonoBehaviour
 
         // //vidasMazonText = GameObject.Find("vidasMazonText");
 
-
-        fb1 = GameObject.Find("Plomillos-black-1");
-        fb2 = GameObject.Find("Plomillos-black-2");
-        fb3 = GameObject.Find("Plomillos-black-3");
-        fb4 = GameObject.Find("Plomillos-black-4");
-        fb5 = GameObject.Find("Plomillos-black-5");
-        fo1 = GameObject.Find("Plomillos-orange-1");
-        fo2 = GameObject.Find("Plomillos-orange-2");
-
-
         /*fb1COL = fb1.GetComponent<BoxCollider2D>();
         fb2COL = fb2.GetComponent<BoxCollider2D>();
 
@@ -145,8 +122,8 @@ public class GameManager : MonoBehaviour
 
         //fo2.GetComponent<Light2D>().enabled = false; 
 
-
-        item1Hoja = GameObject.Find("Item1-hojas");
+        //ITEMS
+        /*item1Hoja = GameObject.Find("Item1-hojas");
         item1Hoja.SetActive(false);
 
         hojaPista = GameObject.Find("HojaPista-Item1");
@@ -162,11 +139,9 @@ public class GameManager : MonoBehaviour
         item3FotoCompleta.SetActive(false);
 
         item3FotoRestaurada = GameObject.Find("Item3-Foto-restaurada");
-        item3FotoRestaurada.SetActive(false);
+        item3FotoRestaurada.SetActive(false);*/
 
-        
-
-        GameObject.Find("HojaPista-Item1").SetActive(false);
+        //GameObject.Find("HojaPista-Item1").SetActive(false);
         
 
         GameObject.Find("CanvasMuestreoTuberias").SetActive(true);
@@ -182,10 +157,16 @@ public class GameManager : MonoBehaviour
 
         //vidasMazonText.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + " / " + maxHealth.ToString();
 
+        if (fotomitades == 1)
+        {
+            Destroy(GameObject.Find("Item-collect-semi"));
+            item3FotoMitad.SetActive(true);
+        }
+
         if (fotomitades == 2)
         {
             // Si se han recogido las dos mitades de la foto, activa la foto completa
-            
+
             fotocompleta = true;
             item3FotoCompleta.SetActive(true);
             Debug.Log("Foto completa activada");
