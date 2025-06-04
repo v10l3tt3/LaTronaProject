@@ -7,9 +7,11 @@ public class RestauradorScript : MonoBehaviour
     private bool isPlayerInRange;
 
     public GameObject MostrarItemFotoFinal;
+
+    Animator ranimatorController;
     void Start()
     {
-
+        ranimatorController = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,8 +25,11 @@ public class RestauradorScript : MonoBehaviour
         {
             isPlayerInRange = true;
 
-            new WaitForSecondsRealtime(2.5f);
+            new WaitForSecondsRealtime(3.5f);
             MostrarItemFotoFinal.SetActive(true);
+
+            ranimatorController.SetBool("aTrabajar", true);
+
             Debug.Log("Foto restaurada y mostrada");
         }
     }
