@@ -185,8 +185,9 @@ public class GameManager : MonoBehaviour
         if (fotomitades == 2)
         {
             // Si se han recogido las dos mitades de la foto, activa la foto completa
-            item3FotoCompleta.SetActive(true);
+            
             fotocompleta = true;
+            item3FotoCompleta.SetActive(true);
             Debug.Log("Foto completa activada");
         }
 
